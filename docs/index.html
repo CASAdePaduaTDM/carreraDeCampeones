@@ -16,6 +16,7 @@
             font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
             background-color: #f5f5f5;
             color: #333;
+            overflow-x: hidden;
         }
 
         /* BANNER SUPERIOR */
@@ -156,7 +157,7 @@
 
         .info-jugador {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             flex: 1;
         }
 
@@ -164,6 +165,8 @@
             font-weight: 500;
             color: #333;
             font-size: 13px;
+            text-align: left;
+            line-height: 1.2;
         }
 
         .botones-tmt {
@@ -377,12 +380,9 @@
             background-color: #0A0B0D;
             color: #999;
             text-align: center;
+            margin: 0;
             padding: 15px;
             font-size: 12px;
-            margin-top: -40px;
-            margin-left: -40px;
-            margin-right: -40px;
-            margin-bottom: -40px;
         }
 
         .empty-state {
