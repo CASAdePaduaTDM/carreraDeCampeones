@@ -621,10 +621,7 @@
         }
 
         function obtenerUrlFoto(idJugador) {
-            if (FOTOS_IDS[idJugador]) {
-                return `${FOTOS_BASE_URL}${FOTOS_IDS[idJugador]}&sz=w200`;
-            }
-            return FOTO_DEFAULT_URL;
+            return `imgs/${idJugador}.png`;
         }
 
         function actualizarFooter() {
