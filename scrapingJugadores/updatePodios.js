@@ -6,7 +6,7 @@ const path = require("path");
 // CONFIGURACIÓN
 // ======================
 const SPREADSHEET_ID = "1cMGOHlhpTtOyLAtkzmnC4ubF6khQbOspOFvb9xvVpfs";
-const CREDENTIALS_PATH = path.resolve("C:/Users/Tomo Astellano/Documents/CASA de Padua/Puppeteer/credentials.json");
+const CREDENTIALS_PATH = path.join(__dirname, "..", "credentials.json");
 
 // ======================
 // CONECTAR A GOOGLE SHEETS

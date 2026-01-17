@@ -1,6 +1,7 @@
 const puppeteer = require("puppeteer");
 const { google } = require("googleapis");
 const fs = require("fs");
+const path = require("path");
 
 // ======================
 // CONFIGURACIÓN
@@ -8,8 +9,7 @@ const fs = require("fs");
 const SPREADSHEET_ID = "1cMGOHlhpTtOyLAtkzmnC4ubF6khQbOspOFvb9xvVpfs";
 const SHEET_NAME = "jugadores";
 
-const CREDENTIALS_PATH =
-  "C:\\Users\\Tomo Astellano\\Documents\\CASA de Padua\\Puppeteer\\credentials.json";
+const CREDENTIALS_PATH = path.join(__dirname, "..", "credentials.json");
 
 // ======================
 // GOOGLE SHEETS
