@@ -472,6 +472,10 @@
         async function cargarDatos() {
     try {
         const response = await fetch('datos.json');
+        if (!response.ok) {
+            throw new Error('No se pudo cargar datos.json');
+        }
+
         datosGlobales = await response.json();
 
         mesSeleccionado = datosGlobales.mesActual;
@@ -487,8 +491,7 @@
             '<div class="empty-state">Error al cargar los datos</div>';
     }
 }
-
-
+        
         const FOTOS_BASE_URL = 'https://drive.google.com/uc?export=view&id=';
         const FOTOS_IDS = {};
         const FOTO_DEFAULT_URL = 'imgs/default.png';
