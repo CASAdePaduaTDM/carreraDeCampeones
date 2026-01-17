@@ -50,6 +50,34 @@
             font-weight: 600;
             color: #541B7C;
             letter-spacing: 0.5px;
+            flex: 1;
+        }
+
+        .instagram-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 16px;
+            border-radius: 6px;
+            background-color: transparent;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .instagram-link:hover {
+            background-color: #f0f0f0;
+        }
+
+        .instagram-icon {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .instagram-text {
+            color: #541B7C;
+            font-weight: 600;
+            font-size: 14px;
         }
 
         /* CONTENEDOR PRINCIPAL */
@@ -60,6 +88,10 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 40px;
+        }
+
+        .main-container > .podios-section {
+            order: -1;
         }
 
         /* SECCIÓN RANKING */
@@ -368,6 +400,10 @@
                 <img src="imgs/escudoPadua.png" alt="CASA de Padua" onerror="this.style.display='none'">
             </div>
             <div class="banner-title">CASA de Padua | Carrera de Campeones</div>
+            <a href="https://www.instagram.com/tenisdemesa.casadepadua/" target="_blank" class="instagram-link">
+                <img src="imgs/logoInstagram.png" alt="Instagram" class="instagram-icon" onerror="this.style.display='none'">
+                <span class="instagram-text">CASA de Padua Instagram</span>
+            </a>
         </div>
     </div>
 
