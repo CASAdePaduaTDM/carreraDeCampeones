@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera de Campeones - CASA de Padua</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* BANNER SUPERIOR */
+        .banner {
+            background-color: white;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .banner-content {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .banner-logo {
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+
+        .banner-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .banner-title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #541B7C;
+            letter-spacing: 0.5px;
+        }
+
+        /* CONTENEDOR PRINCIPAL */
+        .main-container {
+            background-color: #541B7C;
+            min-height: calc(100vh - 120px);
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        /* SECCIÓN RANKING */
+        .ranking-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .ranking-section h2 {
+            color: #541B7C;
+            font-size: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #FBC201;
+            font-weight: 600;
+        }
+
+        /* TABLA RANKING */
+        .ranking-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .ranking-table tbody tr {
+            border-bottom: 1px solid #eee;
+            height: 70px;
+        }
+
+        .ranking-table tbody tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .ranking-table td {
+            padding: 8px 12px;
+            vertical-align: middle;
+            font-size: 14px;
+        }
+
+        .puesto {
+            font-weight: 700;
+            color: #541B7C;
+            width: 50px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .puesto-1 { color: #FBC201; }
+        .puesto-2 { color: #999; }
+        .puesto-3 { color: #CD7F32; }
+
+        .foto-jugador {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #FBC201;
+            margin-right: 10px;
+        }
+
+        .info-jugador {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+
+        .nombre-jugador {
+            font-weight: 500;
+            color: #333;
+            font-size: 13px;
+        }
+
+        .puntos {
+            font-weight: 700;
+            color: #541B7C;
+            width: 80px;
+            text-align: right;
+            font-size: 14px;
+        }
+
+        /* SECCIÓN PODIOS */
+        .podios-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .podios-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #FBC201;
+        }
+
+        .podios-section h2 {
+            color: #541B7C;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .podios-mes-actual {
+            color: #FBC201;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .podios-nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn-nav-mes {
+            background-color: transparent;
+            border: 2px solid #541B7C;
+            color: #541B7C;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 12px;
+            transition: all 0.3s;
+        }
+
+        .btn-nav-mes:hover {
+            background-color: #541B7C;
+            color: white;
+        }
+
+        .btn-nav-mes.active {
+            background-color: #FBC201;
+            color: #541B7C;
+            border-color: #FBC201;
+        }
+
+        /* PODIOS DISPLAY */
+        .podios-display {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .podio-posicion {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #FBC201;
+        }
+
+        .podio-foto-contenedor {
+            flex-shrink: 0;
+        }
+
+        .podio-info {
+            flex: 1;
+        }
+
+        .podio-numero {
+            font-size: 14px;
+            font-weight: 600;
+            color: #541B7C;
+            margin-bottom: 8px;
+        }
+
+        .podio-medalla {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .podio-foto {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #FBC201;
+        }
+
+        .podio-nombre {
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .podio-puntos {
+            color: #541B7C;
+            font-weight: 700;
+            font-size: 13px;
+        }
+
+        .podio-vacio {
+            color: #ccc;
+            font-size: 13px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 1024px) {
+            .main-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .banner {
+                padding: 15px 30px;
+            }
+
+            .banner-title {
+                font-size: 24px;
+            }
+
+            .banner-logo {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .banner {
+                padding: 15px 20px;
+            }
+
+            .banner-title {
+                font-size: 20px;
+            }
+
+            .banner-logo {
+                width: 60px;
+                height: 60px;
+            }
+
+            .banner-content {
+                gap: 15px;
+            }
+
+            .main-container {
+                padding: 20px;
+                gap: 20px;
+            }
+
+            .ranking-section,
+            .podios-section {
+                padding: 20px;
+            }
+        }
+
+        .footer {
+            background-color: #0A0B0D;
+            color: #999;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+            margin-top: -40px;
+            margin-left: -40px;
+            margin-right: -40px;
+            margin-bottom: -40px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 30px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- BANNER -->
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-logo">
+                <img src="imgs/escudoPadua.png" alt="CASA de Padua" onerror="this.style.display='none'">
+            </div>
+            <div class="banner-title">CASA de Padua | Carrera de Campeones</div>
+        </div>
+    </div>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="main-container">
+        <!-- RANKING DEL MES -->
+        <div class="ranking-section">
+            <h2>Ranking Mensual</h2>
+            <div id="rankingContainer" class="empty-state">Cargando datos...</div>
+        </div>
+
+        <!-- PODIOS -->
+        <div class="podios-section">
+            <div class="podios-header">
+                <h2>Podios</h2>
+                <div class="podios-mes-actual" id="podiosMesActual"></div>
+            </div>
+            <div class="podios-nav" id="podiosNav"></div>
+            <div id="podiosContainer" class="podios-display">
+                <div class="empty-state">Cargando podios...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="ultimaActualizacion"></div>
+
+    <script>
+        // Variables globales
+        let datosGlobales = null;
+        let mesSeleccionado = null;
+        let anioSeleccionado = null;
+
+        // DATOS EMBEBIDOS DIRECTAMENTE
+        const DATOS_EMBEBIDOS = {"ultimaActualizacion":"2026-01-15T22:29:20.717Z","mesActual":1,"anioActual":2026,"nombreMes":"Enero","rankingMesActual":[{"idJugador":"24704","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Josid, Jorge Anibal","categoria":"6º","puesto":1},{"idJugador":"25786","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Bonavita, Fernando Damian","categoria":"5º","puesto":2},{"idJugador":"27782","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Vilte, César Pablo","categoria":"4º","puesto":3},{"idJugador":"28406","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Rubio, Duilio","categoria":"8º","puesto":4},{"idJugador":"29059","mes":1,"anio":2026,"puntosTotales":40,"nombreJugador":"Manrique, Lautaro Gabriel","categoria":"8º","puesto":5},{"idJugador":"29252","mes":1,"anio":2026,"puntosTotales":20,"nombreJugador":"Martinez, Román","categoria":"8º","puesto":6},{"idJugador":"27736","mes":1,"anio":2026,"puntosTotales":10,"nombreJugador":"Rojo, Renzo Gabriel","categoria":"8º","puesto":7},{"idJugador":"27742","mes":1,"anio":2026,"puntosTotales":10,"nombreJugador":"Batagelj, María Nieves Ana","categoria":"8º","puesto":8},{"idJugador":"25616","mes":1,"anio":2026,"puntosTotales":8,"nombreJugador":"Gomez, Silvina Elena","categoria":"8º","puesto":9},{"idJugador":"29257","mes":1,"anio":2026,"puntosTotales":8,"nombreJugador":"Puzone, Fabio","categoria":"8º","puesto":10},{"idJugador":"29291","mes":1,"anio":2026,"puntosTotales":4,"nombreJugador":"Gerli, Ian Bautista","categoria":"8º","puesto":11}],"rankingHistorico":[{"idJugador":"2321","mes":12,"anio":2025,"puntosTotales":8,"nombreJugador":"Martín, Nicolás","categoria":"2º"},{"idJugador":"16118","mes":12,"anio":2025,"puntosTotales":76,"nombreJugador":"Rienda, Javier","categoria":"4º"},{"idJugador":"20942","mes":12,"anio":2025,"puntosTotales":4,"nombreJugador":"Teijeiro, Christian","categoria":"6º"},{"idJugador":"22200","mes":12,"anio":2025,"puntosTotales":16,"nombreJugador":"Borrell, Joaquin","categoria":"3º"},{"idJugador":"24704","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Josid, Jorge Anibal","categoria":"6º"},{"idJugador":"24704","mes":12,"anio":2025,"puntosTotales":96,"nombreJugador":"Josid, Jorge Anibal","categoria":"6º"},{"idJugador":"25616","mes":1,"anio":2026,"puntosTotales":8,"nombreJugador":"Gomez, Silvina Elena","categoria":"8º"},{"idJugador":"25786","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Bonavita, Fernando Damian","categoria":"5º"},{"idJugador":"25786","mes":12,"anio":2025,"puntosTotales":32,"nombreJugador":"Bonavita, Fernando Damian","categoria":"5º"},{"idJugador":"27736","mes":1,"anio":2026,"puntosTotales":10,"nombreJugador":"Rojo, Renzo Gabriel","categoria":"8º"},{"idJugador":"27742","mes":1,"anio":2026,"puntosTotales":10,"nombreJugador":"Batagelj, María Nieves Ana","categoria":"8º"},{"idJugador":"27782","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Vilte, César Pablo","categoria":"4º"},{"idJugador":"27782","mes":12,"anio":2025,"puntosTotales":100,"nombreJugador":"Vilte, César Pablo","categoria":"4º"},{"idJugador":"28406","mes":1,"anio":2026,"puntosTotales":50,"nombreJugador":"Rubio, Duilio","categoria":"8º"},{"idJugador":"29059","mes":1,"anio":2026,"puntosTotales":40,"nombreJugador":"Manrique, Lautaro Gabriel","categoria":"8º"},{"idJugador":"29059","mes":12,"anio":2025,"puntosTotales":52,"nombreJugador":"Manrique, Lautaro Gabriel","categoria":"8º"},{"idJugador":"29252","mes":1,"anio":2026,"puntosTotales":20,"nombreJugador":"Martinez, Román","categoria":"8º"},{"idJugador":"29257","mes":1,"anio":2026,"puntosTotales":8,"nombreJugador":"Puzone, Fabio","categoria":"8º"},{"idJugador":"29291","mes":1,"anio":2026,"puntosTotales":4,"nombreJugador":"Gerli, Ian Bautista","categoria":"8º"}],"podios":[{"mes":12,"anio":2025,"puesto":1,"idJugador":"27782","puntosTotales":100,"nombreJugador":"Vilte, César Pablo","categoria":"4º"},{"mes":12,"anio":2025,"puesto":2,"idJugador":"24704","puntosTotales":96,"nombreJugador":"Josid, Jorge Anibal","categoria":"6º"},{"mes":12,"anio":2025,"puesto":3,"idJugador":"16118","puntosTotales":76,"nombreJugador":"Rienda, Javier","categoria":"4º"},{"mes":1,"anio":2026,"puesto":1,"idJugador":"24704","puntosTotales":50,"nombreJugador":"Josid, Jorge Anibal","categoria":"6º"},{"mes":1,"anio":2026,"puesto":2,"idJugador":"25786","puntosTotales":50,"nombreJugador":"Bonavita, Fernando Damian","categoria":"5º"},{"mes":1,"anio":2026,"puesto":3,"idJugador":"27782","puntosTotales":50,"nombreJugador":"Vilte, César Pablo","categoria":"4º"}],"jugadores":[{"idJugador":"23673","nombreJugador":"Astellano, Tomas","activo":true,"categoria":"4º"},{"idJugador":"11763","nombreJugador":"Balcaza, Rodrigo","activo":true,"categoria":"2º"},{"idJugador":"26909","nombreJugador":"Bassi, Guillermo","activo":true,"categoria":"7º"},{"idJugador":"27742","nombreJugador":"Batagelj, María Nieves Ana","activo":true,"categoria":"8º"},{"idJugador":"27719","nombreJugador":"Berlen, Eliana Vanina","activo":true,"categoria":"8º"},{"idJugador":"25786","nombreJugador":"Bonavita, Fernando Damian","activo":true,"categoria":"5º"},{"idJugador":"22200","nombreJugador":"Borrell, Joaquin","activo":true,"categoria":"3º"},{"idJugador":"21019","nombreJugador":"Buitron, Damian Matias","activo":true,"categoria":"6º"},{"idJugador":"20706","nombreJugador":"Cazal Rivera, Victor Ismael","activo":true,"categoria":"6º"},{"idJugador":"24781","nombreJugador":"Céspedes, Ricardo Luis","activo":true,"categoria":"6º"},{"idJugador":"29084","nombreJugador":"Clerici, Bautista","activo":true,"categoria":"8º"},{"idJugador":"29083","nombreJugador":"Clerici, Isabella","activo":true,"categoria":"8º"},{"idJugador":"29087","nombreJugador":"Colazo, Alejo","activo":true,"categoria":"8º"},{"idJugador":"25615","nombreJugador":"Espindola, Alba Silvia","activo":true,"categoria":"8º"},{"idJugador":"24731","nombreJugador":"Fernández, Pelu","activo":true,"categoria":"5º"},{"idJugador":"24730","nombreJugador":"Fernández Bonus, Manuel","activo":true,"categoria":"7º"},{"idJugador":"12062","nombreJugador":"Flama, Cristian Raul","activo":true,"categoria":"5º"},{"idJugador":"18754","nombreJugador":"Fujioka, Laura","activo":true,"categoria":"6º"},{"idJugador":"28878","nombreJugador":"Garcia, Fabiana Laura","activo":true,"categoria":"8º"},{"idJugador":"5113","nombreJugador":"Garcia, Nicolas","activo":true,"categoria":"4º"},{"idJugador":"29291","nombreJugador":"Gerli, Ian Bautista","activo":true,"categoria":"8º"},{"idJugador":"16617","nombreJugador":"Gerpe, Santiago Damián","activo":true,"categoria":"5º"},{"idJugador":"24765","nombreJugador":"Gervasi, Bernardo Jose","activo":true,"categoria":"5º"},{"idJugador":"23770","nombreJugador":"Gimenez, Aurelio Fernando","activo":true,"categoria":"5º"},{"idJugador":"23769","nombreJugador":"Gimenez Castillo, Bianca Donatella","activo":true,"categoria":"5º"},{"idJugador":"23989","nombreJugador":"Godoy, Juan Cruz","activo":true,"categoria":"7º"},{"idJugador":"25616","nombreJugador":"Gomez, Silvina Elena","activo":true,"categoria":"8º"},{"idJugador":"23562","nombreJugador":"Grandinetti, Alejo","activo":true,"categoria":"7º"},{"idJugador":"15458","nombreJugador":"Imbrioscia, Federico Lionel","activo":true,"categoria":"6º"},{"idJugador":"24704","nombreJugador":"Josid, Jorge Anibal","activo":true,"categoria":"6º"},{"idJugador":"8214","nombreJugador":"Luciani, Daniel Horacio","activo":true,"categoria":"3º"},{"idJugador":"29059","nombreJugador":"Manrique, Lautaro Gabriel","activo":true,"categoria":"8º"},{"idJugador":"23145","nombreJugador":"Marenzi, Diego Ariel","activo":true,"categoria":"5º"},{"idJugador":"27062","nombreJugador":"Mariani, Luciana","activo":true,"categoria":"8º"},{"idJugador":"2321","nombreJugador":"Martín, Nicolás","activo":true,"categoria":"2º"},{"idJugador":"14057","nombreJugador":"Martinez, Diego Oscar","activo":true,"categoria":"3º"},{"idJugador":"29252","nombreJugador":"Martinez, Román","activo":true,"categoria":"8º"},{"idJugador":"23066","nombreJugador":"Masso, Fernando Gabriel","activo":true,"categoria":"7º"},{"idJugador":"28589","nombreJugador":"Migliore, Hugo","activo":true,"categoria":"7º"},{"idJugador":"24049","nombreJugador":"Montagliani, Agustín","activo":true,"categoria":"4º"},{"idJugador":"27942","nombreJugador":"Olivera, Ivon","activo":true,"categoria":"8º"},{"idJugador":"24024","nombreJugador":"Petkovsek, Mario","activo":true,"categoria":"5º"},{"idJugador":"29257","nombreJugador":"Puzone, Fabio","activo":true,"categoria":"8º"},{"idJugador":"16118","nombreJugador":"Rienda, Javier","activo":true,"categoria":"4º"},{"idJugador":"27736","nombreJugador":"Rojo, Renzo Gabriel","activo":true,"categoria":"8º"},{"idJugador":"28406","nombreJugador":"Rubio, Duilio","activo":true,"categoria":"8º"},{"idJugador":"28623","nombreJugador":"Saravia, Daniel Alberto","activo":true,"categoria":"7º"},{"idJugador":"27101","nombreJugador":"Sibuet, Tiago","activo":true,"categoria":"8º"},{"idJugador":"28881","nombreJugador":"Silva, Sebastian","activo":true,"categoria":"8º"},{"idJugador":"14180","nombreJugador":"Stefanini, Sebastian","activo":true,"categoria":"2º"},{"idJugador":"20942","nombreJugador":"Teijeiro, Christian","activo":true,"categoria":"6º"},{"idJugador":"29090","nombreJugador":"Valldosera Broffoni, Thiago Demian","activo":true,"categoria":"7º"},{"idJugador":"29224","nombreJugador":"Vega Lavergne, Felipe Simon","activo":true,"categoria":"8º"},{"idJugador":"27731","nombreJugador":"Vega Lavergne, Martin Jesus","activo":true,"categoria":"7º"},{"idJugador":"22451","nombreJugador":"Vence, Martin","activo":true,"categoria":"5º"},{"idJugador":"27782","nombreJugador":"Vilte, César Pablo","activo":true,"categoria":"4º"}]};
+
+        const FOTOS_BASE_URL = 'https://drive.google.com/uc?export=view&id=';
+        const FOTOS_IDS = {};
+        const FOTO_DEFAULT_URL = 'imgs/default.png';
+
+        // ======================
+        // CARGAR DATOS
+        // ======================
+        function cargarDatos() {
+            try {
+                datosGlobales = DATOS_EMBEBIDOS;
+                mesSeleccionado = datosGlobales.mesActual;
+                anioSeleccionado = datosGlobales.anioActual;
+                
+                mostrarRanking();
+                generarNavegacionPodios();
+                mostrarPodios();
+                actualizarFooter();
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('rankingContainer').innerHTML = 
+                    '<div class="empty-state">Error al cargar los datos</div>';
+            }
+        }
+
+        // ======================
+        // MOSTRAR RANKING
+        // ======================
+        function mostrarRanking() {
+            const ranking = datosGlobales.rankingMesActual;
+            
+            if (ranking.length === 0) {
+                document.getElementById('rankingContainer').innerHTML = 
+                    '<div class="empty-state">No hay jugadores con participaciones en este mes.</div>';
+                return;
+            }
+
+            let html = '<table class="ranking-table"><tbody>';
+
+            ranking.forEach((jugador) => {
+                const fotoUrl = obtenerUrlFoto(jugador.idJugador);
+                const clase = `puesto-${jugador.puesto}`;
+                
+                html += '<tr>';
+                html += `<td class="puesto ${clase}">${jugador.puesto}</td>`;
+                
+                html += `<td>
+                    <div class="info-jugador">
+                        <img src="${fotoUrl}" alt="${jugador.nombreJugador}" class="foto-jugador" onerror="this.src='${FOTO_DEFAULT_URL}'">
+                        <div class="nombre-jugador">${jugador.nombreJugador}</div>
+                    </div>
+                </td>`;
+                
+                html += `<td class="puntos">${jugador.puntosTotales}</td>`;
+                html += '</tr>';
+            });
+
+            html += '</tbody></table>';
+            document.getElementById('rankingContainer').innerHTML = html;
+        }
+
+        // ======================
+        // GENERAR NAVEGACIÓN PODIOS
+        // ======================
+        function generarNavegacionPodios() {
+            const mesesUnicos = new Set();
+            datosGlobales.rankingHistorico.forEach(r => {
+                mesesUnicos.add(`${r.anio}-${String(r.mes).padStart(2, '0')}`);
+            });
+
+            const mesesOrdenados = Array.from(mesesUnicos).sort().reverse();
+            let html = '';
+
+            mesesOrdenados.forEach(mes => {
+                const [anio, mesNum] = mes.split('-');
+                const nombreMes = obtenerNombreMes(parseInt(mesNum));
+                const clase = (parseInt(mesNum) === datosGlobales.mesActual && parseInt(anio) === datosGlobales.anioActual) 
+                    ? 'active' 
+                    : '';
+                
+                html += `<button class="btn-nav-mes ${clase}" onclick="cambiarMesPodios(${mesNum}, ${anio})">
+                    ${nombreMes} ${anio}
+                </button>`;
+            });
+
+            document.getElementById('podiosNav').innerHTML = html;
+        }
+
+        // ======================
+        // MOSTRAR PODIOS
+        // ======================
+        function mostrarPodios() {
+            const podiosMes = datosGlobales.podios.filter(p => 
+                p.mes === mesSeleccionado && p.anio === anioSeleccionado
+            );
+
+            // Actualizar mes actual en header
+            document.getElementById('podiosMesActual').innerHTML = 
+                `${obtenerNombreMes(mesSeleccionado)} ${anioSeleccionado}`;
+
+            if (podiosMes.length === 0) {
+                document.getElementById('podiosContainer').innerHTML = 
+                    '<div class="empty-state">No hay podios para este mes.</div>';
+                return;
+            }
+
+            let html = '';
+            const medallas = ['1º', '2º', '3º'];
+
+            [1, 2, 3].forEach(puesto => {
+                const podio = podiosMes.find(p => p.puesto === puesto);
+                
+                if (podio) {
+                    const fotoUrl = obtenerUrlFoto(podio.idJugador);
+                    html += `
+                        <div class="podio-posicion">
+                            <div class="podio-foto-contenedor">
+                                <img src="${fotoUrl}" alt="${podio.nombreJugador}" class="podio-foto" onerror="this.src='${FOTO_DEFAULT_URL}'">
+                            </div>
+                            <div class="podio-info">
+                                <div class="podio-numero">${medallas[puesto - 1]} Lugar</div>
+                                <div class="podio-nombre">${podio.nombreJugador}</div>
+                                <div class="podio-puntos">${podio.puntosTotales} puntos</div>
+                            </div>
+                            <div class="podio-medalla">${getMedalla(puesto)}</div>
+                        </div>
+                    `;
+                } else {
+                    html += `
+                        <div class="podio-posicion">
+                            <div class="podio-numero">${medallas[puesto - 1]} Lugar</div>
+                            <div class="podio-vacio">Sin ganador</div>
+                        </div>
+                    `;
+                }
+            });
+
+            document.getElementById('podiosContainer').innerHTML = html;
+        }
+
+        // ======================
+        // CAMBIAR MES PODIOS
+        // ======================
+        function cambiarMesPodios(mes, anio) {
+            mesSeleccionado = mes;
+            anioSeleccionado = anio;
+            
+            document.querySelectorAll('.btn-nav-mes').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            mostrarPodios();
+        }
+
+        // ======================
+        // FUNCIONES AUXILIARES
+        // ======================
+        function getMedalla(puesto) {
+            const medallas = { 1: '🥇', 2: '🥈', 3: '🥉' };
+            return medallas[puesto] || '';
+        }
+
+        function obtenerNombreMes(mes) {
+            const meses = [
+                "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+            ];
+            return meses[mes - 1];
+        }
+
+        function obtenerUrlFoto(idJugador) {
+            if (FOTOS_IDS[idJugador]) {
+                return `${FOTOS_BASE_URL}${FOTOS_IDS[idJugador]}&sz=w200`;
+            }
+            return FOTO_DEFAULT_URL;
+        }
+
+        function actualizarFooter() {
+            const fecha = new Date(datosGlobales.ultimaActualizacion);
+            const fechaFormato = fecha.toLocaleDateString('es-AR');
+            document.getElementById('ultimaActualizacion').innerHTML = 
+                `Última actualización: ${fechaFormato}`;
+        }
+
+        // ======================
+        // INICIALIZAR
+        // ======================
+        window.addEventListener('DOMContentLoaded', cargarDatos);
+    </script>
+</body>
+</html>

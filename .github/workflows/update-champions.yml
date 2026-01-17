@@ -1,0 +1,71 @@
+name: Actualizar Carrera de Campeones
+
+# Ejecutar todos los días a las 09:00 AM UTC (6:00 AM Argentina)
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  # También permite ejecutar manualmente desde GitHub
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Descargar el repositorio
+      - name: Descargar código
+        uses: actions/checkout@v3
+
+      # 2. Configurar Node.js
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # 3. Instalar dependencias
+      - name: Instalar dependencias
+        run: npm install
+
+      # 4. Guardar las credenciales de Google (desde GitHub Secrets)
+      - name: Crear archivo de credenciales
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
+
+      # 5. Ejecutar los scripts en orden
+      - name: Ejecutar scrapingJugadores.js
+        run: node scrapingJugadores/scrapingJugadores.js
+
+      - name: Ejecutar scrapingParticipaciones.js
+        run: node scrapingJugadores/scrapingParticipaciones.js
+
+      - name: Ejecutar updateRankingMensual.js
+        run: node scrapingJugadores/updateRankingMensual.js
+
+      - name: Ejecutar updatePodios.js
+        run: node scrapingJugadores/updatePodios.js
+
+      - name: Ejecutar exportaDatos.js
+        run: node scrapingJugadores/exportaDatos.js
+
+      # 6. Copiar datos.json a la carpeta web
+      - name: Copiar datos.json a web
+        run: cp scrapingJugadores/datos.json web/datos.json
+
+      # 7. Hacer commit y push de los cambios
+      - name: Configurar Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Hacer commit de los cambios
+        run: |
+          git add -A
+          git commit -m "Actualización automática: $(date)" || echo "Sin cambios para commitear"
+
+      - name: Push de cambios
+        run: git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 8. Mensaje de éxito
+      - name: Completado
+        run: echo "Carrera de Campeones actualizada exitosamente"
