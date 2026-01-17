@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-01-15T22:29:20.717Z",
+  "ultimaActualizacion": "2026-01-17T09:23:02.978Z",
   "mesActual": 1,
   "anioActual": 2026,
   "nombreMes": "Enero",
@@ -37,14 +37,14 @@
       "anio": 2026,
       "puntosTotales": 50,
       "nombreJugador": "Rubio, Duilio",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 4
     },
     {
       "idJugador": "29059",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 48,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "8º",
       "puesto": 5
@@ -53,10 +53,37 @@
       "idJugador": "29252",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 20,
+      "puntosTotales": 28,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 6
+    },
+    {
+      "idJugador": "29257",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 16,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 7
+    },
+    {
+      "idJugador": "25818",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Chermaz, Juan Agustin",
+      "categoria": "7º",
+      "puesto": 8
+    },
+    {
+      "idJugador": "27731",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Vega Lavergne, Martin Jesus",
+      "categoria": "7º",
+      "puesto": 9
     },
     {
       "idJugador": "27736",
@@ -65,7 +92,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "8º",
-      "puesto": 7
+      "puesto": 10
     },
     {
       "idJugador": "27742",
@@ -74,7 +101,34 @@
       "puntosTotales": 10,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º",
-      "puesto": 8
+      "puesto": 11
+    },
+    {
+      "idJugador": "28589",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Migliore, Hugo",
+      "categoria": "7º",
+      "puesto": 12
+    },
+    {
+      "idJugador": "29467",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Suarez, Marcos",
+      "categoria": "8º",
+      "puesto": 13
+    },
+    {
+      "idJugador": "29486",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Ferracuti, Gabriel",
+      "categoria": "7º",
+      "puesto": 14
     },
     {
       "idJugador": "25616",
@@ -83,16 +137,16 @@
       "puntosTotales": 8,
       "nombreJugador": "Gomez, Silvina Elena",
       "categoria": "8º",
-      "puesto": 9
+      "puesto": 15
     },
     {
-      "idJugador": "29257",
+      "idJugador": "29090",
       "mes": 1,
       "anio": 2026,
       "puntosTotales": 8,
-      "nombreJugador": "Puzone, Fabio",
-      "categoria": "8º",
-      "puesto": 10
+      "nombreJugador": "Valldosera Broffoni, Thiago Demian",
+      "categoria": "7º",
+      "puesto": 16
     },
     {
       "idJugador": "29291",
@@ -101,7 +155,16 @@
       "puntosTotales": 4,
       "nombreJugador": "Gerli, Ian Bautista",
       "categoria": "8º",
-      "puesto": 11
+      "puesto": 17
+    },
+    {
+      "idJugador": "23562",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Grandinetti, Alejo",
+      "categoria": "7º",
+      "puesto": 18
     }
   ],
   "rankingHistorico": [
@@ -136,6 +199,14 @@
       "puntosTotales": 16,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º"
+    },
+    {
+      "idJugador": "23562",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Grandinetti, Alejo",
+      "categoria": "7º"
     },
     {
       "idJugador": "24704",
@@ -178,6 +249,22 @@
       "categoria": "5º"
     },
     {
+      "idJugador": "25818",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Chermaz, Juan Agustin",
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "27731",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Vega Lavergne, Martin Jesus",
+      "categoria": "7º"
+    },
+    {
       "idJugador": "27736",
       "mes": 1,
       "anio": 2026,
@@ -215,13 +302,21 @@
       "anio": 2026,
       "puntosTotales": 50,
       "nombreJugador": "Rubio, Duilio",
-      "categoria": "8º"
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "28589",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Migliore, Hugo",
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 48,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "8º"
     },
@@ -234,18 +329,26 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "29090",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Valldosera Broffoni, Thiago Demian",
+      "categoria": "7º"
+    },
+    {
       "idJugador": "29252",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 20,
+      "puntosTotales": 28,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29257",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 16,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º"
     },
@@ -256,6 +359,22 @@
       "puntosTotales": 4,
       "nombreJugador": "Gerli, Ian Bautista",
       "categoria": "8º"
+    },
+    {
+      "idJugador": "29467",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Suarez, Marcos",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29486",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Ferracuti, Gabriel",
+      "categoria": "7º"
     }
   ],
   "podios": [
@@ -412,12 +531,6 @@
       "categoria": "7º"
     },
     {
-      "idJugador": "12062",
-      "nombreJugador": "Flama, Cristian Raul",
-      "activo": true,
-      "categoria": "5º"
-    },
-    {
       "idJugador": "18754",
       "nombreJugador": "Fujioka, Laura",
       "activo": true,
@@ -535,17 +648,11 @@
       "idJugador": "29252",
       "nombreJugador": "Martinez, Román",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "23066",
       "nombreJugador": "Masso, Fernando Gabriel",
-      "activo": true,
-      "categoria": "7º"
-    },
-    {
-      "idJugador": "28589",
-      "nombreJugador": "Migliore, Hugo",
       "activo": true,
       "categoria": "7º"
     },
@@ -588,12 +695,6 @@
     {
       "idJugador": "28406",
       "nombreJugador": "Rubio, Duilio",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
-      "idJugador": "28623",
-      "nombreJugador": "Saravia, Daniel Alberto",
       "activo": true,
       "categoria": "7º"
     },
@@ -650,6 +751,12 @@
       "nombreJugador": "Vilte, César Pablo",
       "activo": true,
       "categoria": "4º"
+    },
+    {
+      "idJugador": "29467",
+      "nombreJugador": "Suarez, Marcos",
+      "activo": true,
+      "categoria": "8º"
     }
   ]
 }
