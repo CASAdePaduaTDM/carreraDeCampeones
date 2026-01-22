@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-01-21T09:35:52.877Z",
+  "ultimaActualizacion": "2026-01-22T09:36:01.287Z",
   "mesActual": 1,
   "anioActual": 2026,
   "nombreMes": "Enero",
   "rankingMesActual": [
+    {
+      "idJugador": "24704",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 70,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º",
+      "puesto": 1
+    },
     {
       "idJugador": "25786",
       "mes": 1,
@@ -11,15 +20,6 @@
       "puntosTotales": 60,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º",
-      "puesto": 1
-    },
-    {
-      "idJugador": "24704",
-      "mes": 1,
-      "anio": 2026,
-      "puntosTotales": 50,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º",
       "puesto": 2
     },
     {
@@ -255,7 +255,7 @@
       "idJugador": "24704",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 50,
+      "puntosTotales": 70,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
@@ -460,19 +460,19 @@
       "mes": 1,
       "anio": 2026,
       "puesto": 1,
-      "idJugador": "25786",
-      "puntosTotales": 60,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "idJugador": "24704",
+      "puntosTotales": 70,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º"
     },
     {
       "mes": 1,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "24704",
-      "puntosTotales": 50,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "idJugador": "25786",
+      "puntosTotales": 60,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "5º"
     },
     {
       "mes": 1,
