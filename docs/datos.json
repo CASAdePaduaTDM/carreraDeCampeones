@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-01-24T09:23:41.458Z",
+  "ultimaActualizacion": "2026-01-25T09:25:20.490Z",
   "mesActual": 1,
   "anioActual": 2026,
   "nombreMes": "Enero",
@@ -8,7 +8,7 @@
       "idJugador": "24704",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 70,
+      "puntosTotales": 110,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º",
       "puesto": 1
@@ -255,7 +255,7 @@
       "idJugador": "24704",
       "mes": 1,
       "anio": 2026,
-      "puntosTotales": 70,
+      "puntosTotales": 110,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
@@ -461,7 +461,7 @@
       "anio": 2026,
       "puesto": 1,
       "idJugador": "24704",
-      "puntosTotales": 70,
+      "puntosTotales": 110,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
