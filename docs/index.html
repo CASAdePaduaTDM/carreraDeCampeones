@@ -423,6 +423,76 @@
     object-fit: cover;
 }
 
+        .cumpleanios {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.cumpleanios.hidden {
+    display: none;
+}
+
+.cumpleanios-titulo {
+    font-size: 13px;
+    font-weight: 600;
+    color: #FBC201;
+}
+
+.cumpleanios-carrusel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cumple-ficha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f9f9f9;
+    padding: 6px 12px;
+    border-radius: 20px;
+    min-width: 220px;
+}
+
+.cumple-ficha img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #FBC201;
+}
+
+.cumple-ficha span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+.cumple-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #541B7C;
+    font-weight: 700;
+}
+
+.cumple-btn:hover {
+    color: #FBC201;
+}
+
+@media (max-width: 768px) {
+    .cumpleanios {
+        margin-left: 0;
+    }
+
+    .cumple-ficha {
+        min-width: 180px;
+    }
+}
+        
     </style>
 </head>
 <body>
@@ -433,6 +503,22 @@
                 <img src="imgs/escudoPadua.png" alt="CASA de Padua" onerror="this.style.display='none'">
             </div>
             <div class="banner-title">CASA de Padua | Carrera de Campeones</div>
+            <div id="cumpleaniosBanner" class="cumpleanios hidden">
+    <div class="cumpleanios-titulo">
+        🎉 ¡Hoy celebramos cumpleaños en CASA de Padua!
+    </div>
+
+    <div class="cumpleanios-carrusel">
+        <button class="cumple-btn" onclick="prevCumple()">‹</button>
+
+        <div class="cumple-ficha">
+            <img id="cumpleFoto" src="" alt="">
+            <span id="cumpleNombre"></span>
+        </div>
+
+        <button class="cumple-btn" onclick="nextCumple()">›</button>
+    </div>
+</div>
             <a href="https://www.instagram.com/tenisdemesa.casadepadua/" target="_blank" class="instagram-link">
                 <img src="imgs/logoInstagram.png" alt="Instagram" class="instagram-icon">
                 <span class="instagram-text">CASA de Padua Instagram</span>
@@ -468,6 +554,43 @@
         let datosGlobales = null;
         let mesSeleccionado = null;
         let anioSeleccionado = null;
+        const SHEET_ID = '1cMGOHlhpTtOyLAtkzmnC4ubF6khQbOspOFvb9xvVpfs';
+const SHEET_NAME = 'cumpleanios';
+const GOOGLE_API_KEY = 'AIzaSyBRx0u9C07wkqQh_WGdeZzF-EhMEtyXGt8';
+
+        let cumpleaniosHoy = [];
+let indiceCumple = 0;
+let timerCumple = null;
+
+        async function cargarCumpleanios() {
+    try {
+        const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${SHEET_NAME}?key=${GOOGLE_API_KEY}`;
+        const res = await fetch(url);
+        const data = await res.json();
+
+        const filas = data.values.slice(1); // sin encabezado
+        const hoy = new Date();
+        const hoyStr = String(hoy.getDate()).padStart(2, '0') + '/' +
+                       String(hoy.getMonth() + 1).padStart(2, '0');
+
+        cumpleaniosHoy = filas
+            .filter(f => f.length >= 3 && f[2] === hoyStr)
+            .map(f => ({
+                idJugador: f[0],
+                nombre: f[1],
+                foto: `imgs/${f[0]}.png`
+            }));
+
+        if (cumpleaniosHoy.length > 0) {
+            document.getElementById('cumpleaniosBanner')
+                .classList.remove('hidden');
+            mostrarCumple();
+            iniciarAutoCumple();
+        }
+    } catch (e) {
+        console.error('Error cargando cumpleaños', e);
+    }
+}
 
         async function cargarDatos() {
     try {
@@ -490,6 +613,30 @@
         document.getElementById('rankingContainer').innerHTML =
             '<div class="empty-state">Error al cargar los datos</div>';
     }
+}
+
+        function mostrarCumple() {
+    const jugador = cumpleaniosHoy[indiceCumple];
+    const img = document.getElementById('cumpleFoto');
+    const nombre = document.getElementById('cumpleNombre');
+
+    img.src = jugador.foto;
+    img.onerror = () => img.src = 'imgs/default.png';
+    nombre.textContent = jugador.nombre;
+}
+        function nextCumple() {
+    indiceCumple = (indiceCumple + 1) % cumpleaniosHoy.length;
+    mostrarCumple();
+}
+
+function prevCumple() {
+    indiceCumple =
+        (indiceCumple - 1 + cumpleaniosHoy.length) % cumpleaniosHoy.length;
+    mostrarCumple();
+}
+        function iniciarAutoCumple() {
+    if (timerCumple) clearInterval(timerCumple);
+    timerCumple = setInterval(nextCumple, 3000);
 }
         
         const FOTOS_BASE_URL = 'https://drive.google.com/uc?export=view&id=';
@@ -692,6 +839,7 @@
         // ======================
         window.addEventListener('DOMContentLoaded', () => {
             cargarDatos();
+            cargarCumpleanios();
         
             // Cerrar overlay al hacer click
             document.getElementById('fotoOverlay')
