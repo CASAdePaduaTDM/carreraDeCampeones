@@ -111,18 +111,33 @@ async function scrapearJugador(browser, idJugador) {
         
         await page.goto(url, { waitUntil: "networkidle2" });
 
+        console.log(`📄 Jugador ${idJugador}: página cargada correctamente`);
+
         const data = await page.evaluate(({ MES_ACTUAL, ANIO_ACTUAL, MES_ANTERIOR, ANIO_MES_ANTERIOR, idJugador }) => {
             const filas = Array.from(document.querySelectorAll("tr"));
             const resultadosFinales = [];
             const indicesTorneos = [];
+
+            console.log(`🏆 Jugador ${idJugador}: filas totales = ${filas.length}`);
+
+            const torneosCrudos = filas.filter(
+              row => row.getAttribute("bgcolor") === "#FF6600"
+            );
+
+            console.log(`🏆 Jugador ${idJugador}: torneos detectados = ${torneosCrudos.length}`);
 
             filas.forEach((row, index) => {
                 if (row.getAttribute("bgcolor") === "#FF6600") {
                     const torneoTd = row.querySelector("td.tournament-name");
                     if (torneoTd) {
                         const texto = torneoTd.innerText.trim();
+                        console.log(`📅 Jugador ${idJugador}: texto torneo = "${texto}"`);
+                        
                         const fechaMatch = texto.match(/\d{2}\/\d{2}\/\d{4}/);
-                        if (!fechaMatch) return;
+                        if (!fechaMatch) {
+                          console.log(`⚠️ Jugador ${idJugador}: no se pudo extraer fecha`);
+                          return;
+                        }
                         
                         const fechaTxt = fechaMatch[0];
                         const [, m, a] = fechaTxt.split("/").map(Number);
@@ -137,6 +152,12 @@ async function scrapearJugador(browser, idJugador) {
             indicesTorneos.forEach((torneo, i) => {
                 const esMesActual = (torneo.mes === MES_ACTUAL && torneo.anio === ANIO_ACTUAL);
                 const esMesAnterior = (torneo.mes === MES_ANTERIOR && torneo.anio === ANIO_MES_ANTERIOR);
+            
+                console.log(
+                  `🗂️ Jugador ${idJugador}: evaluando ${torneo.fecha} | mes=${torneo.mes} año=${torneo.anio} → ` +
+                  `actual=${esMesActual} anterior=${esMesAnterior}`
+                );
+            
                 if (!esMesActual && !esMesAnterior) return;
 
                 const inicio = torneo.index;
@@ -183,6 +204,10 @@ async function scrapearJugador(browser, idJugador) {
                 }
                 Object.values(mejorPorCategoria).forEach(res => resultadosFinales.push(res));
             });
+            console.log(
+              `📊 Jugador ${idJugador}: participaciones finales = ${resultadosFinales.length}`
+            );
+            
             return resultadosFinales;
         }, { MES_ACTUAL, ANIO_ACTUAL, MES_ANTERIOR, ANIO_MES_ANTERIOR, idJugador });
 
@@ -209,6 +234,10 @@ async function scrapearJugador(browser, idJugador) {
             console.log(`\n🔍 [${i + 1}/${idJugadores.length}] Procesando ID: ${id}...`);
             
             const res = await scrapearJugador(browser, id);
+
+            console.log(
+              `📥 Jugador ${id}: scraping success=${res.success} | data.length=${res.data.length}`
+            );
             
             if (res.success && res.data.length > 0) {
                 let filasNuevas = [];
