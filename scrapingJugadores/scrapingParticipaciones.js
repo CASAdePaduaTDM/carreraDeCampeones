@@ -121,7 +121,10 @@ async function scrapearJugador(browser, idJugador) {
                     const torneoTd = row.querySelector("td.tournament-name");
                     if (torneoTd) {
                         const texto = torneoTd.innerText.trim();
-                        const fechaTxt = texto.substring(0, 10);
+                        const fechaMatch = texto.match(/\d{2}\/\d{2}\/\d{4}/);
+                        if (!fechaMatch) return;
+                        
+                        const fechaTxt = fechaMatch[0];
                         const [, m, a] = fechaTxt.split("/").map(Number);
                         const nombre = torneoTd.querySelector("a") ? torneoTd.querySelector("a").innerText.trim() : "Sin nombre";
                         indicesTorneos.push({ index, nombre, fecha: fechaTxt, mes: m, anio: a });
