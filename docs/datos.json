@@ -1,9 +1,19 @@
 {
-  "ultimaActualizacion": "2026-02-02T11:33:10.402Z",
+  "ultimaActualizacion": "2026-02-02T17:21:38.396Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
-  "rankingMesActual": [],
+  "rankingMesActual": [
+    {
+      "idJugador": "24731",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 1
+    }
+  ],
   "rankingHistorico": [
     {
       "idJugador": "2321",
@@ -108,6 +118,14 @@
       "puntosTotales": 96,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
+    },
+    {
+      "idJugador": "24731",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
     },
     {
       "idJugador": "25616",
@@ -332,6 +350,15 @@
       "puntosTotales": 70,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "7º"
+    },
+    {
+      "mes": 2,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "24731",
+      "puntosTotales": 10,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
     }
   ],
   "jugadores": [
