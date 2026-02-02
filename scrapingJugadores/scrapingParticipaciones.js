@@ -105,6 +105,11 @@ async function scrapearJugador(browser, idJugador) {
     let page;
     try {
         page = await browser.newPage();
+
+        page.on("console", msg => {
+            console.log(`🌐 [BROWSER ${idJugador}]`, msg.text());
+        });
+        
         // Aumentamos el tiempo de espera por si la web está lenta
         await page.setDefaultNavigationTimeout(90000);
         const url = `https://tenisdemesaparatodos.com/partidos_xjugador.asp?codigo=${idJugador}`;
