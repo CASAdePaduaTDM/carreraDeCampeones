@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-02-03T11:35:26.808Z",
+  "ultimaActualizacion": "2026-02-04T11:36:10.022Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
@@ -10,7 +10,7 @@
       "anio": 2026,
       "puntosTotales": 22,
       "nombreJugador": "Gerpe, Santiago Damián",
-      "categoria": "5º",
+      "categoria": "4º",
       "puesto": 1
     },
     {
@@ -37,7 +37,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º",
+      "categoria": "5º",
       "puesto": 4
     },
     {
@@ -124,7 +124,7 @@
       "anio": 2026,
       "puntosTotales": 22,
       "nombreJugador": "Gerpe, Santiago Damián",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "18754",
@@ -212,7 +212,7 @@
       "anio": 2026,
       "puntosTotales": 180,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24704",
@@ -220,7 +220,7 @@
       "anio": 2025,
       "puntosTotales": 96,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24704",
@@ -228,7 +228,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24731",
@@ -448,7 +448,7 @@
       "idJugador": "24704",
       "puntosTotales": 96,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 12,
@@ -466,7 +466,7 @@
       "idJugador": "24704",
       "puntosTotales": 180,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 1,
@@ -493,7 +493,7 @@
       "idJugador": "16617",
       "puntosTotales": 22,
       "nombreJugador": "Gerpe, Santiago Damián",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 2,
@@ -651,7 +651,7 @@
       "idJugador": "16617",
       "nombreJugador": "Gerpe, Santiago Damián",
       "activo": true,
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "24765",
@@ -699,7 +699,7 @@
       "idJugador": "24704",
       "nombreJugador": "Josid, Jorge Anibal",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "8214",
