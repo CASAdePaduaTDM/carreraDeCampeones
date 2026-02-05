@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="./imgs/escudoPaduaPestania.png">
     <style>
         /* ========================================= */
-        /* 1. TUS ESTILOS ORIGINALES (RESTAURADOS)   */
+        /* 1. ESTILOS BASE Y ORIGINALES              */
         /* ========================================= */
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', 'Roboto', sans-serif; background-color: #f5f5f5; color: #333; }
@@ -21,7 +21,7 @@
         .ranking-section, .podios-section { background-color: white; border-radius: 8px; padding: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
         .ranking-section h2, .podios-section h2 { color: #541B7C; font-size: 20px; font-weight: 600; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 3px solid #FBC201; }
 
-        /* Estilos de Tabla y Botones TMT */
+        /* Tablas y Botones */
         .ranking-table { width: 100%; border-collapse: collapse; }
         .ranking-table tbody tr { border-bottom: 1px solid #eee; height: 70px; }
         .foto-jugador { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #FBC201; margin-right: 10px; cursor: pointer; }
@@ -31,7 +31,6 @@
         .btn-tmt { background-color: #541B7C; color: white; border: none; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; cursor: pointer; transition: background-color 0.2s; }
         .puntos { font-weight: 700; color: #541B7C; width: 80px; text-align: right; font-size: 14px; }
 
-        /* Estilos de Podios y Medallas */
         .podio-posicion { display: flex; align-items: center; gap: 15px; padding: 15px; background-color: #f9f9f9; border-radius: 8px; border-left: 4px solid #FBC201; margin-bottom: 20px; }
         .podio-foto { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 3px solid #FBC201; }
         .podio-nombre { font-weight: 600; color: #333; font-size: 14px; }
@@ -40,26 +39,38 @@
         .btn-nav-mes.active { background-color: #FBC201; color: #541B7C; border-color: #FBC201; }
 
         /* ========================================= */
-        /* 2. SISTEMA DE PESTAÑAS (CORREGIDO)        */
+        /* 2. SISTEMA DE PESTAÑAS                    */
         /* ========================================= */
         .nav-tabs { background-color: #541B7C; padding: 10px 40px 0 40px; display: flex; gap: 10px; }
         .tab-btn { padding: 12px 20px; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-weight: 700; font-size: 14px; color: white; background-color: rgba(255,255,255,0.1); transition: 0.3s; }
-        /* Colores exactos de tu captura */
-        .tab-btn[data-tab="carrera"].active { background-color: #f5f5f5; color: #541B7C; border-top: 4px solid #FBC201; }
-        .tab-btn[data-tab="calc"].active { background-color: #2ecc71; color: white; } /* Verde como tu captura */
+        
+        /* Estilo activo para ambas pestañas (Mismo color de fondo f5f5f5) */
+        .tab-btn.active { background-color: #f5f5f5; color: #541B7C; border-top: 4px solid #FBC201; }
 
         .tab-content { display: none; padding: 40px; background-color: #541B7C; min-height: calc(100vh - 120px); }
         .tab-content.active { display: block; }
 
-        /* El Grid original solo para la carrera */
         .main-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
 
-        /* 3. CALCULADORA (NUEVO ESTILO) */
+        /* ========================================= */
+        /* 3. CALCULADORA MEJORADA                   */
+        /* ========================================= */
         .calc-container { max-width: 600px; margin: 0 auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
         .input-group { margin-bottom: 20px; }
         .input-group label { display: block; margin-bottom: 8px; font-weight: 700; color: #541B7C; }
-        .input-group input { width: 100%; padding: 12px; border: 2px solid #eee; border-radius: 8px; font-size: 18px; }
-        .btn-calcular { width: 100%; padding: 15px; background: #541B7C; color: white; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 16px; }
+        .input-group input { width: 100%; padding: 12px; border: 2px solid #eee; border-radius: 8px; font-size: 18px; outline: none; }
+        .input-group input:focus { border-color: #FBC201; }
+        
+        .calc-botones-wrapper { display: flex; gap: 15px; margin-top: 25px; }
+        .btn-calc { flex: 1; padding: 15px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 14px; transition: 0.2s; }
+        .btn-calc-normal { background: #541B7C; color: white; }
+        .btn-calc-x15 { background: #FBC201; color: #541B7C; }
+        .btn-calc:hover { opacity: 0.9; transform: translateY(-2px); }
+
+        .res-box { margin-top: 25px; padding: 20px; border-radius: 12px; border: 2px solid #541B7C; background-color: #fff; display: none; }
+        .res-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .res-table tr { border-bottom: 1px solid #eee; }
+        .res-table td { padding: 10px 0; font-size: 14px; }
 
         /* Footer y Overlay */
         .footer { background-color: #0A0B0D; color: #999; text-align: center; padding: 15px; font-size: 12px; }
@@ -67,7 +78,7 @@
         .foto-overlay.hidden { display: none; }
         .foto-overlay-contenido { width: 280px; height: 280px; border-radius: 50%; border: 6px solid #FBC201; overflow: hidden; background: white; }
         
-        @media (max-width: 1024px) { .main-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 1024px) { .main-grid { grid-template-columns: 1fr; } .calc-botones-wrapper { flex-direction: column; } }
     </style>
 </head>
 <body>
@@ -75,8 +86,6 @@
         <div class="banner-content">
             <div class="banner-logo"><img src="imgs/escudoPadua.png" alt="Padua"></div>
             <div class="banner-title">CASA de Padua | Carrera de Campeones</div>
-            <div id="cumpleaniosBanner" class="cumpleanios hidden">
-                </div>
         </div>
     </div>
 
@@ -104,7 +113,8 @@
 
     <div id="tab-calc" class="tab-content">
         <div class="calc-container">
-            <h2 style="color:#541B7C; margin-bottom:20px; border-bottom:3px solid #2ecc71; padding-bottom:10px;">Calculadora de Rating</h2>
+            <h2 style="color:#541B7C; margin-bottom:20px; border-bottom:3px solid #FBC201; padding-bottom:10px;">Calculadora de Rating</h2>
+            
             <div class="input-group">
                 <label>Tu Rating Actual</label>
                 <input type="number" id="ratingPropio" placeholder="Ej: 1250">
@@ -113,8 +123,14 @@
                 <label>Rating del Oponente</label>
                 <input type="number" id="ratingRival" placeholder="Ej: 1280">
             </div>
-            <button class="btn-calcular" onclick="ejecutarCalculo()">CALCULAR VARIACIÓN</button>
-            <div id="resultadoCalc" style="margin-top:20px; padding:20px; border-radius:8px; display:none; background:#f4f4f4;"></div>
+
+            <div class="calc-botones-wrapper">
+                <button class="btn-calc btn-calc-normal" onclick="ejecutarCalculo(1)">CALCULAR</button>
+                <button class="btn-calc btn-calc-x15" onclick="ejecutarCalculo(1.5)">CALCULAR x 1.5</button>
+            </div>
+
+            <div id="resultadoCalc" class="res-box">
+                </div>
         </div>
     </div>
 
@@ -125,7 +141,7 @@
     </div>
 
     <script>
-        // LÓGICA DE INTERFAZ
+        // --- NAVEGACIÓN ---
         function cambiarTab(id) {
             document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -133,22 +149,62 @@
             document.querySelector(`[data-tab="${id}"]`).classList.add('active');
         }
 
-        function ejecutarCalculo() {
-            const rA = parseInt(document.getElementById('ratingPropio').value);
-            const rB = parseInt(document.getElementById('ratingRival').value);
-            const res = document.getElementById('resultadoCalc');
-            if(isNaN(rA) || isNaN(rB)) return;
-            
-            const diff = Math.abs(rA - rB);
-            res.style.display = 'block';
-            res.innerHTML = `<strong>Diferencia: ${diff} pts</strong><br><br>
-                Si ganas: <span style="color:green">+$${diff > 100 ? 15 : 10}</span> (Simulado)<br>
-                Si pierdes: <span style="color:red">-$${diff > 100 ? 5 : 8}</span> (Simulado)`;
+        // --- LÓGICA CALCULADORA ---
+        function puntosMayor(d) {
+            if (d >= 750) return 1;
+            if (d >= 500) return 2;
+            if (d >= 400) return 3;
+            if (d >= 300) return 4;
+            if (d >= 200) return 5;
+            if (d >= 150) return 6;
+            if (d >= 100) return 7;
+            if (d >= 50) return 8;
+            if (d >= 25) return 9;
+            return 10;
         }
 
-        // =========================================
-        // TU LÓGICA ORIGINAL DE DATOS (RESTAURADA)
-        // =========================================
+        function puntosMenor(d) {
+            if (d >= 750) return 28;
+            if (d >= 500) return 26;
+            if (d >= 400) return 24;
+            if (d >= 300) return 22;
+            if (d >= 200) return 20;
+            if (d >= 150) return 18;
+            if (d >= 100) return 16;
+            if (d >= 50) return 14;
+            if (d >= 25) return 12;
+            return 10;
+        }
+
+        function ejecutarCalculo(mult) {
+            const rA = parseInt(document.getElementById('ratingPropio').value);
+            const rB = parseInt(document.getElementById('ratingRival').value);
+            const resDiv = document.getElementById('resultadoCalc');
+            
+            if(isNaN(rA) || isNaN(rB)) { alert("Ingresa ambos valores"); return; }
+
+            const d = Math.abs(rA - rB);
+            resDiv.style.display = 'block';
+            
+            // Calculamos los casos
+            const gSup = Math.round(puntosMayor(d) * mult);
+            const gInf = Math.round(puntosMenor(d) * mult);
+            const pSup = puntosMenor(d); // La pérdida no suele llevar multiplicador
+            const pInf = puntosMayor(d);
+
+            resDiv.innerHTML = `
+                <h3 style="color:#541B7C; font-size:16px;">Resultados ${mult > 1 ? '(x1.5)' : ''}</h3>
+                <p style="font-size:13px; margin-top:5px;">Diferencia: <strong>${d} pts</strong></p>
+                <table class="res-table">
+                    <tr><td>Si ganas (siendo superior)</td><td style="text-align:right; color:green; font-weight:700;">+${gSup}</td></tr>
+                    <tr><td>Si ganas (siendo inferior)</td><td style="text-align:right; color:green; font-weight:700;">+${gInf}</td></tr>
+                    <tr style="border:none;"><td>Si pierdes (siendo superior)</td><td style="text-align:right; color:red; font-weight:700;">-${pSup}</td></tr>
+                    <tr style="border:none;"><td>Si pierdes (siendo inferior)</td><td style="text-align:right; color:red; font-weight:700;">-${pInf}</td></tr>
+                </table>
+            `;
+        }
+
+        // --- DATOS Y RANKING ---
         let datosGlobales = null;
         let mesSeleccionado = null;
         let anioSeleccionado = null;
@@ -210,7 +266,6 @@
             document.getElementById('podiosContainer').innerHTML = html || 'Sin datos este mes';
         }
 
-        // Helpers de navegación y carga
         function generarNavegacionPodios() {
             const meses = [...new Set(datosGlobales.rankingHistorico.map(r => `${r.anio}-${r.mes}`))].reverse();
             let html = '';
