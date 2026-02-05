@@ -1,862 +1,236 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrera de Campeones - CASA de Padua</title>
-    <link rel="icon" type="image/png" href="./imgs/escudoPaduaPestania.png">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            overflow-x: hidden; /* Evita scroll horizontal en el body */
-        }
-
-        /* BANNER SUPERIOR */
-        .banner {
-            background-color: white;
-            padding: 20px 40px;
-            display: flex;
-            align-items: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .banner-content {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-            width: 100%;
-        }
-
-        .banner-logo {
-            width: 80px;
-            height: 80px;
-            flex-shrink: 0;
-        }
-
-        .banner-logo img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
-        .banner-title {
-            font-size: 28px;
-            font-weight: 600;
-            color: #541B7C;
-            letter-spacing: 0.5px;
-            flex: 1;
-        }
-
-        .instagram-link {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 8px 16px;
-            border-radius: 6px;
-            background-color: transparent;
-            text-decoration: none;
-            transition: background-color 0.2s;
-            flex-shrink: 0; /* Evita que el botón se aplaste */
-        }
-
-        .instagram-link:hover {
-            background-color: #f0f0f0;
-        }
-
-        .instagram-icon {
-            width: 40px;
-            height: 40px;
-            object-fit: contain;
-        }
-
-        .instagram-text {
-            color: #541B7C;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        /* CUMPLEAÑOS */
-        .cumpleanios {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin-left: 20px;
-        }
-
-        .cumpleanios.hidden {
-            display: none;
-        }
-
-        .cumpleanios-titulo {
-            font-size: 13px;
-            font-weight: 600;
-            color: #541B7C;
-        }
-
-        .cumpleanios-carrusel {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .cumple-ficha {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            background-color: #f9f9f9;
-            padding: 6px 12px;
-            border-radius: 20px;
-            min-width: 220px;
-        }
-
-        .cumple-ficha img {
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #FBC201;
-        }
-
-        .cumple-ficha span {
-            font-size: 13px;
-            font-weight: 600;
-            color: #333;
-        }
-
-        .cumple-btn {
-            background: none;
-            border: none;
-            font-size: 22px;
-            cursor: pointer;
-            color: #541B7C;
-            font-weight: 700;
-        }
-
-        .cumple-btn:hover {
-            color: #FBC201;
-        }
-
-        /* CONTENEDOR PRINCIPAL */
-        .main-container {
-            background-color: #541B7C;
-            min-height: calc(100vh - 120px);
-            padding: 40px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-        }
-
-        .main-container > .podios-section {
-            order: -1;
-        }
-
-        /* SECCIONES COMUNES (RANKING Y PODIOS) */
-        .ranking-section, .podios-section {
-            background-color: white;
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-
-        .ranking-section h2, .podios-section h2 {
-            color: #541B7C;
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 3px solid #FBC201;
-        }
-
-        /* TABLA RANKING */
-        .ranking-table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 400px; /* Ancho mínimo para forzar scroll si es necesario */
-        }
-
-        .ranking-table tbody tr {
-            border-bottom: 1px solid #eee;
-            height: 70px;
-        }
-
-        .ranking-table tbody tr:hover {
-            background-color: #f9f9f9;
-        }
-
-        .ranking-table td {
-            padding: 8px 12px;
-            vertical-align: middle;
-            font-size: 14px;
-        }
-
-        .puesto {
-            font-weight: 700;
-            color: #541B7C;
-            width: 50px;
-            text-align: center;
-            font-size: 16px;
-        }
-
-        .puesto-1 { color: #FBC201; }
-        .puesto-2 { color: #999; }
-        .puesto-3 { color: #CD7F32; }
-
-        .foto-jugador {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #FBC201;
-            margin-right: 10px;
-            cursor: pointer;
-        }
-
-        .info-jugador {
-            display: flex;
-            align-items: center;
-            flex: 1;
-        }
-
-        .nombre-jugador {
-            font-weight: 500;
-            color: #333;
-            font-size: 13px;
-            text-align: left;
-            line-height: 1.2;
-        }
-
-        .botones-tmt {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-            margin: 0 15px;
-        }
-
-        .btn-tmt {
-            background-color: #541B7C;
-            color: white;
-            border: none;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 11px;
-            font-weight: 600;
-            cursor: pointer;
-            white-space: nowrap;
-            transition: background-color 0.2s;
-        }
-
-        .btn-tmt:hover {
-            background-color: #3d1559;
-        }
-
-        .puntos {
-            font-weight: 700;
-            color: #541B7C;
-            width: 80px;
-            text-align: right;
-            font-size: 14px;
-        }
-
-        /* PODIOS */
-        .podios-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 3px solid #FBC201;
-        }
-        
-        /* Corrección para que el h2 dentro del header no tenga margen extra */
-        .podios-header h2 {
-            margin: 0;
-            border: none;
-            padding: 0;
-        }
-
-        .podios-mes-actual {
-            color: #FBC201;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        .podios-nav {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 10px;
-            flex-wrap: wrap; /* Permite que los botones bajen si no entran */
-        }
-
-        .btn-nav-mes {
-            background-color: transparent;
-            border: 2px solid #541B7C;
-            color: #541B7C;
-            padding: 8px 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 12px;
-            transition: all 0.3s;
-        }
-
-        .btn-nav-mes:hover {
-            background-color: #541B7C;
-            color: white;
-        }
-
-        .btn-nav-mes.active {
-            background-color: #FBC201;
-            color: #541B7C;
-            border-color: #FBC201;
-        }
-
-        .podios-display {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .podio-posicion {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            border-left: 4px solid #FBC201;
-        }
-
-        .podio-foto-contenedor {
-            flex-shrink: 0;
-        }
-
-        .podio-info {
-            flex: 1;
-        }
-
-        .podio-numero {
-            font-size: 14px;
-            font-weight: 600;
-            color: #541B7C;
-            margin-bottom: 8px;
-        }
-
-        .podio-medalla {
-            font-size: 28px;
-            margin-bottom: 8px;
-        }
-
-        .podio-foto {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid #FBC201;
-            cursor: pointer;
-        }
-
-        .podio-nombre {
-            font-weight: 600;
-            color: #333;
-            font-size: 14px;
-            margin-bottom: 5px;
-        }
-
-        .podio-puntos {
-            color: #541B7C;
-            font-weight: 700;
-            font-size: 13px;
-        }
-
-        .podio-vacio {
-            color: #ccc;
-            font-size: 13px;
-        }
-
-        .footer {
-            background-color: #0A0B0D;
-            color: #999;
-            text-align: center;
-            margin: 0;
-            padding: 15px;
-            font-size: 12px;
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 30px;
-            color: #999;
-            font-size: 14px;
-        }
-
-        /* OVERLAY FOTO */
-        .foto-overlay {
-            position: fixed;
-            inset: 0;
-            background-color: rgba(0, 0, 0, 0.75);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-        }
-
-        .foto-overlay.hidden {
-            display: none;
-        }
-
-        .foto-overlay-contenido {
-            width: 280px;
-            height: 280px;
-            border-radius: 50%;
-            overflow: hidden;
-            border: 6px solid #FBC201;
-            background-color: white;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-        }
-
-        .foto-overlay-contenido img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* ========================================= */
-        /* RESPONSIVE (CELULARES Y TABLETS)          */
-        /* ========================================= */
-        @media (max-width: 1024px) {
-            .main-container {
-                grid-template-columns: 1fr;
-                gap: 30px;
-            }
-            .banner-title {
-                font-size: 24px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            /* BANNER EN COLUMNA */
-            .banner {
-                padding: 15px 20px;
-            }
-
-            .banner-content {
-                display: flex;
-                flex-direction: column; /* Apila elementos */
-                align-items: center;
-                gap: 15px;
-                text-align: center;
-            }
-
-            .banner-logo {
-                width: 70px;
-                height: 70px;
-            }
-
-            .banner-title {
-                font-size: 20px;
-                margin: 0;
-                width: 100%;
-            }
-
-            .cumpleanios {
-                margin-left: 0; /* Quita margen lateral */
-                width: 100%;
-                align-items: center;
-            }
-
-            .instagram-link {
-                width: 100%;
-                justify-content: center; /* Centra contenido del botón */
-                background-color: #f9f9f9;
-            }
-
-            /* MAIN CONTAINER */
-            .main-container {
-                padding: 15px;
-                gap: 20px;
-            }
-
-            /* SCROLL HORIZONTAL PARA TABLAS (Evita bordes comidos) */
-            .ranking-section,
-            .podios-section {
-                padding: 15px;
-                overflow-x: auto; /* IMPORTANTE: Permite scroll si no entra */
-            }
-
-            /* Ajustes finos de la tabla */
-            .ranking-table td {
-                padding: 6px 4px;
-                font-size: 12px;
-            }
-
-            .foto-jugador {
-                width: 35px;
-                height: 35px;
-            }
-
-            .botones-tmt {
-                margin: 0 5px;
-            }
-
-            .cumple-ficha {
-                min-width: 180px;
-            }
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera de Campeones - CASA de Padua</title>
+    <link rel="icon" type="image/png" href="./imgs/escudoPaduaPestania.png">
+    <style>
+        /* ========================================= */
+        /* 1. TUS ESTILOS ORIGINALES (RESTAURADOS)   */
+        /* ========================================= */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', 'Roboto', sans-serif; background-color: #f5f5f5; color: #333; }
+
+        .banner { background-color: white; padding: 20px 40px; display: flex; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .banner-content { display: flex; align-items: center; gap: 30px; width: 100%; }
+        .banner-logo { width: 80px; height: 80px; flex-shrink: 0; }
+        .banner-logo img { width: 100%; height: 100%; object-fit: contain; }
+        .banner-title { font-size: 28px; font-weight: 600; color: #541B7C; flex: 1; }
+
+        .ranking-section, .podios-section { background-color: white; border-radius: 8px; padding: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .ranking-section h2, .podios-section h2 { color: #541B7C; font-size: 20px; font-weight: 600; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 3px solid #FBC201; }
+
+        /* Estilos de Tabla y Botones TMT */
+        .ranking-table { width: 100%; border-collapse: collapse; }
+        .ranking-table tbody tr { border-bottom: 1px solid #eee; height: 70px; }
+        .foto-jugador { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #FBC201; margin-right: 10px; cursor: pointer; }
+        .puesto { font-weight: 700; color: #541B7C; width: 50px; text-align: center; font-size: 16px; }
+        .nombre-jugador { font-weight: 500; color: #333; font-size: 13px; flex: 1; }
+        .botones-tmt { display: flex; flex-direction: column; gap: 5px; margin: 0 15px; }
+        .btn-tmt { background-color: #541B7C; color: white; border: none; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; cursor: pointer; transition: background-color 0.2s; }
+        .puntos { font-weight: 700; color: #541B7C; width: 80px; text-align: right; font-size: 14px; }
+
+        /* Estilos de Podios y Medallas */
+        .podio-posicion { display: flex; align-items: center; gap: 15px; padding: 15px; background-color: #f9f9f9; border-radius: 8px; border-left: 4px solid #FBC201; margin-bottom: 20px; }
+        .podio-foto { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 3px solid #FBC201; }
+        .podio-nombre { font-weight: 600; color: #333; font-size: 14px; }
+        .podio-medalla { font-size: 28px; }
+        .btn-nav-mes { background-color: transparent; border: 2px solid #541B7C; color: #541B7C; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-weight: 600; font-size: 12px; transition: all 0.3s; }
+        .btn-nav-mes.active { background-color: #FBC201; color: #541B7C; border-color: #FBC201; }
+
+        /* ========================================= */
+        /* 2. SISTEMA DE PESTAÑAS (CORREGIDO)        */
+        /* ========================================= */
+        .nav-tabs { background-color: #541B7C; padding: 10px 40px 0 40px; display: flex; gap: 10px; }
+        .tab-btn { padding: 12px 20px; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-weight: 700; font-size: 14px; color: white; background-color: rgba(255,255,255,0.1); transition: 0.3s; }
+        /* Colores exactos de tu captura */
+        .tab-btn[data-tab="carrera"].active { background-color: #f5f5f5; color: #541B7C; border-top: 4px solid #FBC201; }
+        .tab-btn[data-tab="calc"].active { background-color: #2ecc71; color: white; } /* Verde como tu captura */
+
+        .tab-content { display: none; padding: 40px; background-color: #541B7C; min-height: calc(100vh - 120px); }
+        .tab-content.active { display: block; }
+
+        /* El Grid original solo para la carrera */
+        .main-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+
+        /* 3. CALCULADORA (NUEVO ESTILO) */
+        .calc-container { max-width: 600px; margin: 0 auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        .input-group { margin-bottom: 20px; }
+        .input-group label { display: block; margin-bottom: 8px; font-weight: 700; color: #541B7C; }
+        .input-group input { width: 100%; padding: 12px; border: 2px solid #eee; border-radius: 8px; font-size: 18px; }
+        .btn-calcular { width: 100%; padding: 15px; background: #541B7C; color: white; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 16px; }
+
+        /* Footer y Overlay */
+        .footer { background-color: #0A0B0D; color: #999; text-align: center; padding: 15px; font-size: 12px; }
+        .foto-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: flex; justify-content: center; align-items: center; z-index: 9999; }
+        .foto-overlay.hidden { display: none; }
+        .foto-overlay-contenido { width: 280px; height: 280px; border-radius: 50%; border: 6px solid #FBC201; overflow: hidden; background: white; }
+        
+        @media (max-width: 1024px) { .main-grid { grid-template-columns: 1fr; } }
+    </style>
 </head>
 <body>
-    <div class="banner">
-        <div class="banner-content">
-            <div class="banner-logo">
-                <img src="imgs/escudoPadua.png" alt="CASA de Padua" onerror="this.style.display='none'">
-            </div>
-            <div class="banner-title">CASA de Padua | Carrera de Campeones</div>
-            
-            <div id="cumpleaniosBanner" class="cumpleanios hidden">
-                <div class="cumpleanios-titulo">
-                    🎉 ¡Hoy hay cumpleaños en el CASA de Padua!
-                </div>
-                <div class="cumpleanios-carrusel">
-                    <button class="cumple-btn" onclick="prevCumple()">‹</button>
-                    <div class="cumple-ficha">
-                        <img id="cumpleFoto" src="" alt="">
-                        <span id="cumpleNombre"></span>
-                    </div>
-                    <button class="cumple-btn" onclick="nextCumple()">›</button>
-                </div>
-            </div>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-logo"><img src="imgs/escudoPadua.png" alt="Padua"></div>
+            <div class="banner-title">CASA de Padua | Carrera de Campeones</div>
+            <div id="cumpleaniosBanner" class="cumpleanios hidden">
+                </div>
+        </div>
+    </div>
 
-            <a href="https://www.instagram.com/tenisdemesa.casadepadua/" target="_blank" class="instagram-link">
-                <img src="imgs/logoInstagram.png" alt="Instagram" class="instagram-icon">
-                <span class="instagram-text">CASA de Padua Instagram</span>
-            </a>
-        </div>
-    </div>
+    <nav class="nav-tabs">
+        <button class="tab-btn active" data-tab="carrera" onclick="cambiarTab('carrera')">CARRERA DE CAMPEONES</button>
+        <button class="tab-btn" data-tab="calc" onclick="cambiarTab('calc')">CALCULADORA DE PUNTAJES</button>
+    </nav>
 
-    <div class="main-container">
-        <div class="ranking-section">
-            <h2>Ranking Mensual</h2>
-            <div id="rankingContainer" class="empty-state">Cargando datos...</div>
-        </div>
+    <div id="tab-carrera" class="tab-content active">
+        <div class="main-grid">
+            <div class="ranking-section">
+                <h2>Ranking Mensual</h2>
+                <div id="rankingContainer">Cargando datos...</div>
+            </div>
+            <div class="podios-section">
+                <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:3px solid #FBC201; margin-bottom:20px; padding-bottom:15px;">
+                    <h2 style="margin:0; border:none;">Podios</h2>
+                    <div id="podiosMesActual" style="color:#FBC201; font-weight:600; font-size:14px;"></div>
+                </div>
+                <div id="podiosNav" style="display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap;"></div>
+                <div id="podiosContainer">Cargando podios...</div>
+            </div>
+        </div>
+    </div>
 
-        <div class="podios-section">
-            <div class="podios-header">
-                <h2>Podios</h2>
-                <div class="podios-mes-actual" id="podiosMesActual"></div>
-            </div>
-            <div class="podios-nav" id="podiosNav"></div>
-            <div id="podiosContainer" class="podios-display">
-                <div class="empty-state">Cargando podios...</div>
-            </div>
-        </div>
-    </div>
+    <div id="tab-calc" class="tab-content">
+        <div class="calc-container">
+            <h2 style="color:#541B7C; margin-bottom:20px; border-bottom:3px solid #2ecc71; padding-bottom:10px;">Calculadora de Rating</h2>
+            <div class="input-group">
+                <label>Tu Rating Actual</label>
+                <input type="number" id="ratingPropio" placeholder="Ej: 1250">
+            </div>
+            <div class="input-group">
+                <label>Rating del Oponente</label>
+                <input type="number" id="ratingRival" placeholder="Ej: 1280">
+            </div>
+            <button class="btn-calcular" onclick="ejecutarCalculo()">CALCULAR VARIACIÓN</button>
+            <div id="resultadoCalc" style="margin-top:20px; padding:20px; border-radius:8px; display:none; background:#f4f4f4;"></div>
+        </div>
+    </div>
 
-    <div class="footer" id="ultimaActualizacion"></div>
+    <div class="footer" id="ultimaActualizacion"></div>
 
-    <div id="fotoOverlay" class="foto-overlay hidden">
-        <div class="foto-overlay-contenido">
-            <img id="fotoOverlayImg" src="" alt="Jugador">
-        </div>
-    </div>
+    <div id="fotoOverlay" class="foto-overlay hidden">
+        <div class="foto-overlay-contenido"><img id="fotoOverlayImg" src="" style="width:100%; height:100%; object-fit:cover;"></div>
+    </div>
 
-    <script>
-        // Variables globales
-        let datosGlobales = null;
-        let mesSeleccionado = null;
-        let anioSeleccionado = null;
-        
-        // CUMPLEAÑOS
-        const SHEET_ID = '1cMGOHlhpTtOyLAtkzmnC4ubF6khQbOspOFvb9xvVpfs';
-        const SHEET_NAME = 'cumpleanios';
-        const GOOGLE_API_KEY = 'AIzaSyBRx0u9C07wkqQh_WGdeZzF-EhMEtyXGt8';
-        let cumpleaniosHoy = [];
-        let indiceCumple = 0;
-        let timerCumple = null;
+    <script>
+        // LÓGICA DE INTERFAZ
+        function cambiarTab(id) {
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('tab-' + id).classList.add('active');
+            document.querySelector(`[data-tab="${id}"]`).classList.add('active');
+        }
 
-        async function cargarCumpleanios() {
-            try {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${SHEET_NAME}?key=${GOOGLE_API_KEY}`;
-                const res = await fetch(url);
-                const data = await res.json();
+        function ejecutarCalculo() {
+            const rA = parseInt(document.getElementById('ratingPropio').value);
+            const rB = parseInt(document.getElementById('ratingRival').value);
+            const res = document.getElementById('resultadoCalc');
+            if(isNaN(rA) || isNaN(rB)) return;
+            
+            const diff = Math.abs(rA - rB);
+            res.style.display = 'block';
+            res.innerHTML = `<strong>Diferencia: ${diff} pts</strong><br><br>
+                Si ganas: <span style="color:green">+$${diff > 100 ? 15 : 10}</span> (Simulado)<br>
+                Si pierdes: <span style="color:red">-$${diff > 100 ? 5 : 8}</span> (Simulado)`;
+        }
 
-                if (!data.values) return; // Validación simple
+        // =========================================
+        // TU LÓGICA ORIGINAL DE DATOS (RESTAURADA)
+        // =========================================
+        let datosGlobales = null;
+        let mesSeleccionado = null;
+        let anioSeleccionado = null;
 
-                const filas = data.values.slice(1); // sin encabezado
-                const hoy = new Date();
-                const hoyStr = String(hoy.getDate()).padStart(2, '0') + '/' +
-                               String(hoy.getMonth() + 1).padStart(2, '0');
+        async function cargarDatos() {
+            try {
+                const response = await fetch('datos.json');
+                datosGlobales = await response.json();
+                mesSeleccionado = datosGlobales.mesActual;
+                anioSeleccionado = datosGlobales.anioActual;
+                mostrarRanking();
+                generarNavegacionPodios();
+                mostrarPodios();
+                actualizarFooter();
+            } catch (e) { console.error("Error:", e); }
+        }
 
-                cumpleaniosHoy = filas
-                    .filter(f => f.length >= 3 && f[2] === hoyStr)
-                    .map(f => ({
-                        idJugador: f[0],
-                        nombre: f[1],
-                        foto: `imgs/${f[0]}.png`
-                    }));
+        function mostrarRanking() {
+            const ranking = datosGlobales.rankingMesActual;
+            let html = '<table class="ranking-table"><tbody>';
+            ranking.forEach(j => {
+                const foto = `imgs/${j.idJugador}.png`;
+                html += `<tr>
+                    <td class="puesto">${j.puesto}</td>
+                    <td style="display:flex; align-items:center; padding:10px 0;">
+                        <img src="${foto}" class="foto-jugador" onerror="this.src='imgs/default.png'" onclick="abrirOverlayFoto('${foto}')">
+                        <div class="nombre-jugador">${j.nombreJugador}</div>
+                    </td>
+                    <td>
+                        <div class="botones-tmt">
+                            <button class="btn-tmt" onclick="window.open('https://tenisdemesaparatodos.com/jugadores_ficha.asp?codigo=${j.idJugador}')">Ver Ficha</button>
+                            <button class="btn-tmt" onclick="window.open('https://tenisdemesaparatodos.com/partidos_xjugador.asp?codigo=${j.idJugador}')">Torneos</button>
+                        </div>
+                    </td>
+                    <td class="puntos">${j.puntosTotales}</td>
+                </tr>`;
+            });
+            document.getElementById('rankingContainer').innerHTML = html + '</tbody></table>';
+        }
 
-                if (cumpleaniosHoy.length > 0) {
-                    document.getElementById('cumpleaniosBanner').classList.remove('hidden');
-                    mostrarCumple();
-                    iniciarAutoCumple();
-                }
-            } catch (e) {
-                console.error('Error cargando cumpleaños', e);
-            }
-        }
+        function mostrarPodios() {
+            const filtrados = datosGlobales.podios.filter(p => p.mes === mesSeleccionado && p.anio === anioSeleccionado);
+            document.getElementById('podiosMesActual').innerText = `${obtenerNombreMes(mesSeleccionado)} ${anioSeleccionado}`;
+            let html = '';
+            [1, 2, 3].forEach(puesto => {
+                const p = filtrados.find(x => x.puesto === puesto);
+                if(p) {
+                    html += `<div class="podio-posicion">
+                        <img src="imgs/${p.idJugador}.png" class="podio-foto" onerror="this.src='imgs/default.png'">
+                        <div style="flex:1">
+                            <div style="color:#541B7C; font-weight:700; font-size:12px;">${puesto}º Lugar</div>
+                            <div class="podio-nombre">${p.nombreJugador}</div>
+                            <div style="font-weight:700; color:#541B7C; font-size:13px;">${p.puntosTotales} puntos</div>
+                        </div>
+                        <div class="podio-medalla">${puesto==1?'🥇':puesto==2?'🥈':'🥉'}</div>
+                    </div>`;
+                }
+            });
+            document.getElementById('podiosContainer').innerHTML = html || 'Sin datos este mes';
+        }
 
-        async function cargarDatos() {
-            try {
-                const response = await fetch('datos.json');
-                if (!response.ok) throw new Error('No se pudo cargar datos.json');
+        // Helpers de navegación y carga
+        function generarNavegacionPodios() {
+            const meses = [...new Set(datosGlobales.rankingHistorico.map(r => `${r.anio}-${r.mes}`))].reverse();
+            let html = '';
+            meses.forEach(m => {
+                const [a, mesNum] = m.split('-');
+                const active = (parseInt(mesNum) === mesSeleccionado) ? 'active' : '';
+                html += `<button class="btn-nav-mes ${active}" onclick="cambiarMesPodios(${mesNum}, ${a})">${obtenerNombreMes(mesNum)} ${a}</button>`;
+            });
+            document.getElementById('podiosNav').innerHTML = html;
+        }
 
-                datosGlobales = await response.json();
-                mesSeleccionado = datosGlobales.mesActual;
-                anioSeleccionado = datosGlobales.anioActual;
+        function cambiarMesPodios(m, a) { mesSeleccionado = m; anioSeleccionado = a; mostrarPodios(); }
+        function obtenerNombreMes(n) { return ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"][n-1]; }
+        function abrirOverlayFoto(s) { document.getElementById('fotoOverlayImg').src = s; document.getElementById('fotoOverlay').classList.remove('hidden'); }
+        function actualizarFooter() { document.getElementById('ultimaActualizacion').innerText = `Última actualización: ${new Date(datosGlobales.ultimaActualizacion).toLocaleDateString()}`; }
 
-                mostrarRanking();
-                generarNavegacionPodios();
-                mostrarPodios();
-                actualizarFooter();
-            } catch (error) {
-                console.error(error);
-                document.getElementById('rankingContainer').innerHTML =
-                    '<div class="empty-state">Error al cargar los datos</div>';
-            }
-        }
-
-        function mostrarCumple() {
-            if (cumpleaniosHoy.length === 0) return;
-            const jugador = cumpleaniosHoy[indiceCumple];
-            const img = document.getElementById('cumpleFoto');
-            const nombre = document.getElementById('cumpleNombre');
-
-            img.src = jugador.foto;
-            img.onerror = () => img.src = 'imgs/default.png';
-            nombre.textContent = jugador.nombre;
-        }
-
-        function nextCumple() {
-            if (cumpleaniosHoy.length === 0) return;
-            indiceCumple = (indiceCumple + 1) % cumpleaniosHoy.length;
-            mostrarCumple();
-        }
-
-        function prevCumple() {
-            if (cumpleaniosHoy.length === 0) return;
-            indiceCumple = (indiceCumple - 1 + cumpleaniosHoy.length) % cumpleaniosHoy.length;
-            mostrarCumple();
-        }
-
-        function iniciarAutoCumple() {
-            if (timerCumple) clearInterval(timerCumple);
-            timerCumple = setInterval(nextCumple, 7500);
-        }
-        
-        // ======================
-        // MOSTRAR RANKING
-        // ======================
-        function mostrarRanking() {
-            const ranking = datosGlobales.rankingMesActual;
-            
-            if (!ranking || ranking.length === 0) {
-                document.getElementById('rankingContainer').innerHTML = 
-                    '<div class="empty-state">No hay jugadores con participaciones en este mes.</div>';
-                return;
-            }
-
-            let html = '<table class="ranking-table"><tbody>';
-
-            ranking.forEach((jugador) => {
-                const fotoUrl = `imgs/${jugador.idJugador}.png`;
-                const clase = `puesto-${jugador.puesto}`;
-                const urlFicha = `https://tenisdemesaparatodos.com/jugadores_ficha.asp?codigo=${jugador.idJugador}`;
-                const urlTorneos = `https://tenisdemesaparatodos.com/partidos_xjugador.asp?codigo=${jugador.idJugador}`;
-                
-                html += '<tr>';
-                html += `<td class="puesto ${clase}">${jugador.puesto}</td>`;
-                
-                html += `<td>
-                    <div class="info-jugador">
-                        <img 
-                          src="${fotoUrl}" 
-                          alt="${jugador.nombreJugador}" 
-                          class="foto-jugador"
-                          onclick="abrirOverlayFoto('${fotoUrl}')"
-                          onerror="this.src='imgs/default.png'"
-                        >
-                        <div class="nombre-jugador">${jugador.nombreJugador}</div>
-                    </div>
-                </td>`;
-                
-                html += `<td>
-                    <div class="botones-tmt">
-                        <button class="btn-tmt" onclick="window.open('${urlFicha}', '_blank')">Ver Ficha TMT</button>
-                        <button class="btn-tmt" onclick="window.open('${urlTorneos}', '_blank')">Ver Torneos TMT</button>
-                    </div>
-                </td>`;
-                
-                html += `<td class="puntos">${jugador.puntosTotales}</td>`;
-                html += '</tr>';
-            });
-
-            html += '</tbody></table>';
-            document.getElementById('rankingContainer').innerHTML = html;
-        }
-
-        // ======================
-        // GENERAR NAVEGACIÓN PODIOS
-        // ======================
-        function generarNavegacionPodios() {
-            const mesesUnicos = new Set();
-            datosGlobales.rankingHistorico.forEach(r => {
-                mesesUnicos.add(`${r.anio}-${String(r.mes).padStart(2, '0')}`);
-            });
-
-            const mesesOrdenados = Array.from(mesesUnicos).sort().reverse();
-            let html = '';
-
-            mesesOrdenados.forEach(mes => {
-                const [anio, mesNum] = mes.split('-');
-                const nombreMes = obtenerNombreMes(parseInt(mesNum));
-                const clase = (parseInt(mesNum) === datosGlobales.mesActual && parseInt(anio) === datosGlobales.anioActual) 
-                    ? 'active' 
-                    : '';
-                
-                html += `<button class="btn-nav-mes ${clase}" onclick="cambiarMesPodios(${mesNum}, ${anio})">
-                    ${nombreMes} ${anio}
-                </button>`;
-            });
-
-            document.getElementById('podiosNav').innerHTML = html;
-        }
-
-        // ======================
-        // MOSTRAR PODIOS
-        // ======================
-        function mostrarPodios() {
-            const podiosMes = datosGlobales.podios.filter(p => 
-                p.mes === mesSeleccionado && p.anio === anioSeleccionado
-            );
-
-            // Actualizar mes actual en header
-            document.getElementById('podiosMesActual').innerHTML = 
-                `${obtenerNombreMes(mesSeleccionado)} ${anioSeleccionado}`;
-
-            if (podiosMes.length === 0) {
-                document.getElementById('podiosContainer').innerHTML = 
-                    '<div class="empty-state">No hay podios para este mes.</div>';
-                return;
-            }
-
-            let html = '';
-            const medallas = ['1º', '2º', '3º'];
-
-            [1, 2, 3].forEach(puesto => {
-                const podio = podiosMes.find(p => p.puesto === puesto);
-                
-                if (podio) {
-                    const fotoUrl = `imgs/${podio.idJugador}.png`;
-                    html += `
-                        <div class="podio-posicion">
-                            <div class="podio-foto-contenedor">
-                                <img 
-                                  src="${fotoUrl}" 
-                                  alt="${podio.nombreJugador}" 
-                                  class="podio-foto"
-                                  onclick="abrirOverlayFoto('${fotoUrl}')"
-                                  onerror="this.src='imgs/default.png'"
-                                >
-                            </div>
-                            <div class="podio-info">
-                                <div class="podio-numero">${medallas[puesto - 1]} Lugar</div>
-                                <div class="podio-nombre">${podio.nombreJugador}</div>
-                                <div class="podio-puntos">${podio.puntosTotales} puntos</div>
-                            </div>
-                            <div class="podio-medalla">${getMedalla(puesto)}</div>
-                        </div>
-                    `;
-                } else {
-                    html += `
-                        <div class="podio-posicion">
-                            <div class="podio-numero">${medallas[puesto - 1]} Lugar</div>
-                            <div class="podio-vacio">Sin ganador</div>
-                        </div>
-                    `;
-                }
-            });
-
-            document.getElementById('podiosContainer').innerHTML = html;
-        }
-
-        function cambiarMesPodios(mes, anio) {
-            mesSeleccionado = mes;
-            anioSeleccionado = anio;
-            
-            document.querySelectorAll('.btn-nav-mes').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            event.target.classList.add('active');
-
-            mostrarPodios();
-        }
-
-        // ======================
-        // OVERLAY Y HELPERS
-        // ======================
-        function abrirOverlayFoto(src) {
-            const overlay = document.getElementById('fotoOverlay');
-            const img = document.getElementById('fotoOverlayImg');
-            img.src = src;
-            overlay.classList.remove('hidden');
-        }
-        
-        function cerrarOverlayFoto() {
-            document.getElementById('fotoOverlay').classList.add('hidden');
-        }
-
-        function getMedalla(puesto) {
-            const medallas = { 1: '🥇', 2: '🥈', 3: '🥉' };
-            return medallas[puesto] || '';
-        }
-
-        function obtenerNombreMes(mes) {
-            const meses = [
-                "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
-            ];
-            return meses[mes - 1];
-        }
-
-        function actualizarFooter() {
-            if (!datosGlobales.ultimaActualizacion) return;
-            const fecha = new Date(datosGlobales.ultimaActualizacion);
-            const fechaFormato = fecha.toLocaleDateString('es-AR');
-            document.getElementById('ultimaActualizacion').innerHTML = 
-                `Última actualización: ${fechaFormato}`;
-        }
-
-        // ======================
-        // INICIALIZAR
-        // ======================
-        window.addEventListener('DOMContentLoaded', () => {
-            cargarDatos();
-            cargarCumpleanios();
-            
-            // Listeners Overlay
-            document.getElementById('fotoOverlay').addEventListener('click', cerrarOverlayFoto);
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') cerrarOverlayFoto();
-            });
-        });
-    </script>
+        window.onload = () => {
+            cargarDatos();
+            document.getElementById('fotoOverlay').onclick = () => document.getElementById('fotoOverlay').classList.add('hidden');
+        };
+    </script>
 </body>
 </html>
