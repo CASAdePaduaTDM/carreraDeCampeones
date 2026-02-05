@@ -196,10 +196,10 @@
                 <h3 style="color:#541B7C; font-size:16px;">Resultados ${mult > 1 ? '(x1.5)' : ''}</h3>
                 <p style="font-size:13px; margin-top:5px;">Diferencia: <strong>${d} pts</strong></p>
                 <table class="res-table">
-                    <tr><td>Si ganas (siendo superior)</td><td style="text-align:right; color:green; font-weight:700;">+${gSup}</td></tr>
-                    <tr><td>Si ganas (siendo inferior)</td><td style="text-align:right; color:green; font-weight:700;">+${gInf}</td></tr>
-                    <tr style="border:none;"><td>Si pierdes (siendo superior)</td><td style="text-align:right; color:red; font-weight:700;">-${pSup}</td></tr>
-                    <tr style="border:none;"><td>Si pierdes (siendo inferior)</td><td style="text-align:right; color:red; font-weight:700;">-${pInf}</td></tr>
+                    <tr><td>Si ganás (siendo superior)</td><td style="text-align:right; color:green; font-weight:700;">+${gSup}</td></tr>
+                    <tr><td>Si ganás (siendo inferior)</td><td style="text-align:right; color:green; font-weight:700;">+${gInf}</td></tr>
+                    <tr style="border:none;"><td>Si perdés (siendo superior)</td><td style="text-align:right; color:red; font-weight:700;">-${pSup}</td></tr>
+                    <tr style="border:none;"><td>Si perdés (siendo inferior)</td><td style="text-align:right; color:red; font-weight:700;">-${pInf}</td></tr>
                 </table>
             `;
         }
@@ -236,7 +236,7 @@
                     <td>
                         <div class="botones-tmt">
                             <button class="btn-tmt" onclick="window.open('https://tenisdemesaparatodos.com/jugadores_ficha.asp?codigo=${j.idJugador}')">Ver Ficha</button>
-                            <button class="btn-tmt" onclick="window.open('https://tenisdemesaparatodos.com/partidos_xjugador.asp?codigo=${j.idJugador}')">Torneos</button>
+                            <button class="btn-tmt" onclick="window.open('https://tenisdemesaparatodos.com/partidos_xjugador.asp?codigo=${j.idJugador}')">Ver Torneos</button>
                         </div>
                     </td>
                     <td class="puntos">${j.puntosTotales}</td>
