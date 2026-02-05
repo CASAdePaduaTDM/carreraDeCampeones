@@ -116,13 +116,18 @@
             <h2 style="color:#541B7C; margin-bottom:20px; border-bottom:3px solid #FBC201; padding-bottom:10px;">Calculadora de Rating</h2>
             
             <div class="input-group">
-                <label>Tu Rating Actual</label>
-                <input type="number" id="ratingPropio" placeholder="Ej: 1250">
+                <label>Jugador A</label>
+                <input list="listaJugadores" id="jugadorA" placeholder="Buscar jugador...">
+                <input type="number" id="ratingA" placeholder="Rating A (manual)" style="margin-top:6px;">
             </div>
+            
             <div class="input-group">
-                <label>Rating del Oponente</label>
-                <input type="number" id="ratingRival" placeholder="Ej: 1280">
+                <label>Jugador B</label>
+                <input list="listaJugadores" id="jugadorB" placeholder="Buscar jugador...">
+                <input type="number" id="ratingB" placeholder="Rating B (manual)" style="margin-top:6px;">
             </div>
+            
+            <datalist id="listaJugadores"></datalist>
 
             <div class="calc-botones-wrapper">
                 <button class="btn-calc btn-calc-normal" onclick="ejecutarCalculo(1)">CALCULAR</button>
@@ -177,8 +182,8 @@
         }
 
         function ejecutarCalculo(mult) {
-            const rA = parseInt(document.getElementById('ratingPropio').value);
-            const rB = parseInt(document.getElementById('ratingRival').value);
+            const rA = parseInt(document.getElementById('ratingA').value);
+            const rB = parseInt(document.getElementById('ratingB').value);
             const resDiv = document.getElementById('resultadoCalc');
             
             if(isNaN(rA) || isNaN(rB)) { alert("Ingresa ambos valores"); return; }
@@ -208,6 +213,52 @@
         let datosGlobales = null;
         let mesSeleccionado = null;
         let anioSeleccionado = null;
+
+        const SHEET_RATING_URL =
+        'https://docs.google.com/spreadsheets/d/1VykDrGT_k5bba2bqPuQnxAK4Ve86I3iXWJL-T2dD2Ac/gviz/tq?tqx=out:json&sheet=ratingTotal';
+        
+        let jugadores = [];
+        
+        async function cargarJugadores() {
+            const res = await fetch(SHEET_RATING_URL);
+            const text = await res.text();
+            const json = JSON.parse(text.substring(47).slice(0, -2));
+        
+            jugadores = json.table.rows.map(r => ({
+                id: r.c[0]?.v,
+                nombre: r.c[1]?.v,
+                rating: r.c[2]?.v,
+                club: r.c[3]?.v || ''
+            }));
+        
+            const dl = document.getElementById('listaJugadores');
+            dl.innerHTML = '';
+        
+            jugadores.forEach(j => {
+                const label = j.club
+                    ? `${j.nombre} (${j.club})`
+                    : j.nombre;
+        
+                const opt = document.createElement('option');
+                opt.value = label;
+                opt.dataset.rating = j.rating;
+                dl.appendChild(opt);
+            });
+        }
+
+        function vincularAutocomplete(inputId, ratingId) {
+            const input = document.getElementById(inputId);
+            const rating = document.getElementById(ratingId);
+        
+            input.addEventListener('input', () => {
+                const option = [...document.querySelectorAll('#listaJugadores option')]
+                    .find(o => o.value === input.value);
+        
+                if (option) {
+                    rating.value = option.dataset.rating;
+                }
+            });
+        }
 
         async function cargarDatos() {
             try {
@@ -283,8 +334,14 @@
         function actualizarFooter() { document.getElementById('ultimaActualizacion').innerText = `Última actualización: ${new Date(datosGlobales.ultimaActualizacion).toLocaleDateString()}`; }
 
         window.onload = () => {
-            cargarDatos();
-            document.getElementById('fotoOverlay').onclick = () => document.getElementById('fotoOverlay').classList.add('hidden');
+            cargarDatos();        // ranking y podios
+            cargarJugadores();    // ratings desde Google Sheet
+        
+            vincularAutocomplete('jugadorA', 'ratingA');
+            vincularAutocomplete('jugadorB', 'ratingB');
+        
+            document.getElementById('fotoOverlay').onclick =
+                () => document.getElementById('fotoOverlay').classList.add('hidden');
         };
     </script>
 </body>
