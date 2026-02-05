@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Puntos TMT - CASA de Padua</title>
+    <link rel="icon" type="image/png" href="./imgs/escudoPaduaPestania.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+            background-color: #541B7C; /* Fondo púrpura del club */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* BANNER SUPERIOR (Igual a la original) */
+        .banner {
+            background-color: white;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .banner-content {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .banner-logo {
+            width: 60px;
+            height: 60px;
+            flex-shrink: 0;
+        }
+
+        .banner-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .banner-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #541B7C;
+            flex: 1;
+        }
+
+        /* CONTENEDOR DE LA CALCULADORA */
+        .main-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .calc-card {
+            background-color: white;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        h1 {
+            color: #541B7C;
+            font-size: 22px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #FBC201;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+
+        /* FORMULARIO */
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #541B7C;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.2s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #541B7C;
+            box-shadow: 0 0 0 3px rgba(84, 27, 124, 0.1);
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 25px;
+        }
+
+        button {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+        }
+
+        .btn-calc {
+            background-color: #541B7C;
+            color: white;
+        }
+
+        .btn-calc:hover {
+            background-color: #3d1559;
+            transform: translateY(-1px);
+        }
+
+        .btn-clear {
+            background-color: #f1f5f9;
+            color: #541B7C;
+            border: 1px solid #cbd5e1;
+        }
+
+        .btn-clear:hover {
+            background-color: #e2e8f0;
+        }
+
+        /* RESULTADOS */
+        .result-container {
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #f8fafc;
+            border-left: 5px solid #FBC201;
+            border-radius: 4px;
+            display: none; /* Se muestra al calcular */
+        }
+
+        .result-item {
+            margin-bottom: 10px;
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .result-item:last-child { margin-bottom: 0; }
+
+        .highlight {
+            font-weight: 800;
+            color: #541B7C;
+        }
+
+        .footer {
+            background-color: #0A0B0D;
+            color: #999;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 480px) {
+            .banner { padding: 15px; }
+            .banner-title { font-size: 18px; }
+            .calc-card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-logo">
+                <img src="imgs/escudoPadua.png" alt="CASA de Padua" onerror="this.style.display='none'">
+            </div>
+            <div class="banner-title">CASA de Padua | Calculadora TMT</div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="calc-card">
+            <h1>Cálculo de Puntos</h1>
+            <p class="subtitle">Calculá cuántos puntos están en juego según la diferencia de rating entre los jugadores.</p>
+            
+            <div class="input-group">
+                <label for="ratingA">Rating Jugador A</label>
+                <input type="number" id="ratingA" placeholder="Ej: 1600" />
+            </div>
+
+            <div class="input-group">
+                <label for="ratingB">Rating Jugador B</label>
+                <input type="number" id="ratingB" placeholder="Ej: 1400" />
+            </div>
+
+            <div class="buttons">
+                <button class="btn-calc" onclick="calcular()">Calcular</button>
+                <button class="btn-clear" onclick="limpiar()">Limpiar</button>
+            </div>
+
+            <div id="resultado" class="result-container">
+                </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 CASA de Padua Tenis de Mesa
+    </div>
+
+    <script>
+        function puntosMayor(d) {
+            if (d >= 750) return 1;
+            if (d >= 500) return 2;
+            if (d >= 400) return 3;
+            if (d >= 300) return 4;
+            if (d >= 200) return 5;
+            if (d >= 150) return 6;
+            if (d >= 100) return 7;
+            if (d >= 50) return 8;
+            if (d >= 25) return 9;
+            return 10;
+        }
+
+        function puntosMenor(d) {
+            if (d >= 750) return 28;
+            if (d >= 500) return 26;
+            if (d >= 400) return 24;
+            if (d >= 300) return 22;
+            if (d >= 200) return 20;
+            if (d >= 150) return 18;
+            if (d >= 100) return 16;
+            if (d >= 50) return 14;
+            if (d >= 25) return 12;
+            return 10;
+        }
+
+        function calcular() {
+            const ratingA = parseInt(document.getElementById('ratingA').value);
+            const ratingB = parseInt(document.getElementById('ratingB').value);
+            const resDiv = document.getElementById('resultado');
+
+            if (isNaN(ratingA) || isNaN(ratingB)) {
+                alert('Por favor, introducí ambos ratings.');
+                return;
+            }
+
+            const diff = Math.abs(ratingA - ratingB);
+            const mayor = ratingA >= ratingB ? 'Jugador A' : 'Jugador B';
+            const menor = ratingA < ratingB ? 'Jugador A' : 'Jugador B';
+
+            resDiv.style.display = 'block';
+            resDiv.innerHTML = `
+                <div class="result-item"><span>Diferencia:</span> <span class="highlight">${diff} pts</span></div>
+                <div class="result-item"><span>Gana el mayor (${mayor}):</span> <span class="highlight">+${puntosMayor(diff)} pts</span></div>
+                <div class="result-item"><span>Gana el menor (${menor}):</span> <span class="highlight">+${puntosMenor(diff)} pts</span></div>
+            `;
+        }
+
+        function limpiar() {
+            document.getElementById('ratingA').value = '';
+            document.getElementById('ratingB').value = '';
+            const resDiv = document.getElementById('resultado');
+            resDiv.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
