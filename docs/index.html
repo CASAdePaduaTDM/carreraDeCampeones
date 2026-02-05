@@ -234,16 +234,21 @@
             const dl = document.getElementById('listaJugadores');
             dl.innerHTML = '';
         
-            jugadores.forEach(j => {
-                const label = j.club
-                    ? `${j.nombre} (${j.club})`
-                    : j.nombre;
+            jugadores
+                .slice() // no mutar el array original
+                .sort((a, b) =>
+                    a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' })
+                )
+                .forEach(j => {
+                    const label = j.club
+                        ? `${j.nombre} (${j.club})`
+                        : j.nombre;
         
-                const opt = document.createElement('option');
-                opt.value = label;
-                opt.dataset.rating = j.rating;
-                dl.appendChild(opt);
-            });
+                    const opt = document.createElement('option');
+                    opt.value = label;
+                    opt.dataset.rating = j.rating;
+                    dl.appendChild(opt);
+                });
         }
 
         function vincularAutocomplete(inputId, ratingId) {
