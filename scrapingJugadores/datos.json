@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-02-06T11:36:43.561Z",
+  "ultimaActualizacion": "2026-02-08T10:24:02.595Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
   "rankingMesActual": [
+    {
+      "idJugador": "24730",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Fernández Bonus, Manuel",
+      "categoria": "7º",
+      "puesto": 1
+    },
     {
       "idJugador": "16617",
       "mes": 2,
@@ -11,7 +20,34 @@
       "puntosTotales": 22,
       "nombreJugador": "Gerpe, Santiago Damián",
       "categoria": "4º",
-      "puesto": 1
+      "puesto": 2
+    },
+    {
+      "idJugador": "21019",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Buitron, Damian Matias",
+      "categoria": "6º",
+      "puesto": 3
+    },
+    {
+      "idJugador": "23769",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Gimenez Castillo, Bianca Donatella",
+      "categoria": "5º",
+      "puesto": 4
+    },
+    {
+      "idJugador": "24704",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 18,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "5º",
+      "puesto": 5
     },
     {
       "idJugador": "29257",
@@ -20,7 +56,7 @@
       "puntosTotales": 16,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 2
+      "puesto": 6
     },
     {
       "idJugador": "27719",
@@ -29,16 +65,16 @@
       "puntosTotales": 12,
       "nombreJugador": "Berlen, Eliana Vanina",
       "categoria": "8º",
-      "puesto": 3
+      "puesto": 7
     },
     {
-      "idJugador": "24704",
+      "idJugador": "23145",
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 10,
-      "nombreJugador": "Josid, Jorge Anibal",
+      "nombreJugador": "Marenzi, Diego Ariel",
       "categoria": "5º",
-      "puesto": 4
+      "puesto": 8
     },
     {
       "idJugador": "24731",
@@ -47,7 +83,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 5
+      "puesto": 9
+    },
+    {
+      "idJugador": "2321",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º",
+      "puesto": 10
     },
     {
       "idJugador": "18754",
@@ -56,7 +101,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Fujioka, Laura",
       "categoria": "6º",
-      "puesto": 6
+      "puesto": 11
     },
     {
       "idJugador": "20942",
@@ -65,7 +110,16 @@
       "puntosTotales": 8,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º",
-      "puesto": 7
+      "puesto": 12
+    },
+    {
+      "idJugador": "22451",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Vence, Martin",
+      "categoria": "5º",
+      "puesto": 13
     },
     {
       "idJugador": "29059",
@@ -74,7 +128,43 @@
       "puntosTotales": 8,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 8
+      "puesto": 14
+    },
+    {
+      "idJugador": "14180",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Stefanini, Sebastian",
+      "categoria": "2º",
+      "puesto": 15
+    },
+    {
+      "idJugador": "23673",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Astellano, Tomas",
+      "categoria": "4º",
+      "puesto": 16
+    },
+    {
+      "idJugador": "20706",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º",
+      "puesto": 17
+    },
+    {
+      "idJugador": "28870",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Suarez, Joaquin",
+      "categoria": "7º",
+      "puesto": 18
     }
   ],
   "rankingHistorico": [
@@ -95,10 +185,26 @@
       "categoria": "2º"
     },
     {
+      "idJugador": "2321",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º"
+    },
+    {
       "idJugador": "14180",
       "mes": 1,
       "anio": 2026,
       "puntosTotales": 30,
+      "nombreJugador": "Stefanini, Sebastian",
+      "categoria": "2º"
+    },
+    {
+      "idJugador": "14180",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 4,
       "nombreJugador": "Stefanini, Sebastian",
       "categoria": "2º"
     },
@@ -143,6 +249,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "20706",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "20942",
       "mes": 12,
       "anio": 2025,
@@ -156,6 +270,14 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "21019",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Buitron, Damian Matias",
       "categoria": "6º"
     },
     {
@@ -175,6 +297,22 @@
       "categoria": "3º"
     },
     {
+      "idJugador": "22451",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Vence, Martin",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "23145",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Marenzi, Diego Ariel",
+      "categoria": "5º"
+    },
+    {
       "idJugador": "23562",
       "mes": 1,
       "anio": 2026,
@@ -189,6 +327,22 @@
       "puntosTotales": 40,
       "nombreJugador": "Astellano, Tomas",
       "categoria": "4º"
+    },
+    {
+      "idJugador": "23673",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Astellano, Tomas",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "23769",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Gimenez Castillo, Bianca Donatella",
+      "categoria": "5º"
     },
     {
       "idJugador": "23770",
@@ -226,9 +380,17 @@
       "idJugador": "24704",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 18,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "5º"
+    },
+    {
+      "idJugador": "24730",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Fernández Bonus, Manuel",
+      "categoria": "7º"
     },
     {
       "idJugador": "24731",
@@ -340,6 +502,22 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Migliore, Hugo",
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "28870",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Suarez, Joaquin",
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "28870",
+      "mes": 1,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Suarez, Joaquin",
       "categoria": "7º"
     },
     {
@@ -490,6 +668,15 @@
       "mes": 2,
       "anio": 2026,
       "puesto": 1,
+      "idJugador": "24730",
+      "puntosTotales": 40,
+      "nombreJugador": "Fernández Bonus, Manuel",
+      "categoria": "7º"
+    },
+    {
+      "mes": 2,
+      "anio": 2026,
+      "puesto": 2,
       "idJugador": "16617",
       "puntosTotales": 22,
       "nombreJugador": "Gerpe, Santiago Damián",
@@ -498,20 +685,11 @@
     {
       "mes": 2,
       "anio": 2026,
-      "puesto": 2,
-      "idJugador": "29257",
-      "puntosTotales": 16,
-      "nombreJugador": "Puzone, Fabio",
-      "categoria": "8º"
-    },
-    {
-      "mes": 2,
-      "anio": 2026,
       "puesto": 3,
-      "idJugador": "27719",
-      "puntosTotales": 12,
-      "nombreJugador": "Berlen, Eliana Vanina",
-      "categoria": "8º"
+      "idJugador": "21019",
+      "puntosTotales": 20,
+      "nombreJugador": "Buitron, Damian Matias",
+      "categoria": "6º"
     }
   ],
   "jugadores": [
@@ -566,12 +744,6 @@
     {
       "idJugador": "20706",
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "activo": true,
-      "categoria": "6º"
-    },
-    {
-      "idJugador": "24781",
-      "nombreJugador": "Céspedes, Ricardo Luis",
       "activo": true,
       "categoria": "6º"
     },
@@ -856,6 +1028,12 @@
       "nombreJugador": "Vilte, César Pablo",
       "activo": true,
       "categoria": "4º"
+    },
+    {
+      "idJugador": "28870",
+      "nombreJugador": "Suarez, Joaquin",
+      "activo": true,
+      "categoria": "7º"
     }
   ]
 }
