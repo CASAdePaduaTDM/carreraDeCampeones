@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-02-10T12:07:56.184Z",
+  "ultimaActualizacion": "2026-02-11T12:01:15.067Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
@@ -28,7 +28,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Buitron, Damian Matias",
-      "categoria": "6º",
+      "categoria": "5º",
       "puesto": 3
     },
     {
@@ -46,7 +46,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "5º",
+      "categoria": "6º",
       "puesto": 5
     },
     {
@@ -278,7 +278,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Buitron, Damian Matias",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "22200",
@@ -366,7 +366,7 @@
       "anio": 2026,
       "puntosTotales": 180,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24704",
@@ -374,7 +374,7 @@
       "anio": 2025,
       "puntosTotales": 96,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24704",
@@ -382,7 +382,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24730",
@@ -626,7 +626,7 @@
       "idJugador": "24704",
       "puntosTotales": 96,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "mes": 12,
@@ -644,7 +644,7 @@
       "idJugador": "24704",
       "puntosTotales": 180,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "mes": 1,
@@ -689,7 +689,7 @@
       "idJugador": "21019",
       "puntosTotales": 20,
       "nombreJugador": "Buitron, Damian Matias",
-      "categoria": "6º"
+      "categoria": "5º"
     }
   ],
   "jugadores": [
@@ -739,7 +739,7 @@
       "idJugador": "21019",
       "nombreJugador": "Buitron, Damian Matias",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "20706",
@@ -871,7 +871,7 @@
       "idJugador": "24704",
       "nombreJugador": "Josid, Jorge Anibal",
       "activo": true,
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "8214",
