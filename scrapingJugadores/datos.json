@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-02-15T10:25:51.361Z",
+  "ultimaActualizacion": "2026-02-16T11:54:52.387Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
@@ -23,21 +23,21 @@
       "puesto": 2
     },
     {
+      "idJugador": "24704",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 46,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º",
+      "puesto": 3
+    },
+    {
       "idJugador": "29224",
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º",
-      "puesto": 3
-    },
-    {
-      "idJugador": "24704",
-      "mes": 2,
-      "anio": 2026,
-      "puntosTotales": 38,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º",
       "puesto": 4
     },
     {
@@ -504,7 +504,7 @@
       "idJugador": "24704",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 38,
+      "puntosTotales": 46,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
@@ -890,10 +890,10 @@
       "mes": 2,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "29224",
-      "puntosTotales": 40,
-      "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "idJugador": "24704",
+      "puntosTotales": 46,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º"
     }
   ],
   "jugadores": [
