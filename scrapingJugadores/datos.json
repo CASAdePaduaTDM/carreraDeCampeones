@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-02-17T11:55:19.375Z",
+  "ultimaActualizacion": "2026-02-18T11:53:14.395Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
@@ -14,22 +14,31 @@
       "puesto": 1
     },
     {
+      "idJugador": "24704",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 66,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º",
+      "puesto": 2
+    },
+    {
       "idJugador": "22200",
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º",
-      "puesto": 2
+      "puesto": 3
     },
     {
-      "idJugador": "24704",
+      "idJugador": "27942",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 56,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º",
-      "puesto": 3
+      "puntosTotales": 50,
+      "nombreJugador": "Olivera, Ivon",
+      "categoria": "8º",
+      "puesto": 4
     },
     {
       "idJugador": "29598",
@@ -38,7 +47,7 @@
       "puntosTotales": 50,
       "nombreJugador": "Borges, Leonardo",
       "categoria": "7º",
-      "puesto": 4
+      "puesto": 5
     },
     {
       "idJugador": "29224",
@@ -47,7 +56,7 @@
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º",
-      "puesto": 5
+      "puesto": 6
     },
     {
       "idJugador": "18754",
@@ -56,7 +65,7 @@
       "puntosTotales": 28,
       "nombreJugador": "Fujioka, Laura",
       "categoria": "6º",
-      "puesto": 6
+      "puesto": 7
     },
     {
       "idJugador": "16617",
@@ -65,7 +74,7 @@
       "puntosTotales": 22,
       "nombreJugador": "Gerpe, Santiago Damián",
       "categoria": "4º",
-      "puesto": 7
+      "puesto": 8
     },
     {
       "idJugador": "20706",
@@ -74,7 +83,7 @@
       "puntosTotales": 22,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º",
-      "puesto": 8
+      "puesto": 9
     },
     {
       "idJugador": "21019",
@@ -83,7 +92,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Buitron, Damian Matias",
       "categoria": "5º",
-      "puesto": 9
+      "puesto": 10
     },
     {
       "idJugador": "23769",
@@ -92,7 +101,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 10
+      "puesto": 11
     },
     {
       "idJugador": "24729",
@@ -101,7 +110,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Fernández Bonus, Agustín",
       "categoria": "6º",
-      "puesto": 11
+      "puesto": 12
     },
     {
       "idJugador": "27719",
@@ -110,7 +119,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Berlen, Eliana Vanina",
       "categoria": "8º",
-      "puesto": 12
+      "puesto": 13
     },
     {
       "idJugador": "27742",
@@ -119,7 +128,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º",
-      "puesto": 13
+      "puesto": 14
     },
     {
       "idJugador": "2321",
@@ -128,7 +137,7 @@
       "puntosTotales": 16,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º",
-      "puesto": 14
+      "puesto": 15
     },
     {
       "idJugador": "29257",
@@ -137,7 +146,7 @@
       "puntosTotales": 16,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 15
+      "puesto": 16
     },
     {
       "idJugador": "14180",
@@ -146,7 +155,7 @@
       "puntosTotales": 14,
       "nombreJugador": "Stefanini, Sebastian",
       "categoria": "2º",
-      "puesto": 16
+      "puesto": 17
     },
     {
       "idJugador": "16118",
@@ -155,7 +164,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º",
-      "puesto": 17
+      "puesto": 18
     },
     {
       "idJugador": "23145",
@@ -164,7 +173,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Marenzi, Diego Ariel",
       "categoria": "5º",
-      "puesto": 18
+      "puesto": 19
     },
     {
       "idJugador": "24731",
@@ -173,7 +182,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 19
+      "puesto": 20
     },
     {
       "idJugador": "25616",
@@ -182,7 +191,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Gomez, Silvina Elena",
       "categoria": "8º",
-      "puesto": 20
+      "puesto": 21
     },
     {
       "idJugador": "27062",
@@ -190,15 +199,6 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Mariani, Luciana",
-      "categoria": "8º",
-      "puesto": 21
-    },
-    {
-      "idJugador": "27942",
-      "mes": 2,
-      "anio": 2026,
-      "puntosTotales": 10,
-      "nombreJugador": "Olivera, Ivon",
       "categoria": "8º",
       "puesto": 22
     },
@@ -504,7 +504,7 @@
       "idJugador": "24704",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 56,
+      "puntosTotales": 66,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
@@ -648,7 +648,7 @@
       "idJugador": "27942",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 50,
       "nombreJugador": "Olivera, Ivon",
       "categoria": "8º"
     },
@@ -881,19 +881,19 @@
       "mes": 2,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "22200",
-      "puntosTotales": 58,
-      "nombreJugador": "Borrell, Joaquin",
-      "categoria": "3º"
+      "idJugador": "24704",
+      "puntosTotales": 66,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º"
     },
     {
       "mes": 2,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "24704",
-      "puntosTotales": 56,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "idJugador": "22200",
+      "puntosTotales": 58,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º"
     }
   ],
   "jugadores": [
