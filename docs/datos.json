@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-02-18T11:53:14.395Z",
+  "ultimaActualizacion": "2026-02-19T11:55:29.391Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
@@ -10,7 +10,7 @@
       "anio": 2026,
       "puntosTotales": 100,
       "nombreJugador": "Fernández Bonus, Manuel",
-      "categoria": "7º",
+      "categoria": "6º",
       "puesto": 1
     },
     {
@@ -55,7 +55,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 6
     },
     {
@@ -64,7 +64,7 @@
       "anio": 2026,
       "puntosTotales": 28,
       "nombreJugador": "Fujioka, Laura",
-      "categoria": "6º",
+      "categoria": "5º",
       "puesto": 7
     },
     {
@@ -208,7 +208,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 23
     },
     {
@@ -354,7 +354,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Fujioka, Laura",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "18754",
@@ -362,7 +362,7 @@
       "anio": 2026,
       "puntosTotales": 28,
       "nombreJugador": "Fujioka, Laura",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "20706",
@@ -522,7 +522,7 @@
       "anio": 2026,
       "puntosTotales": 100,
       "nombreJugador": "Fernández Bonus, Manuel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24731",
@@ -730,7 +730,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -738,7 +738,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -746,7 +746,7 @@
       "anio": 2026,
       "puntosTotales": 28,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -754,7 +754,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29257",
@@ -875,7 +875,7 @@
       "idJugador": "24730",
       "puntosTotales": 100,
       "nombreJugador": "Fernández Bonus, Manuel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "mes": 2,
@@ -988,10 +988,16 @@
       "categoria": "5º"
     },
     {
+      "idJugador": "24729",
+      "nombreJugador": "Fernández Bonus, Agustín",
+      "activo": true,
+      "categoria": "6º"
+    },
+    {
       "idJugador": "24730",
       "nombreJugador": "Fernández Bonus, Manuel",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29486",
@@ -1003,7 +1009,7 @@
       "idJugador": "18754",
       "nombreJugador": "Fujioka, Laura",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "28878",
@@ -1078,6 +1084,12 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "29078",
+      "nombreJugador": "Lopez Ramirez, Richard Jose",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
       "idJugador": "8214",
       "nombreJugador": "Luciani, Daniel Horacio",
       "activo": true,
@@ -1117,7 +1129,7 @@
       "idJugador": "29252",
       "nombreJugador": "Martinez, Román",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "23066",
@@ -1213,7 +1225,7 @@
       "idJugador": "29224",
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27731",
@@ -1236,6 +1248,18 @@
     {
       "idJugador": "28870",
       "nombreJugador": "Suarez, Joaquin",
+      "activo": true,
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "29593",
+      "nombreJugador": "Colasurdo, Macarena",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29598",
+      "nombreJugador": "Borges, Leonardo",
       "activo": true,
       "categoria": "7º"
     }
