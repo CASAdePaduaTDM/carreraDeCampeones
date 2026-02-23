@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-02-22T10:24:36.276Z",
+  "ultimaActualizacion": "2026-02-23T11:56:30.408Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
@@ -17,7 +17,7 @@
       "idJugador": "24704",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 66,
+      "puntosTotales": 76,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º",
       "puesto": 2
@@ -86,13 +86,22 @@
       "puesto": 9
     },
     {
+      "idJugador": "27742",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 22,
+      "nombreJugador": "Batagelj, María Nieves Ana",
+      "categoria": "8º",
+      "puesto": 10
+    },
+    {
       "idJugador": "21019",
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Buitron, Damian Matias",
       "categoria": "5º",
-      "puesto": 10
+      "puesto": 11
     },
     {
       "idJugador": "23769",
@@ -101,7 +110,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 11
+      "puesto": 12
     },
     {
       "idJugador": "24729",
@@ -110,7 +119,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Fernández Bonus, Agustín",
       "categoria": "6º",
-      "puesto": 12
+      "puesto": 13
     },
     {
       "idJugador": "24731",
@@ -119,7 +128,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 13
+      "puesto": 14
     },
     {
       "idJugador": "27719",
@@ -127,15 +136,6 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Berlen, Eliana Vanina",
-      "categoria": "8º",
-      "puesto": 14
-    },
-    {
-      "idJugador": "27742",
-      "mes": 2,
-      "anio": 2026,
-      "puntosTotales": 20,
-      "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º",
       "puesto": 15
     },
@@ -513,7 +513,7 @@
       "idJugador": "24704",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 66,
+      "puntosTotales": 76,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
@@ -633,7 +633,7 @@
       "idJugador": "27742",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 20,
+      "puntosTotales": 22,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º"
     },
@@ -899,7 +899,7 @@
       "anio": 2026,
       "puesto": 2,
       "idJugador": "24704",
-      "puntosTotales": 66,
+      "puntosTotales": 76,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
