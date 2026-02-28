@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-02-27T10:03:03.896Z",
+  "ultimaActualizacion": "2026-02-28T09:48:36.285Z",
   "mesActual": 2,
   "anioActual": 2026,
   "nombreMes": "Febrero",
@@ -59,13 +59,22 @@
       "puesto": 6
     },
     {
+      "idJugador": "24731",
+      "mes": 2,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 7
+    },
+    {
       "idJugador": "29224",
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º",
-      "puesto": 7
+      "puesto": 8
     },
     {
       "idJugador": "18754",
@@ -74,7 +83,7 @@
       "puntosTotales": 28,
       "nombreJugador": "Fujioka, Laura",
       "categoria": "5º",
-      "puesto": 8
+      "puesto": 9
     },
     {
       "idJugador": "16617",
@@ -83,7 +92,7 @@
       "puntosTotales": 22,
       "nombreJugador": "Gerpe, Santiago Damián",
       "categoria": "4º",
-      "puesto": 9
+      "puesto": 10
     },
     {
       "idJugador": "20706",
@@ -92,7 +101,7 @@
       "puntosTotales": 22,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º",
-      "puesto": 10
+      "puesto": 11
     },
     {
       "idJugador": "27742",
@@ -101,7 +110,7 @@
       "puntosTotales": 22,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º",
-      "puesto": 11
+      "puesto": 12
     },
     {
       "idJugador": "21019",
@@ -110,7 +119,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Buitron, Damian Matias",
       "categoria": "5º",
-      "puesto": 12
+      "puesto": 13
     },
     {
       "idJugador": "23769",
@@ -119,7 +128,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 13
+      "puesto": 14
     },
     {
       "idJugador": "24729",
@@ -128,15 +137,6 @@
       "puntosTotales": 20,
       "nombreJugador": "Fernández Bonus, Agustín",
       "categoria": "6º",
-      "puesto": 14
-    },
-    {
-      "idJugador": "24731",
-      "mes": 2,
-      "anio": 2026,
-      "puntosTotales": 20,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º",
       "puesto": 15
     },
     {
@@ -537,7 +537,7 @@
       "idJugador": "24731",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 20,
+      "puntosTotales": 40,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
