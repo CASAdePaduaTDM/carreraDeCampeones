@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-01T09:53:01.359Z",
+  "ultimaActualizacion": "2026-03-02T10:09:33.676Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -25,7 +25,7 @@
       "idJugador": "2321",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 16,
+      "puntosTotales": 24,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º"
     },
@@ -65,7 +65,7 @@
       "idJugador": "16118",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 14,
+      "puntosTotales": 18,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
@@ -73,7 +73,7 @@
       "idJugador": "16617",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 22,
+      "puntosTotales": 32,
       "nombreJugador": "Gerpe, Santiago Damián",
       "categoria": "4º"
     },
@@ -145,7 +145,7 @@
       "idJugador": "22200",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 58,
+      "puntosTotales": 62,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º"
     },
@@ -297,7 +297,7 @@
       "idJugador": "25786",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 54,
+      "puntosTotales": 58,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     },
@@ -628,7 +628,7 @@
       "anio": 2026,
       "puesto": 3,
       "idJugador": "22200",
-      "puntosTotales": 58,
+      "puntosTotales": 62,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º"
     }
