@@ -1,9 +1,55 @@
 {
-  "ultimaActualizacion": "2026-03-02T10:09:33.676Z",
+  "ultimaActualizacion": "2026-03-03T10:03:15.211Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
-  "rankingMesActual": [],
+  "rankingMesActual": [
+    {
+      "idJugador": "2321",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º",
+      "puesto": 1
+    },
+    {
+      "idJugador": "29257",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 2
+    },
+    {
+      "idJugador": "14180",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Stefanini, Sebastian",
+      "categoria": "2º",
+      "puesto": 3
+    },
+    {
+      "idJugador": "24731",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 4
+    },
+    {
+      "idJugador": "27736",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "7º",
+      "puesto": 5
+    }
+  ],
   "rankingHistorico": [
     {
       "idJugador": "2321",
@@ -30,6 +76,14 @@
       "categoria": "2º"
     },
     {
+      "idJugador": "2321",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º"
+    },
+    {
       "idJugador": "14180",
       "mes": 1,
       "anio": 2026,
@@ -42,6 +96,14 @@
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 14,
+      "nombreJugador": "Stefanini, Sebastian",
+      "categoria": "2º"
+    },
+    {
+      "idJugador": "14180",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 4,
       "nombreJugador": "Stefanini, Sebastian",
       "categoria": "2º"
     },
@@ -262,6 +324,14 @@
       "categoria": "5º"
     },
     {
+      "idJugador": "24731",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
+    },
+    {
       "idJugador": "25616",
       "mes": 1,
       "anio": 2026,
@@ -338,6 +408,14 @@
       "mes": 1,
       "anio": 2026,
       "puntosTotales": 70,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "27736",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 2,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "7º"
     },
@@ -510,6 +588,14 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "29257",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º"
+    },
+    {
       "idJugador": "29291",
       "mes": 1,
       "anio": 2026,
@@ -631,6 +717,33 @@
       "puntosTotales": 62,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º"
+    },
+    {
+      "mes": 3,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "2321",
+      "puntosTotales": 8,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º"
+    },
+    {
+      "mes": 3,
+      "anio": 2026,
+      "puesto": 2,
+      "idJugador": "29257",
+      "puntosTotales": 8,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º"
+    },
+    {
+      "mes": 3,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "14180",
+      "puntosTotales": 4,
+      "nombreJugador": "Stefanini, Sebastian",
+      "categoria": "2º"
     }
   ],
   "jugadores": [
