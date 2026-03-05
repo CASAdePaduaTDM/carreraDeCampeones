@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-04T09:39:40.125Z",
+  "ultimaActualizacion": "2026-03-05T10:04:22.385Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -247,7 +247,7 @@
       "idJugador": "23673",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 4,
       "nombreJugador": "Astellano, Tomas",
       "categoria": "4º"
     },
@@ -367,7 +367,7 @@
       "idJugador": "25786",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 116,
+      "puntosTotales": 58,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     },
@@ -391,7 +391,7 @@
       "idJugador": "27719",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 20,
       "nombreJugador": "Berlen, Eliana Vanina",
       "categoria": "8º"
     },
@@ -431,7 +431,7 @@
       "idJugador": "27742",
       "mes": 2,
       "anio": 2026,
-      "puntosTotales": 44,
+      "puntosTotales": 22,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º"
     },
@@ -695,15 +695,6 @@
       "mes": 2,
       "anio": 2026,
       "puesto": 1,
-      "idJugador": "25786",
-      "puntosTotales": 116,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
-    },
-    {
-      "mes": 2,
-      "anio": 2026,
-      "puesto": 2,
       "idJugador": "24730",
       "puntosTotales": 100,
       "nombreJugador": "Fernández Bonus, Manuel",
@@ -712,11 +703,20 @@
     {
       "mes": 2,
       "anio": 2026,
-      "puesto": 3,
+      "puesto": 2,
       "idJugador": "24704",
       "puntosTotales": 76,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
+    },
+    {
+      "mes": 2,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "22200",
+      "puntosTotales": 62,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º"
     },
     {
       "mes": 3,
