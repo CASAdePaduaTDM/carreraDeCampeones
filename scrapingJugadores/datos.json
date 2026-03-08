@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-07T09:51:21.155Z",
+  "ultimaActualizacion": "2026-03-08T09:51:27.101Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -23,13 +23,22 @@
       "puesto": 2
     },
     {
+      "idJugador": "2321",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 18,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º",
+      "puesto": 3
+    },
+    {
       "idJugador": "25786",
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "25818",
@@ -38,7 +47,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Chermaz, Juan Agustin",
       "categoria": "7º",
-      "puesto": 4
+      "puesto": 5
     },
     {
       "idJugador": "27731",
@@ -47,7 +56,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
-      "puesto": 5
+      "puesto": 6
     },
     {
       "idJugador": "29059",
@@ -56,15 +65,6 @@
       "puntosTotales": 10,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 6
-    },
-    {
-      "idJugador": "2321",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Martín, Nicolás",
-      "categoria": "2º",
       "puesto": 7
     },
     {
@@ -196,7 +196,7 @@
       "idJugador": "2321",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 18,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º"
     },
@@ -961,10 +961,10 @@
       "mes": 3,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "25786",
-      "puntosTotales": 10,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "idJugador": "2321",
+      "puntosTotales": 18,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º"
     }
   ],
   "jugadores": [
