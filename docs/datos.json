@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-08T09:51:27.101Z",
+  "ultimaActualizacion": "2026-03-09T10:10:13.929Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -23,13 +23,40 @@
       "puesto": 2
     },
     {
+      "idJugador": "20706",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º",
+      "puesto": 3
+    },
+    {
       "idJugador": "2321",
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º",
-      "puesto": 3
+      "puesto": 4
+    },
+    {
+      "idJugador": "27982",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 18,
+      "nombreJugador": "Couso, Jorge Omar",
+      "categoria": "7º",
+      "puesto": 5
+    },
+    {
+      "idJugador": "24704",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º",
+      "puesto": 6
     },
     {
       "idJugador": "25786",
@@ -38,7 +65,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º",
-      "puesto": 4
+      "puesto": 7
     },
     {
       "idJugador": "25818",
@@ -47,7 +74,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Chermaz, Juan Agustin",
       "categoria": "7º",
-      "puesto": 5
+      "puesto": 8
     },
     {
       "idJugador": "27731",
@@ -56,7 +83,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
-      "puesto": 6
+      "puesto": 9
     },
     {
       "idJugador": "29059",
@@ -65,7 +92,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 7
+      "puesto": 10
     },
     {
       "idJugador": "13463",
@@ -74,16 +101,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Siepe, Valeria Laura",
       "categoria": "7º",
-      "puesto": 8
-    },
-    {
-      "idJugador": "27982",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Couso, Jorge Omar",
-      "categoria": "7º",
-      "puesto": 9
+      "puesto": 11
     },
     {
       "idJugador": "29090",
@@ -92,7 +110,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Valldosera Broffoni, Thiago Demian",
       "categoria": "7º",
-      "puesto": 10
+      "puesto": 12
     },
     {
       "idJugador": "29257",
@@ -101,7 +119,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 11
+      "puesto": 13
     },
     {
       "idJugador": "29467",
@@ -110,7 +128,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Suarez, Marcos",
       "categoria": "7º",
-      "puesto": 12
+      "puesto": 14
     },
     {
       "idJugador": "29486",
@@ -119,7 +137,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "7º",
-      "puesto": 13
+      "puesto": 15
     },
     {
       "idJugador": "29598",
@@ -128,7 +146,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Borges, Leonardo",
       "categoria": "7º",
-      "puesto": 14
+      "puesto": 16
     },
     {
       "idJugador": "14180",
@@ -137,7 +155,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Stefanini, Sebastian",
       "categoria": "2º",
-      "puesto": 15
+      "puesto": 17
     },
     {
       "idJugador": "24731",
@@ -146,7 +164,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 16
+      "puesto": 18
     },
     {
       "idJugador": "29078",
@@ -155,7 +173,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Lopez Ramirez, Richard Jose",
       "categoria": "8º",
-      "puesto": 17
+      "puesto": 19
     },
     {
       "idJugador": "29224",
@@ -164,7 +182,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º",
-      "puesto": 18
+      "puesto": 20
     }
   ],
   "rankingHistorico": [
@@ -285,6 +303,14 @@
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 22,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "20706",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 20,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º"
     },
@@ -421,6 +447,14 @@
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 76,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "24704",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
@@ -628,7 +662,7 @@
       "idJugador": "27982",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 18,
       "nombreJugador": "Couso, Jorge Omar",
       "categoria": "7º"
     },
@@ -961,10 +995,10 @@
       "mes": 3,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "2321",
-      "puntosTotales": 18,
-      "nombreJugador": "Martín, Nicolás",
-      "categoria": "2º"
+      "idJugador": "20706",
+      "puntosTotales": 20,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º"
     }
   ],
   "jugadores": [
