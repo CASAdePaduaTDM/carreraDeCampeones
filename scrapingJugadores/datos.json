@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-09T10:10:13.929Z",
+  "ultimaActualizacion": "2026-03-10T10:05:39.411Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -32,13 +32,31 @@
       "puesto": 3
     },
     {
+      "idJugador": "20942",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º",
+      "puesto": 4
+    },
+    {
+      "idJugador": "24704",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º",
+      "puesto": 5
+    },
+    {
       "idJugador": "2321",
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º",
-      "puesto": 4
+      "puesto": 6
     },
     {
       "idJugador": "27982",
@@ -47,16 +65,7 @@
       "puntosTotales": 18,
       "nombreJugador": "Couso, Jorge Omar",
       "categoria": "7º",
-      "puesto": 5
-    },
-    {
-      "idJugador": "24704",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 10,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º",
-      "puesto": 6
+      "puesto": 7
     },
     {
       "idJugador": "25786",
@@ -65,7 +74,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º",
-      "puesto": 7
+      "puesto": 8
     },
     {
       "idJugador": "25818",
@@ -74,7 +83,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Chermaz, Juan Agustin",
       "categoria": "7º",
-      "puesto": 8
+      "puesto": 9
     },
     {
       "idJugador": "27731",
@@ -83,7 +92,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
-      "puesto": 9
+      "puesto": 10
     },
     {
       "idJugador": "29059",
@@ -92,7 +101,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 10
+      "puesto": 11
     },
     {
       "idJugador": "13463",
@@ -101,7 +110,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Siepe, Valeria Laura",
       "categoria": "7º",
-      "puesto": 11
+      "puesto": 12
     },
     {
       "idJugador": "29090",
@@ -110,7 +119,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Valldosera Broffoni, Thiago Demian",
       "categoria": "7º",
-      "puesto": 12
+      "puesto": 13
     },
     {
       "idJugador": "29257",
@@ -119,7 +128,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 13
+      "puesto": 14
     },
     {
       "idJugador": "29467",
@@ -128,7 +137,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Suarez, Marcos",
       "categoria": "7º",
-      "puesto": 14
+      "puesto": 15
     },
     {
       "idJugador": "29486",
@@ -137,7 +146,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "7º",
-      "puesto": 15
+      "puesto": 16
     },
     {
       "idJugador": "29598",
@@ -146,7 +155,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Borges, Leonardo",
       "categoria": "7º",
-      "puesto": 16
+      "puesto": 17
     },
     {
       "idJugador": "14180",
@@ -155,7 +164,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Stefanini, Sebastian",
       "categoria": "2º",
-      "puesto": 17
+      "puesto": 18
     },
     {
       "idJugador": "24731",
@@ -164,7 +173,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 18
+      "puesto": 19
     },
     {
       "idJugador": "29078",
@@ -173,7 +182,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Lopez Ramirez, Richard Jose",
       "categoria": "8º",
-      "puesto": 19
+      "puesto": 20
     },
     {
       "idJugador": "29224",
@@ -182,7 +191,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º",
-      "puesto": 20
+      "puesto": 21
     }
   ],
   "rankingHistorico": [
@@ -331,6 +340,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "20942",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "21019",
       "mes": 2,
       "anio": 2026,
@@ -454,7 +471,7 @@
       "idJugador": "24704",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 20,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
