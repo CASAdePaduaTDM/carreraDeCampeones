@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-10T10:05:39.411Z",
+  "ultimaActualizacion": "2026-03-11T10:03:59.814Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -64,7 +64,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Couso, Jorge Omar",
-      "categoria": "7º",
+      "categoria": "8º",
       "puesto": 7
     },
     {
@@ -190,7 +190,7 @@
       "anio": 2026,
       "puntosTotales": 4,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º",
+      "categoria": "8º",
       "puesto": 21
     }
   ],
@@ -681,7 +681,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Couso, Jorge Omar",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "28406",
@@ -785,7 +785,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -793,7 +793,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -801,7 +801,7 @@
       "anio": 2026,
       "puntosTotales": 4,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29252",
@@ -1098,6 +1098,12 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "27982",
+      "nombreJugador": "Couso, Jorge Omar",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
       "idJugador": "25615",
       "nombreJugador": "Espindola, Alba Silvia",
       "activo": true,
@@ -1314,6 +1320,12 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "13463",
+      "nombreJugador": "Siepe, Valeria Laura",
+      "activo": true,
+      "categoria": "7º"
+    },
+    {
       "idJugador": "28881",
       "nombreJugador": "Silva, Sebastian",
       "activo": true,
@@ -1347,7 +1359,7 @@
       "idJugador": "29224",
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "27731",
