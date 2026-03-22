@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-03-21T09:55:57.783Z",
+  "ultimaActualizacion": "2026-03-22T09:55:45.392Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
   "rankingMesActual": [
+    {
+      "idJugador": "24704",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 88,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º",
+      "puesto": 1
+    },
     {
       "idJugador": "23770",
       "mes": 3,
@@ -11,7 +20,7 @@
       "puntosTotales": 40,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º",
-      "puesto": 1
+      "puesto": 2
     },
     {
       "idJugador": "26909",
@@ -20,15 +29,6 @@
       "puntosTotales": 40,
       "nombreJugador": "Bassi, Guillermo",
       "categoria": "7º",
-      "puesto": 2
-    },
-    {
-      "idJugador": "24704",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 38,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º",
       "puesto": 3
     },
     {
@@ -591,7 +591,7 @@
       "idJugador": "24704",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 38,
+      "puntosTotales": 88,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "6º"
     },
@@ -1130,6 +1130,15 @@
       "mes": 3,
       "anio": 2026,
       "puesto": 1,
+      "idJugador": "24704",
+      "puntosTotales": 88,
+      "nombreJugador": "Josid, Jorge Anibal",
+      "categoria": "6º"
+    },
+    {
+      "mes": 3,
+      "anio": 2026,
+      "puesto": 2,
       "idJugador": "23770",
       "puntosTotales": 40,
       "nombreJugador": "Gimenez, Aurelio Fernando",
@@ -1138,20 +1147,11 @@
     {
       "mes": 3,
       "anio": 2026,
-      "puesto": 2,
+      "puesto": 3,
       "idJugador": "26909",
       "puntosTotales": 40,
       "nombreJugador": "Bassi, Guillermo",
       "categoria": "7º"
-    },
-    {
-      "mes": 3,
-      "anio": 2026,
-      "puesto": 3,
-      "idJugador": "24704",
-      "puntosTotales": 38,
-      "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
     }
   ],
   "jugadores": [
