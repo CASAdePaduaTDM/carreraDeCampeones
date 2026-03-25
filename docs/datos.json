@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-24T10:19:38.857Z",
+  "ultimaActualizacion": "2026-03-25T10:16:48.775Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -26,7 +26,7 @@
       "idJugador": "27731",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 60,
+      "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
       "puesto": 3
@@ -35,7 +35,7 @@
       "idJugador": "16118",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 42,
+      "puntosTotales": 50,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º",
       "puesto": 4
@@ -89,10 +89,37 @@
       "idJugador": "29059",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 30,
+      "puntosTotales": 38,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
       "puesto": 10
+    },
+    {
+      "idJugador": "24731",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 30,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 11
+    },
+    {
+      "idJugador": "27736",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 30,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "7º",
+      "puesto": 12
+    },
+    {
+      "idJugador": "29224",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 26,
+      "nombreJugador": "Vega Lavergne, Felipe Simon",
+      "categoria": "8º",
+      "puesto": 13
     },
     {
       "idJugador": "29257",
@@ -100,33 +127,6 @@
       "anio": 2026,
       "puntosTotales": 26,
       "nombreJugador": "Puzone, Fabio",
-      "categoria": "8º",
-      "puesto": 11
-    },
-    {
-      "idJugador": "24731",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 22,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º",
-      "puesto": 12
-    },
-    {
-      "idJugador": "27736",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 22,
-      "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º",
-      "puesto": 13
-    },
-    {
-      "idJugador": "29224",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 22,
-      "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º",
       "puesto": 14
     },
@@ -293,13 +293,22 @@
       "puesto": 32
     },
     {
+      "idJugador": "28589",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Migliore, Hugo",
+      "categoria": "7º",
+      "puesto": 33
+    },
+    {
       "idJugador": "29078",
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 4,
       "nombreJugador": "Lopez Ramirez, Richard Jose",
       "categoria": "8º",
-      "puesto": 33
+      "puesto": 34
     }
   ],
   "rankingHistorico": [
@@ -395,7 +404,7 @@
       "idJugador": "16118",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 42,
+      "puntosTotales": 50,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
@@ -659,7 +668,7 @@
       "idJugador": "24731",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 22,
+      "puntosTotales": 30,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -763,7 +772,7 @@
       "idJugador": "27731",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 60,
+      "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º"
     },
@@ -779,7 +788,7 @@
       "idJugador": "27736",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 22,
+      "puntosTotales": 30,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "7º"
     },
@@ -872,6 +881,14 @@
       "categoria": "7º"
     },
     {
+      "idJugador": "28589",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Migliore, Hugo",
+      "categoria": "7º"
+    },
+    {
       "idJugador": "28870",
       "mes": 2,
       "anio": 2026,
@@ -923,7 +940,7 @@
       "idJugador": "29059",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 30,
+      "puntosTotales": 38,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º"
     },
@@ -979,7 +996,7 @@
       "idJugador": "29224",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 22,
+      "puntosTotales": 26,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º"
     },
@@ -1217,7 +1234,7 @@
       "anio": 2026,
       "puesto": 3,
       "idJugador": "27731",
-      "puntosTotales": 60,
+      "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º"
     }
