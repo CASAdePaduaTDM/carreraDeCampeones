@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-25T10:16:48.775Z",
+  "ultimaActualizacion": "2026-03-26T10:36:14.634Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -10,7 +10,7 @@
       "anio": 2026,
       "puntosTotales": 88,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º",
+      "categoria": "5º",
       "puesto": 1
     },
     {
@@ -28,7 +28,7 @@
       "anio": 2026,
       "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "7º",
+      "categoria": "6º",
       "puesto": 3
     },
     {
@@ -614,7 +614,7 @@
       "anio": 2026,
       "puntosTotales": 180,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24704",
@@ -622,7 +622,7 @@
       "anio": 2025,
       "puntosTotales": 96,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24704",
@@ -630,7 +630,7 @@
       "anio": 2026,
       "puntosTotales": 76,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24704",
@@ -638,7 +638,7 @@
       "anio": 2026,
       "puntosTotales": 88,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24729",
@@ -766,7 +766,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27731",
@@ -774,7 +774,7 @@
       "anio": 2026,
       "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27736",
@@ -1146,7 +1146,7 @@
       "idJugador": "24704",
       "puntosTotales": 96,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 12,
@@ -1164,7 +1164,7 @@
       "idJugador": "24704",
       "puntosTotales": 180,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 1,
@@ -1200,7 +1200,7 @@
       "idJugador": "24704",
       "puntosTotales": 76,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 2,
@@ -1218,7 +1218,7 @@
       "idJugador": "24704",
       "puntosTotales": 88,
       "nombreJugador": "Josid, Jorge Anibal",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 3,
@@ -1236,7 +1236,7 @@
       "idJugador": "27731",
       "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "7º"
+      "categoria": "6º"
     }
   ],
   "jugadores": [
@@ -1421,16 +1421,10 @@
       "categoria": "7º"
     },
     {
-      "idJugador": "15458",
-      "nombreJugador": "Imbrioscia, Federico Lionel",
-      "activo": true,
-      "categoria": "6º"
-    },
-    {
       "idJugador": "24704",
       "nombreJugador": "Josid, Jorge Anibal",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "29078",
@@ -1586,7 +1580,7 @@
       "idJugador": "27731",
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "22451",
@@ -1617,6 +1611,12 @@
       "nombreJugador": "Borges, Leonardo",
       "activo": true,
       "categoria": "7º"
+    },
+    {
+      "idJugador": "29791",
+      "nombreJugador": "Pomarolli, Pablo",
+      "activo": true,
+      "categoria": "8º"
     }
   ]
 }
