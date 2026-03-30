@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-29T09:59:50.269Z",
+  "ultimaActualizacion": "2026-03-30T10:40:08.751Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -17,10 +17,19 @@
       "idJugador": "25786",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 80,
+      "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º",
       "puesto": 2
+    },
+    {
+      "idJugador": "16118",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 68,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º",
+      "puesto": 3
     },
     {
       "idJugador": "27731",
@@ -29,16 +38,25 @@
       "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "6º",
-      "puesto": 3
+      "puesto": 4
     },
     {
-      "idJugador": "16118",
+      "idJugador": "16617",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 50,
-      "nombreJugador": "Rienda, Javier",
+      "puntosTotales": 52,
+      "nombreJugador": "Gerpe, Santiago Damián",
       "categoria": "4º",
-      "puesto": 4
+      "puesto": 5
+    },
+    {
+      "idJugador": "29486",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 48,
+      "nombreJugador": "Ferracuti, Gabriel",
+      "categoria": "7º",
+      "puesto": 6
     },
     {
       "idJugador": "20942",
@@ -47,7 +65,7 @@
       "puntosTotales": 40,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º",
-      "puesto": 5
+      "puesto": 7
     },
     {
       "idJugador": "23770",
@@ -56,7 +74,7 @@
       "puntosTotales": 40,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º",
-      "puesto": 6
+      "puesto": 8
     },
     {
       "idJugador": "26909",
@@ -65,7 +83,16 @@
       "puntosTotales": 40,
       "nombreJugador": "Bassi, Guillermo",
       "categoria": "7º",
-      "puesto": 7
+      "puesto": 9
+    },
+    {
+      "idJugador": "27736",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "7º",
+      "puesto": 10
     },
     {
       "idJugador": "29252",
@@ -74,7 +101,7 @@
       "puntosTotales": 40,
       "nombreJugador": "Martinez, Román",
       "categoria": "7º",
-      "puesto": 8
+      "puesto": 11
     },
     {
       "idJugador": "20706",
@@ -83,7 +110,16 @@
       "puntosTotales": 38,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º",
-      "puesto": 9
+      "puesto": 12
+    },
+    {
+      "idJugador": "24731",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 38,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 13
     },
     {
       "idJugador": "29059",
@@ -92,25 +128,16 @@
       "puntosTotales": 38,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 10
+      "puesto": 14
     },
     {
-      "idJugador": "24731",
+      "idJugador": "27982",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 30,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º",
-      "puesto": 11
-    },
-    {
-      "idJugador": "27736",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 30,
-      "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º",
-      "puesto": 12
+      "puntosTotales": 26,
+      "nombreJugador": "Couso, Jorge Omar",
+      "categoria": "8º",
+      "puesto": 15
     },
     {
       "idJugador": "29224",
@@ -119,7 +146,7 @@
       "puntosTotales": 26,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º",
-      "puesto": 13
+      "puesto": 16
     },
     {
       "idJugador": "29257",
@@ -128,7 +155,7 @@
       "puntosTotales": 26,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 14
+      "puesto": 17
     },
     {
       "idJugador": "24024",
@@ -137,7 +164,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Petkovsek, Mario",
       "categoria": "5º",
-      "puesto": 15
+      "puesto": 18
     },
     {
       "idJugador": "27942",
@@ -146,7 +173,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Olivera, Ivon",
       "categoria": "8º",
-      "puesto": 16
+      "puesto": 19
     },
     {
       "idJugador": "29593",
@@ -155,7 +182,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Colasurdo, Macarena",
       "categoria": "8º",
-      "puesto": 17
+      "puesto": 20
     },
     {
       "idJugador": "2321",
@@ -164,16 +191,7 @@
       "puntosTotales": 18,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º",
-      "puesto": 18
-    },
-    {
-      "idJugador": "27982",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 18,
-      "nombreJugador": "Couso, Jorge Omar",
-      "categoria": "8º",
-      "puesto": 19
+      "puesto": 21
     },
     {
       "idJugador": "28881",
@@ -182,16 +200,16 @@
       "puntosTotales": 18,
       "nombreJugador": "Silva, Sebastian",
       "categoria": "8º",
-      "puesto": 20
+      "puesto": 22
     },
     {
-      "idJugador": "16617",
+      "idJugador": "29467",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 12,
-      "nombreJugador": "Gerpe, Santiago Damián",
-      "categoria": "4º",
-      "puesto": 21
+      "puntosTotales": 16,
+      "nombreJugador": "Suarez, Marcos",
+      "categoria": "7º",
+      "puesto": 23
     },
     {
       "idJugador": "25818",
@@ -200,7 +218,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Chermaz, Juan Agustin",
       "categoria": "7º",
-      "puesto": 22
+      "puesto": 24
+    },
+    {
+      "idJugador": "29090",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Valldosera Broffoni, Thiago Demian",
+      "categoria": "7º",
+      "puesto": 25
     },
     {
       "idJugador": "29791",
@@ -209,7 +236,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º",
-      "puesto": 23
+      "puesto": 26
     },
     {
       "idJugador": "13463",
@@ -218,7 +245,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Siepe, Valeria Laura",
       "categoria": "7º",
-      "puesto": 24
+      "puesto": 27
     },
     {
       "idJugador": "18754",
@@ -227,7 +254,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Fujioka, Laura",
       "categoria": "5º",
-      "puesto": 25
+      "puesto": 28
     },
     {
       "idJugador": "22200",
@@ -236,34 +263,25 @@
       "puntosTotales": 8,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º",
-      "puesto": 26
-    },
-    {
-      "idJugador": "29090",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Valldosera Broffoni, Thiago Demian",
-      "categoria": "7º",
-      "puesto": 27
-    },
-    {
-      "idJugador": "29467",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º",
-      "puesto": 28
-    },
-    {
-      "idJugador": "29486",
-      "mes": 3,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º",
       "puesto": 29
+    },
+    {
+      "idJugador": "23145",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Marenzi, Diego Ariel",
+      "categoria": "5º",
+      "puesto": 30
+    },
+    {
+      "idJugador": "25616",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Gomez, Silvina Elena",
+      "categoria": "8º",
+      "puesto": 31
     },
     {
       "idJugador": "29598",
@@ -272,7 +290,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Borges, Leonardo",
       "categoria": "7º",
-      "puesto": 30
+      "puesto": 32
     },
     {
       "idJugador": "14180",
@@ -281,7 +299,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Stefanini, Sebastian",
       "categoria": "2º",
-      "puesto": 31
+      "puesto": 33
     },
     {
       "idJugador": "27742",
@@ -290,7 +308,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º",
-      "puesto": 32
+      "puesto": 34
     },
     {
       "idJugador": "28589",
@@ -299,7 +317,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Migliore, Hugo",
       "categoria": "7º",
-      "puesto": 33
+      "puesto": 35
     },
     {
       "idJugador": "29078",
@@ -308,7 +326,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Lopez Ramirez, Richard Jose",
       "categoria": "8º",
-      "puesto": 34
+      "puesto": 36
     }
   ],
   "rankingHistorico": [
@@ -404,7 +422,7 @@
       "idJugador": "16118",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 50,
+      "puntosTotales": 68,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
@@ -420,7 +438,7 @@
       "idJugador": "16617",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 12,
+      "puntosTotales": 52,
       "nombreJugador": "Gerpe, Santiago Damián",
       "categoria": "4º"
     },
@@ -541,6 +559,14 @@
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 10,
+      "nombreJugador": "Marenzi, Diego Ariel",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "23145",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Marenzi, Diego Ariel",
       "categoria": "5º"
     },
@@ -668,7 +694,7 @@
       "idJugador": "24731",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 30,
+      "puntosTotales": 38,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -685,6 +711,14 @@
       "mes": 2,
       "anio": 2026,
       "puntosTotales": 10,
+      "nombreJugador": "Gomez, Silvina Elena",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "25616",
+      "mes": 3,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Gomez, Silvina Elena",
       "categoria": "8º"
     },
@@ -716,7 +750,7 @@
       "idJugador": "25786",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 80,
+      "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     },
@@ -788,7 +822,7 @@
       "idJugador": "27736",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 30,
+      "puntosTotales": 40,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "7º"
     },
@@ -860,7 +894,7 @@
       "idJugador": "27982",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 18,
+      "puntosTotales": 26,
       "nombreJugador": "Couso, Jorge Omar",
       "categoria": "8º"
     },
@@ -972,7 +1006,7 @@
       "idJugador": "29090",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 10,
       "nombreJugador": "Valldosera Broffoni, Thiago Demian",
       "categoria": "7º"
     },
@@ -1068,7 +1102,7 @@
       "idJugador": "29467",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 16,
       "nombreJugador": "Suarez, Marcos",
       "categoria": "7º"
     },
@@ -1084,7 +1118,7 @@
       "idJugador": "29486",
       "mes": 3,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 48,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "7º"
     },
@@ -1225,7 +1259,7 @@
       "anio": 2026,
       "puesto": 2,
       "idJugador": "25786",
-      "puntosTotales": 80,
+      "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     },
@@ -1233,10 +1267,10 @@
       "mes": 3,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "27731",
+      "idJugador": "16118",
       "puntosTotales": 68,
-      "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "6º"
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º"
     }
   ],
   "jugadores": [
