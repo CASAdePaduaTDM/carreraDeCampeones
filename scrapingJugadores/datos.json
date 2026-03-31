@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-03-30T10:40:08.751Z",
+  "ultimaActualizacion": "2026-03-31T10:28:18.388Z",
   "mesActual": 3,
   "anioActual": 2026,
   "nombreMes": "Marzo",
@@ -208,7 +208,7 @@
       "anio": 2026,
       "puntosTotales": 16,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º",
+      "categoria": "8º",
       "puesto": 23
     },
     {
@@ -1096,7 +1096,7 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29467",
@@ -1104,7 +1104,7 @@
       "anio": 2026,
       "puntosTotales": 16,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29486",
@@ -1359,12 +1359,6 @@
       "categoria": "8º"
     },
     {
-      "idJugador": "25615",
-      "nombreJugador": "Espindola, Alba Silvia",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
       "idJugador": "24731",
       "nombreJugador": "Fernández, Pelu",
       "activo": true,
@@ -1563,12 +1557,6 @@
       "categoria": "7º"
     },
     {
-      "idJugador": "27101",
-      "nombreJugador": "Sibuet, Tiago",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
       "idJugador": "13463",
       "nombreJugador": "Siepe, Valeria Laura",
       "activo": true,
@@ -1590,7 +1578,7 @@
       "idJugador": "29467",
       "nombreJugador": "Suarez, Marcos",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "20942",
