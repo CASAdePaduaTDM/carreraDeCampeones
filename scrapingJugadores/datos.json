@@ -1,9 +1,19 @@
 {
-  "ultimaActualizacion": "2026-04-03T10:17:09.987Z",
+  "ultimaActualizacion": "2026-04-04T10:00:47.506Z",
   "mesActual": 4,
   "anioActual": 2026,
   "nombreMes": "Abril",
-  "rankingMesActual": [],
+  "rankingMesActual": [
+    {
+      "idJugador": "24731",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 1
+    }
+  ],
   "rankingHistorico": [
     {
       "idJugador": "2321",
@@ -370,6 +380,14 @@
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 38,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "24731",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -946,6 +964,15 @@
       "puntosTotales": 68,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
+    },
+    {
+      "mes": 4,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "24731",
+      "puntosTotales": 10,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
     }
   ],
   "jugadores": [
