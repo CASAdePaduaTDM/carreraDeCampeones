@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-04-09T10:36:32.231Z",
+  "ultimaActualizacion": "2026-04-10T10:33:03.298Z",
   "mesActual": 4,
   "anioActual": 2026,
   "nombreMes": "Abril",
@@ -8,7 +8,7 @@
       "idJugador": "24731",
       "mes": 4,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 30,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
       "puesto": 1
@@ -387,7 +387,7 @@
       "idJugador": "24731",
       "mes": 4,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 30,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -970,7 +970,7 @@
       "anio": 2026,
       "puesto": 1,
       "idJugador": "24731",
-      "puntosTotales": 10,
+      "puntosTotales": 30,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     }
