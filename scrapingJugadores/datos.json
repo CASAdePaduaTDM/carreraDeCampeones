@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-04-10T10:33:03.298Z",
+  "ultimaActualizacion": "2026-04-11T10:05:46.141Z",
   "mesActual": 4,
   "anioActual": 2026,
   "nombreMes": "Abril",
   "rankingMesActual": [
+    {
+      "idJugador": "25786",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "5º",
+      "puesto": 1
+    },
     {
       "idJugador": "24731",
       "mes": 4,
@@ -11,7 +20,7 @@
       "puntosTotales": 30,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 1
+      "puesto": 2
     }
   ],
   "rankingHistorico": [
@@ -444,6 +453,14 @@
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 88,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "25786",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 40,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     },
@@ -969,6 +986,15 @@
       "mes": 4,
       "anio": 2026,
       "puesto": 1,
+      "idJugador": "25786",
+      "puntosTotales": 40,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "5º"
+    },
+    {
+      "mes": 4,
+      "anio": 2026,
+      "puesto": 2,
       "idJugador": "24731",
       "puntosTotales": 30,
       "nombreJugador": "Fernández, Pelu",
