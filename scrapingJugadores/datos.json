@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-04-11T10:05:46.141Z",
+  "ultimaActualizacion": "2026-04-12T10:08:57.335Z",
   "mesActual": 4,
   "anioActual": 2026,
   "nombreMes": "Abril",
@@ -21,6 +21,42 @@
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
       "puesto": 2
+    },
+    {
+      "idJugador": "27736",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "7º",
+      "puesto": 3
+    },
+    {
+      "idJugador": "29059",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º",
+      "puesto": 4
+    },
+    {
+      "idJugador": "27731",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Vega Lavergne, Martin Jesus",
+      "categoria": "6º",
+      "puesto": 5
+    },
+    {
+      "idJugador": "27982",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Couso, Jorge Omar",
+      "categoria": "8º",
+      "puesto": 6
     }
   ],
   "rankingHistorico": [
@@ -521,6 +557,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "27731",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Vega Lavergne, Martin Jesus",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "27736",
       "mes": 1,
       "anio": 2026,
@@ -533,6 +577,14 @@
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 40,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "27736",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "7º"
     },
@@ -605,6 +657,14 @@
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 26,
+      "nombreJugador": "Couso, Jorge Omar",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "27982",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Couso, Jorge Omar",
       "categoria": "8º"
     },
@@ -685,6 +745,14 @@
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 38,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "29059",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º"
     },
@@ -999,6 +1067,15 @@
       "puntosTotales": 30,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
+    },
+    {
+      "mes": 4,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "27736",
+      "puntosTotales": 10,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "7º"
     }
   ],
   "jugadores": [
