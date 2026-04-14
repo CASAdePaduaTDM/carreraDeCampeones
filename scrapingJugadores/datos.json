@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-04-13T11:00:14.049Z",
+  "ultimaActualizacion": "2026-04-14T10:42:27.880Z",
   "mesActual": 4,
   "anioActual": 2026,
   "nombreMes": "Abril",
@@ -17,10 +17,19 @@
       "idJugador": "24731",
       "mes": 4,
       "anio": 2026,
-      "puntosTotales": 30,
+      "puntosTotales": 34,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
       "puesto": 2
+    },
+    {
+      "idJugador": "20706",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º",
+      "puesto": 3
     },
     {
       "idJugador": "27736",
@@ -29,7 +38,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "7º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "29059",
@@ -38,7 +47,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 4
+      "puesto": 5
+    },
+    {
+      "idJugador": "16118",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º",
+      "puesto": 6
     },
     {
       "idJugador": "27731",
@@ -47,7 +65,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "6º",
-      "puesto": 5
+      "puesto": 7
     },
     {
       "idJugador": "27982",
@@ -56,7 +74,16 @@
       "puntosTotales": 8,
       "nombreJugador": "Couso, Jorge Omar",
       "categoria": "8º",
-      "puesto": 6
+      "puesto": 8
+    },
+    {
+      "idJugador": "29257",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 9
     }
   ],
   "rankingHistorico": [
@@ -157,6 +184,14 @@
       "categoria": "4º"
     },
     {
+      "idJugador": "16118",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º"
+    },
+    {
       "idJugador": "16617",
       "mes": 2,
       "anio": 2026,
@@ -209,6 +244,14 @@
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 38,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "20706",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º"
     },
@@ -432,7 +475,7 @@
       "idJugador": "24731",
       "mes": 4,
       "anio": 2026,
-      "puntosTotales": 30,
+      "puntosTotales": 34,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -861,6 +904,14 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "29257",
+      "mes": 4,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º"
+    },
+    {
       "idJugador": "29291",
       "mes": 1,
       "anio": 2026,
@@ -1064,7 +1115,7 @@
       "anio": 2026,
       "puesto": 2,
       "idJugador": "24731",
-      "puntosTotales": 30,
+      "puntosTotales": 34,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -1072,10 +1123,10 @@
       "mes": 4,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "27736",
+      "idJugador": "20706",
       "puntosTotales": 10,
-      "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º"
     }
   ],
   "jugadores": [
