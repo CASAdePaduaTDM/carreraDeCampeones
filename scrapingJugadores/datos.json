@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-04-14T10:42:27.880Z",
+  "ultimaActualizacion": "2026-04-15T10:44:42.052Z",
   "mesActual": 4,
   "anioActual": 2026,
   "nombreMes": "Abril",
@@ -64,7 +64,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "6º",
+      "categoria": "7º",
       "puesto": 7
     },
     {
@@ -589,7 +589,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27731",
@@ -597,7 +597,7 @@
       "anio": 2026,
       "puntosTotales": 68,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27731",
@@ -605,7 +605,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27736",
@@ -1458,7 +1458,7 @@
       "idJugador": "27731",
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "22451",
