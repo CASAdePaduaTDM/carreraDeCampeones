@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-04-21T10:44:03.089Z",
+  "ultimaActualizacion": "2026-04-22T10:44:19.469Z",
   "mesActual": 4,
   "anioActual": 2026,
   "nombreMes": "Abril",
@@ -8,9 +8,9 @@
       "idJugador": "25786",
       "mes": 4,
       "anio": 2026,
-      "puntosTotales": 90,
+      "puntosTotales": 100,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º",
+      "categoria": "4º",
       "puesto": 1
     },
     {
@@ -181,7 +181,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Bassi, Guillermo",
-      "categoria": "7º",
+      "categoria": "6º",
       "puesto": 20
     },
     {
@@ -199,7 +199,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º",
+      "categoria": "6º",
       "puesto": 22
     },
     {
@@ -262,7 +262,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Martinez, Román",
-      "categoria": "7º",
+      "categoria": "8º",
       "puesto": 29
     },
     {
@@ -908,7 +908,7 @@
       "anio": 2026,
       "puntosTotales": 70,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -916,7 +916,7 @@
       "anio": 2025,
       "puntosTotales": 32,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -924,7 +924,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -932,15 +932,15 @@
       "anio": 2026,
       "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
       "mes": 4,
       "anio": 2026,
-      "puntosTotales": 90,
+      "puntosTotales": 100,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25818",
@@ -972,7 +972,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Bassi, Guillermo",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "26909",
@@ -980,7 +980,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Bassi, Guillermo",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27062",
@@ -1332,7 +1332,7 @@
       "anio": 2026,
       "puntosTotales": 28,
       "nombreJugador": "Martinez, Román",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29252",
@@ -1340,7 +1340,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Martinez, Román",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29252",
@@ -1348,7 +1348,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Martinez, Román",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29252",
@@ -1356,7 +1356,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Martinez, Román",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29257",
@@ -1428,7 +1428,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29486",
@@ -1436,7 +1436,7 @@
       "anio": 2026,
       "puntosTotales": 48,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29486",
@@ -1444,7 +1444,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29593",
@@ -1563,7 +1563,7 @@
       "idJugador": "25786",
       "puntosTotales": 70,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 1,
@@ -1617,7 +1617,7 @@
       "idJugador": "25786",
       "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 3,
@@ -1633,9 +1633,9 @@
       "anio": 2026,
       "puesto": 1,
       "idJugador": "25786",
-      "puntosTotales": 90,
+      "puntosTotales": 100,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 4,
@@ -1673,13 +1673,19 @@
       "idJugador": "26909",
       "nombreJugador": "Bassi, Guillermo",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27742",
       "nombreJugador": "Batagelj, María Nieves Ana",
       "activo": true,
       "categoria": "8º"
+    },
+    {
+      "idJugador": "15631",
+      "nombreJugador": "Belsito, Martin Miguel",
+      "activo": true,
+      "categoria": "6º"
     },
     {
       "idJugador": "27719",
@@ -1691,7 +1697,7 @@
       "idJugador": "25786",
       "nombreJugador": "Bonavita, Fernando Damian",
       "activo": true,
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "22200",
@@ -1742,6 +1748,12 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "25615",
+      "nombreJugador": "Espindola, Alba Silvia",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
       "idJugador": "24731",
       "nombreJugador": "Fernández, Pelu",
       "activo": true,
@@ -1763,7 +1775,13 @@
       "idJugador": "29486",
       "nombreJugador": "Ferracuti, Gabriel",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "12062",
+      "nombreJugador": "Flama, Cristian Raul",
+      "activo": true,
+      "categoria": "5º"
     },
     {
       "idJugador": "18754",
@@ -1883,13 +1901,19 @@
       "idJugador": "29252",
       "nombreJugador": "Martinez, Román",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "23066",
       "nombreJugador": "Masso, Fernando Gabriel",
       "activo": true,
       "categoria": "7º"
+    },
+    {
+      "idJugador": "25518",
+      "nombreJugador": "Mateos, Gerónimo",
+      "activo": true,
+      "categoria": "8º"
     },
     {
       "idJugador": "28589",
@@ -2020,6 +2044,24 @@
     {
       "idJugador": "29791",
       "nombreJugador": "Pomarolli, Pablo",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29963",
+      "nombreJugador": "Pomarolli, Benjamin",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29964",
+      "nombreJugador": "Pomarolli, Valentino",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "30016",
+      "nombreJugador": "Mambrin, Ignacio",
       "activo": true,
       "categoria": "8º"
     }
