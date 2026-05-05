@@ -1,9 +1,19 @@
 {
-  "ultimaActualizacion": "2026-05-04T11:29:27.552Z",
+  "ultimaActualizacion": "2026-05-05T10:57:46.901Z",
   "mesActual": 5,
   "anioActual": 2026,
   "nombreMes": "Mayo",
-  "rankingMesActual": [],
+  "rankingMesActual": [
+    {
+      "idJugador": "24731",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 1
+    }
+  ],
   "rankingHistorico": [
     {
       "idJugador": "2321",
@@ -490,6 +500,14 @@
       "mes": 4,
       "anio": 2026,
       "puntosTotales": 42,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "24731",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -1293,6 +1311,15 @@
       "puntosTotales": 40,
       "nombreJugador": "Chermaz, Juan Agustin",
       "categoria": "7º"
+    },
+    {
+      "mes": 5,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "24731",
+      "puntosTotales": 8,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
     }
   ],
   "jugadores": [
