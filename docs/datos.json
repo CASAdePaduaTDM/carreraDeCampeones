@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-05-12T11:45:37.554Z",
+  "ultimaActualizacion": "2026-05-13T11:55:46.431Z",
   "mesActual": 5,
   "anioActual": 2026,
   "nombreMes": "Mayo",
@@ -1390,24 +1390,6 @@
       "categoria": "7º"
     },
     {
-      "idJugador": "29084",
-      "nombreJugador": "Clerici, Bautista",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
-      "idJugador": "29083",
-      "nombreJugador": "Clerici, Isabella",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
-      "idJugador": "29087",
-      "nombreJugador": "Colazo, Alejo",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
       "idJugador": "27982",
       "nombreJugador": "Couso, Jorge Omar",
       "activo": true,
@@ -1496,12 +1478,6 @@
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "activo": true,
       "categoria": "5º"
-    },
-    {
-      "idJugador": "23989",
-      "nombreJugador": "Godoy, Juan Cruz",
-      "activo": true,
-      "categoria": "7º"
     },
     {
       "idJugador": "25616",
