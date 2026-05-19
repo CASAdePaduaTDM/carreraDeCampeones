@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-05-18T12:53:10.326Z",
+  "ultimaActualizacion": "2026-05-19T12:25:40.414Z",
   "mesActual": 5,
   "anioActual": 2026,
   "nombreMes": "Mayo",
@@ -14,13 +14,22 @@
       "puesto": 1
     },
     {
+      "idJugador": "29059",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º",
+      "puesto": 2
+    },
+    {
       "idJugador": "16118",
       "mes": 5,
       "anio": 2026,
       "puntosTotales": 2,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º",
-      "puesto": 2
+      "puesto": 3
     }
   ],
   "rankingHistorico": [
@@ -929,6 +938,14 @@
       "categoria": "7º"
     },
     {
+      "idJugador": "29059",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º"
+    },
+    {
       "idJugador": "29078",
       "mes": 2,
       "anio": 2026,
@@ -1342,6 +1359,15 @@
       "mes": 5,
       "anio": 2026,
       "puesto": 2,
+      "idJugador": "29059",
+      "puntosTotales": 4,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º"
+    },
+    {
+      "mes": 5,
+      "anio": 2026,
+      "puesto": 3,
       "idJugador": "16118",
       "puntosTotales": 2,
       "nombreJugador": "Rienda, Javier",
@@ -1354,12 +1380,6 @@
       "nombreJugador": "Astellano, Tomas",
       "activo": true,
       "categoria": "4º"
-    },
-    {
-      "idJugador": "11763",
-      "nombreJugador": "Balcaza, Rodrigo",
-      "activo": true,
-      "categoria": "2º"
     },
     {
       "idJugador": "26909",
@@ -1464,18 +1484,6 @@
       "categoria": "5º"
     },
     {
-      "idJugador": "28878",
-      "nombreJugador": "Garcia, Fabiana Laura",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
-      "idJugador": "5113",
-      "nombreJugador": "Garcia, Nicolas",
-      "activo": true,
-      "categoria": "4º"
-    },
-    {
       "idJugador": "29291",
       "nombreJugador": "Gerli, Ian Bautista",
       "activo": true,
@@ -1486,12 +1494,6 @@
       "nombreJugador": "Gerpe, Santiago Damián",
       "activo": true,
       "categoria": "4º"
-    },
-    {
-      "idJugador": "24765",
-      "nombreJugador": "Gervasi, Bernardo Jose",
-      "activo": true,
-      "categoria": "5º"
     },
     {
       "idJugador": "23770",
