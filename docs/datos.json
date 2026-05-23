@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-05-22T12:09:39.321Z",
+  "ultimaActualizacion": "2026-05-23T10:52:21.171Z",
   "mesActual": 5,
   "anioActual": 2026,
   "nombreMes": "Mayo",
@@ -822,16 +822,16 @@
       "mes": 3,
       "anio": 2026,
       "puntosTotales": 26,
-      "nombreJugador": "Couso, Jorge Omar",
-      "categoria": "8º"
+      "nombreJugador": "Desconocido",
+      "categoria": ""
     },
     {
       "idJugador": "27982",
       "mes": 4,
       "anio": 2026,
       "puntosTotales": 16,
-      "nombreJugador": "Couso, Jorge Omar",
-      "categoria": "8º"
+      "nombreJugador": "Desconocido",
+      "categoria": ""
     },
     {
       "idJugador": "28406",
@@ -1434,12 +1434,6 @@
       "nombreJugador": "Chermaz, Juan Agustin",
       "activo": true,
       "categoria": "7º"
-    },
-    {
-      "idJugador": "27982",
-      "nombreJugador": "Couso, Jorge Omar",
-      "activo": true,
-      "categoria": "8º"
     },
     {
       "idJugador": "25615",
