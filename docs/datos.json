@@ -1,17 +1,53 @@
 {
-  "ultimaActualizacion": "2026-05-25T12:51:52.438Z",
+  "ultimaActualizacion": "2026-05-28T12:51:03.628Z",
   "mesActual": 5,
   "anioActual": 2026,
   "nombreMes": "Mayo",
   "rankingMesActual": [
     {
+      "idJugador": "16617",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 90,
+      "nombreJugador": "Gerpe, Santiago Damián",
+      "categoria": "3º",
+      "puesto": 1
+    },
+    {
+      "idJugador": "25786",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 30,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º",
+      "puesto": 2
+    },
+    {
+      "idJugador": "16118",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º",
+      "puesto": 3
+    },
+    {
       "idJugador": "24731",
       "mes": 5,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 18,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º",
-      "puesto": 1
+      "categoria": "6º",
+      "puesto": 4
+    },
+    {
+      "idJugador": "29257",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 5
     },
     {
       "idJugador": "29059",
@@ -20,16 +56,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 2
-    },
-    {
-      "idJugador": "16118",
-      "mes": 5,
-      "anio": 2026,
-      "puntosTotales": 2,
-      "nombreJugador": "Rienda, Javier",
-      "categoria": "4º",
-      "puesto": 3
+      "puesto": 6
     }
   ],
   "rankingHistorico": [
@@ -189,7 +216,7 @@
       "idJugador": "16118",
       "mes": 5,
       "anio": 2026,
-      "puntosTotales": 2,
+      "puntosTotales": 20,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
@@ -199,7 +226,7 @@
       "anio": 2026,
       "puntosTotales": 32,
       "nombreJugador": "Gerpe, Santiago Damián",
-      "categoria": "4º"
+      "categoria": "3º"
     },
     {
       "idJugador": "16617",
@@ -207,7 +234,15 @@
       "anio": 2026,
       "puntosTotales": 52,
       "nombreJugador": "Gerpe, Santiago Damián",
-      "categoria": "4º"
+      "categoria": "3º"
+    },
+    {
+      "idJugador": "16617",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 90,
+      "nombreJugador": "Gerpe, Santiago Damián",
+      "categoria": "3º"
     },
     {
       "idJugador": "18754",
@@ -511,7 +546,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24731",
@@ -519,7 +554,7 @@
       "anio": 2026,
       "puntosTotales": 38,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24731",
@@ -527,15 +562,15 @@
       "anio": 2026,
       "puntosTotales": 42,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24731",
       "mes": 5,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 18,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "25518",
@@ -622,6 +657,14 @@
       "mes": 4,
       "anio": 2026,
       "puntosTotales": 100,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "25786",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 30,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
@@ -1082,6 +1125,14 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "29257",
+      "mes": 5,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º"
+    },
+    {
       "idJugador": "29291",
       "mes": 1,
       "anio": 2026,
@@ -1335,7 +1386,7 @@
       "idJugador": "24731",
       "puntosTotales": 42,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "mes": 4,
@@ -1350,26 +1401,26 @@
       "mes": 5,
       "anio": 2026,
       "puesto": 1,
-      "idJugador": "24731",
-      "puntosTotales": 8,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º"
+      "idJugador": "16617",
+      "puntosTotales": 90,
+      "nombreJugador": "Gerpe, Santiago Damián",
+      "categoria": "3º"
     },
     {
       "mes": 5,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "29059",
-      "puntosTotales": 4,
-      "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "idJugador": "25786",
+      "puntosTotales": 30,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
     },
     {
       "mes": 5,
       "anio": 2026,
       "puesto": 3,
       "idJugador": "16118",
-      "puntosTotales": 2,
+      "puntosTotales": 20,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     }
@@ -1445,7 +1496,7 @@
       "idJugador": "24731",
       "nombreJugador": "Fernández, Pelu",
       "activo": true,
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "24729",
@@ -1487,7 +1538,7 @@
       "idJugador": "16617",
       "nombreJugador": "Gerpe, Santiago Damián",
       "activo": true,
-      "categoria": "4º"
+      "categoria": "3º"
     },
     {
       "idJugador": "23770",
