@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-06-09T12:24:10.446Z",
+  "ultimaActualizacion": "2026-06-10T12:44:54.565Z",
   "mesActual": 6,
   "anioActual": 2026,
   "nombreMes": "Junio",
@@ -10,7 +10,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 1
     },
     {
@@ -1209,7 +1209,7 @@
       "anio": 2026,
       "puntosTotales": 28,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -1217,7 +1217,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -1225,7 +1225,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -1233,7 +1233,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -1241,7 +1241,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29257",
@@ -1622,7 +1622,7 @@
       "idJugador": "29252",
       "puntosTotales": 60,
       "nombreJugador": "Martinez, Román",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "mes": 6,
@@ -1834,7 +1834,7 @@
       "idJugador": "29252",
       "nombreJugador": "Martinez, Román",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "23066",
