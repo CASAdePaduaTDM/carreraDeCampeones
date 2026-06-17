@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-06-16T13:54:10.750Z",
+  "ultimaActualizacion": "2026-06-17T13:21:27.456Z",
   "mesActual": 6,
   "anioActual": 2026,
   "nombreMes": "Junio",
@@ -10,7 +10,7 @@
       "anio": 2026,
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 1
     },
     {
@@ -55,7 +55,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 6
     },
     {
@@ -109,7 +109,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "6º",
+      "categoria": "5º",
       "puesto": 12
     },
     {
@@ -181,7 +181,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Belsito, Martin Miguel",
-      "categoria": "6º",
+      "categoria": "7º",
       "puesto": 20
     },
     {
@@ -199,7 +199,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "6º",
+      "categoria": "7º",
       "puesto": 22
     },
     {
@@ -375,7 +375,7 @@
       "anio": 2026,
       "puntosTotales": 2,
       "nombreJugador": "Belsito, Martin Miguel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "15631",
@@ -383,7 +383,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Belsito, Martin Miguel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "16118",
@@ -495,7 +495,7 @@
       "anio": 2026,
       "puntosTotales": 22,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "20706",
@@ -503,7 +503,7 @@
       "anio": 2026,
       "puntosTotales": 38,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "20706",
@@ -511,7 +511,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "20706",
@@ -519,7 +519,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "20942",
@@ -1359,7 +1359,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1367,7 +1367,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1375,7 +1375,7 @@
       "anio": 2026,
       "puntosTotales": 26,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1383,7 +1383,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1391,7 +1391,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1399,7 +1399,7 @@
       "anio": 2026,
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -1503,7 +1503,7 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29467",
@@ -1511,7 +1511,7 @@
       "anio": 2026,
       "puntosTotales": 16,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29467",
@@ -1519,7 +1519,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29467",
@@ -1527,7 +1527,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29486",
@@ -1535,7 +1535,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29486",
@@ -1543,7 +1543,7 @@
       "anio": 2026,
       "puntosTotales": 48,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29486",
@@ -1551,7 +1551,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29486",
@@ -1559,7 +1559,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29593",
@@ -1833,7 +1833,7 @@
       "idJugador": "29224",
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "mes": 6,
@@ -1889,6 +1889,12 @@
       "categoria": "4º"
     },
     {
+      "idJugador": "25827",
+      "nombreJugador": "Aldana, Nicolas",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
       "idJugador": "26909",
       "nombreJugador": "Bassi, Guillermo",
       "activo": true,
@@ -1904,7 +1910,7 @@
       "idJugador": "15631",
       "nombreJugador": "Belsito, Martin Miguel",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27719",
@@ -1934,7 +1940,7 @@
       "idJugador": "20706",
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25818",
@@ -1970,7 +1976,7 @@
       "idJugador": "29486",
       "nombreJugador": "Ferracuti, Gabriel",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "12062",
@@ -2156,7 +2162,7 @@
       "idJugador": "29467",
       "nombreJugador": "Suarez, Marcos",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "20942",
@@ -2174,7 +2180,7 @@
       "idJugador": "29224",
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27731",
@@ -2233,6 +2239,12 @@
     {
       "idJugador": "30016",
       "nombreJugador": "Mambrin, Ignacio",
+      "activo": true,
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "30369",
+      "nombreJugador": "Kicker, Bastian",
       "activo": true,
       "categoria": "8º"
     }
