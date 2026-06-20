@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-06-19T13:16:12.822Z",
+  "ultimaActualizacion": "2026-06-20T11:40:10.986Z",
   "mesActual": 6,
   "anioActual": 2026,
   "nombreMes": "Junio",
@@ -167,13 +167,40 @@
       "puesto": 18
     },
     {
+      "idJugador": "14068",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Fernandez, Emanuel",
+      "categoria": "1º",
+      "puesto": 19
+    },
+    {
       "idJugador": "23769",
       "mes": 6,
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 19
+      "puesto": 20
+    },
+    {
+      "idJugador": "2321",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º",
+      "puesto": 21
+    },
+    {
+      "idJugador": "14057",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martinez, Diego Oscar",
+      "categoria": "3º",
+      "puesto": 22
     },
     {
       "idJugador": "15631",
@@ -182,7 +209,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Belsito, Martin Miguel",
       "categoria": "7º",
-      "puesto": 20
+      "puesto": 23
     },
     {
       "idJugador": "25786",
@@ -191,7 +218,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
-      "puesto": 21
+      "puesto": 24
     },
     {
       "idJugador": "29486",
@@ -200,7 +227,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "7º",
-      "puesto": 22
+      "puesto": 25
     },
     {
       "idJugador": "29593",
@@ -209,7 +236,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Colasurdo, Macarena",
       "categoria": "8º",
-      "puesto": 23
+      "puesto": 26
     },
     {
       "idJugador": "29791",
@@ -218,7 +245,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º",
-      "puesto": 24
+      "puesto": 27
     },
     {
       "idJugador": "30016",
@@ -227,7 +254,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Mambrin, Ignacio",
       "categoria": "8º",
-      "puesto": 25
+      "puesto": 28
     },
     {
       "idJugador": "28881",
@@ -236,7 +263,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Silva, Sebastian",
       "categoria": "8º",
-      "puesto": 26
+      "puesto": 29
     },
     {
       "idJugador": "30369",
@@ -245,7 +272,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Kicker, Bastian",
       "categoria": "8º",
-      "puesto": 27
+      "puesto": 30
     }
   ],
   "rankingHistorico": [
@@ -290,6 +317,14 @@
       "categoria": "2º"
     },
     {
+      "idJugador": "2321",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martín, Nicolás",
+      "categoria": "2º"
+    },
+    {
       "idJugador": "8214",
       "mes": 4,
       "anio": 2026,
@@ -328,6 +363,22 @@
       "puntosTotales": 20,
       "nombreJugador": "Martinez, Diego Oscar",
       "categoria": "3º"
+    },
+    {
+      "idJugador": "14057",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Martinez, Diego Oscar",
+      "categoria": "3º"
+    },
+    {
+      "idJugador": "14068",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Fernandez, Emanuel",
+      "categoria": "1º"
     },
     {
       "idJugador": "14180",
