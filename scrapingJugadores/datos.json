@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-06-20T11:40:10.986Z",
+  "ultimaActualizacion": "2026-06-21T12:08:55.080Z",
   "mesActual": 6,
   "anioActual": 2026,
   "nombreMes": "Junio",
@@ -140,13 +140,22 @@
       "puesto": 15
     },
     {
+      "idJugador": "25786",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 18,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º",
+      "puesto": 16
+    },
+    {
       "idJugador": "25827",
       "mes": 6,
       "anio": 2026,
       "puntosTotales": 16,
       "nombreJugador": "Aldana, Nicolas",
       "categoria": "8º",
-      "puesto": 16
+      "puesto": 17
     },
     {
       "idJugador": "27742",
@@ -155,7 +164,7 @@
       "puntosTotales": 16,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º",
-      "puesto": 17
+      "puesto": 18
     },
     {
       "idJugador": "12062",
@@ -164,7 +173,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Flama, Cristian Raul",
       "categoria": "5º",
-      "puesto": 18
+      "puesto": 19
     },
     {
       "idJugador": "14068",
@@ -173,7 +182,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Fernandez, Emanuel",
       "categoria": "1º",
-      "puesto": 19
+      "puesto": 20
     },
     {
       "idJugador": "23769",
@@ -182,7 +191,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 20
+      "puesto": 21
     },
     {
       "idJugador": "2321",
@@ -191,7 +200,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º",
-      "puesto": 21
+      "puesto": 22
     },
     {
       "idJugador": "14057",
@@ -200,7 +209,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Martinez, Diego Oscar",
       "categoria": "3º",
-      "puesto": 22
+      "puesto": 23
     },
     {
       "idJugador": "15631",
@@ -209,15 +218,6 @@
       "puntosTotales": 8,
       "nombreJugador": "Belsito, Martin Miguel",
       "categoria": "7º",
-      "puesto": 23
-    },
-    {
-      "idJugador": "25786",
-      "mes": 6,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º",
       "puesto": 24
     },
     {
@@ -976,7 +976,7 @@
       "idJugador": "25786",
       "mes": 6,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 18,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
