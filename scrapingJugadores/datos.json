@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-06-23T12:24:53.046Z",
+  "ultimaActualizacion": "2026-06-24T12:09:30.456Z",
   "mesActual": 6,
   "anioActual": 2026,
   "nombreMes": "Junio",
@@ -145,7 +145,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º",
+      "categoria": "5º",
       "puesto": 16
     },
     {
@@ -930,7 +930,7 @@
       "anio": 2026,
       "puntosTotales": 70,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25786",
@@ -938,7 +938,7 @@
       "anio": 2025,
       "puntosTotales": 32,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25786",
@@ -946,7 +946,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25786",
@@ -954,7 +954,7 @@
       "anio": 2026,
       "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25786",
@@ -962,7 +962,7 @@
       "anio": 2026,
       "puntosTotales": 100,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25786",
@@ -970,7 +970,7 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25786",
@@ -978,7 +978,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25818",
@@ -1785,7 +1785,7 @@
       "idJugador": "25786",
       "puntosTotales": 70,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "mes": 1,
@@ -1839,7 +1839,7 @@
       "idJugador": "25786",
       "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "mes": 3,
@@ -1857,7 +1857,7 @@
       "idJugador": "25786",
       "puntosTotales": 100,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "mes": 4,
@@ -1920,7 +1920,7 @@
       "idJugador": "25786",
       "puntosTotales": 30,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "mes": 5,
@@ -1973,7 +1973,7 @@
       "idJugador": "25786",
       "nombreJugador": "Bonavita, Fernando Damian",
       "activo": true,
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "22200",
@@ -2004,6 +2004,12 @@
       "nombreJugador": "Espindola, Alba Silvia",
       "activo": true,
       "categoria": "8º"
+    },
+    {
+      "idJugador": "14068",
+      "nombreJugador": "Fernandez, Emanuel",
+      "activo": true,
+      "categoria": "1º"
     },
     {
       "idJugador": "24731",
