@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-06-27T11:22:53.678Z",
+  "ultimaActualizacion": "2026-06-28T11:31:08.762Z",
   "mesActual": 6,
   "anioActual": 2026,
   "nombreMes": "Junio",
@@ -68,20 +68,20 @@
       "puesto": 7
     },
     {
+      "idJugador": "29257",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 30,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 8
+    },
+    {
       "idJugador": "29964",
       "mes": 6,
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Pomarolli, Valentino",
-      "categoria": "8º",
-      "puesto": 8
-    },
-    {
-      "idJugador": "29257",
-      "mes": 6,
-      "anio": 2026,
-      "puntosTotales": 28,
-      "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
       "puesto": 9
     },
@@ -1536,7 +1536,7 @@
       "idJugador": "29257",
       "mes": 6,
       "anio": 2026,
-      "puntosTotales": 28,
+      "puntosTotales": 30,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º"
     },
