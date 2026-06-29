@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-06-28T11:31:08.762Z",
+  "ultimaActualizacion": "2026-06-29T13:29:52.190Z",
   "mesActual": 6,
   "anioActual": 2026,
   "nombreMes": "Junio",
@@ -23,13 +23,22 @@
       "puesto": 2
     },
     {
+      "idJugador": "29059",
+      "mes": 6,
+      "anio": 2026,
+      "puntosTotales": 60,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º",
+      "puesto": 3
+    },
+    {
       "idJugador": "27736",
       "mes": 6,
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "7º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "27731",
@@ -37,15 +46,6 @@
       "anio": 2026,
       "puntosTotales": 50,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
-      "categoria": "7º",
-      "puesto": 4
-    },
-    {
-      "idJugador": "29059",
-      "mes": 6,
-      "anio": 2026,
-      "puntosTotales": 50,
-      "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
       "puesto": 5
     },
@@ -1360,7 +1360,7 @@
       "idJugador": "29059",
       "mes": 6,
       "anio": 2026,
-      "puntosTotales": 50,
+      "puntosTotales": 60,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º"
     },
@@ -1899,9 +1899,9 @@
       "mes": 6,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "27736",
-      "puntosTotales": 58,
-      "nombreJugador": "Rojo, Renzo Gabriel",
+      "idJugador": "29059",
+      "puntosTotales": 60,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º"
     },
     {
