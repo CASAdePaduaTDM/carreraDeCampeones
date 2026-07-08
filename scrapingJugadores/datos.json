@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-07-07T12:10:38.928Z",
+  "ultimaActualizacion": "2026-07-08T11:52:03.504Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
@@ -10,7 +10,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º",
+      "categoria": "6º",
       "puesto": 1
     },
     {
@@ -37,7 +37,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º",
+      "categoria": "4º",
       "puesto": 4
     },
     {
@@ -136,7 +136,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º",
+      "categoria": "8º",
       "puesto": 15
     },
     {
@@ -163,7 +163,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º",
+      "categoria": "8º",
       "puesto": 18
     },
     {
@@ -181,7 +181,7 @@
       "anio": 2026,
       "puntosTotales": 2,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "5º",
+      "categoria": "6º",
       "puesto": 20
     }
   ],
@@ -480,7 +480,7 @@
       "anio": 2026,
       "puntosTotales": 22,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "20706",
@@ -488,7 +488,7 @@
       "anio": 2026,
       "puntosTotales": 38,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "20706",
@@ -496,7 +496,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "20706",
@@ -504,7 +504,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "20706",
@@ -512,7 +512,7 @@
       "anio": 2026,
       "puntosTotales": 2,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "20942",
@@ -896,7 +896,7 @@
       "anio": 2026,
       "puntosTotales": 70,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -904,7 +904,7 @@
       "anio": 2025,
       "puntosTotales": 32,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -912,7 +912,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -920,7 +920,7 @@
       "anio": 2026,
       "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -928,7 +928,7 @@
       "anio": 2026,
       "puntosTotales": 100,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -936,7 +936,7 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -944,7 +944,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25786",
@@ -952,7 +952,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "25818",
@@ -1096,7 +1096,7 @@
       "anio": 2026,
       "puntosTotales": 70,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27736",
@@ -1104,7 +1104,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27736",
@@ -1112,7 +1112,7 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27736",
@@ -1120,7 +1120,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27736",
@@ -1128,7 +1128,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27736",
@@ -1136,7 +1136,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27742",
@@ -1424,7 +1424,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1432,7 +1432,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1440,7 +1440,7 @@
       "anio": 2026,
       "puntosTotales": 26,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1448,7 +1448,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1456,7 +1456,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1464,7 +1464,7 @@
       "anio": 2026,
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1472,7 +1472,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29252",
@@ -1584,7 +1584,7 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29467",
@@ -1592,7 +1592,7 @@
       "anio": 2026,
       "puntosTotales": 16,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29467",
@@ -1600,7 +1600,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29467",
@@ -1608,7 +1608,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29467",
@@ -1616,7 +1616,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Suarez, Marcos",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29486",
@@ -1855,7 +1855,7 @@
       "idJugador": "25786",
       "puntosTotales": 70,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 1,
@@ -1864,7 +1864,7 @@
       "idJugador": "27736",
       "puntosTotales": 70,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "mes": 2,
@@ -1909,7 +1909,7 @@
       "idJugador": "25786",
       "puntosTotales": 88,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 3,
@@ -1927,7 +1927,7 @@
       "idJugador": "25786",
       "puntosTotales": 100,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 4,
@@ -1954,7 +1954,7 @@
       "idJugador": "29224",
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "mes": 6,
@@ -1981,7 +1981,7 @@
       "idJugador": "27736",
       "puntosTotales": 60,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "mes": 7,
@@ -2017,7 +2017,7 @@
       "idJugador": "25786",
       "puntosTotales": 30,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "mes": 5,
@@ -2041,6 +2041,12 @@
       "nombreJugador": "Aldana, Nicolas",
       "activo": true,
       "categoria": "8º"
+    },
+    {
+      "idJugador": "11763",
+      "nombreJugador": "Balcaza, Rodrigo",
+      "activo": true,
+      "categoria": "2º"
     },
     {
       "idJugador": "26909",
@@ -2070,7 +2076,7 @@
       "idJugador": "25786",
       "nombreJugador": "Bonavita, Fernando Damian",
       "activo": true,
-      "categoria": "5º"
+      "categoria": "4º"
     },
     {
       "idJugador": "22200",
@@ -2088,7 +2094,7 @@
       "idJugador": "20706",
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "activo": true,
-      "categoria": "5º"
+      "categoria": "6º"
     },
     {
       "idJugador": "25818",
@@ -2280,7 +2286,7 @@
       "idJugador": "27736",
       "nombreJugador": "Rojo, Renzo Gabriel",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "28406",
@@ -2310,7 +2316,7 @@
       "idJugador": "29467",
       "nombreJugador": "Suarez, Marcos",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "20942",
@@ -2328,7 +2334,7 @@
       "idJugador": "29224",
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "27731",
@@ -2341,12 +2347,6 @@
       "nombreJugador": "Vence, Martin",
       "activo": true,
       "categoria": "5º"
-    },
-    {
-      "idJugador": "27782",
-      "nombreJugador": "Vilte, César Pablo",
-      "activo": true,
-      "categoria": "4º"
     },
     {
       "idJugador": "28870",
