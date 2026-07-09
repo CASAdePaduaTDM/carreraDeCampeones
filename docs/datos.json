@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-07-08T11:52:03.504Z",
+  "ultimaActualizacion": "2026-07-09T12:20:25.133Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
   "rankingMesActual": [
+    {
+      "idJugador": "24049",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 60,
+      "nombreJugador": "Montagliani, Agustín",
+      "categoria": "4º",
+      "puesto": 1
+    },
     {
       "idJugador": "27736",
       "mes": 7,
@@ -11,15 +20,6 @@
       "puntosTotales": 60,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º",
-      "puesto": 1
-    },
-    {
-      "idJugador": "24049",
-      "mes": 7,
-      "anio": 2026,
-      "puntosTotales": 50,
-      "nombreJugador": "Montagliani, Agustín",
-      "categoria": "4º",
       "puesto": 2
     },
     {
@@ -59,13 +59,31 @@
       "puesto": 6
     },
     {
+      "idJugador": "8214",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Luciani, Daniel Horacio",
+      "categoria": "3º",
+      "puesto": 7
+    },
+    {
+      "idJugador": "14057",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Martinez, Diego Oscar",
+      "categoria": "3º",
+      "puesto": 8
+    },
+    {
       "idJugador": "23770",
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º",
-      "puesto": 7
+      "puesto": 9
     },
     {
       "idJugador": "25827",
@@ -74,7 +92,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Aldana, Nicolas",
       "categoria": "8º",
-      "puesto": 8
+      "puesto": 10
     },
     {
       "idJugador": "29257",
@@ -83,16 +101,16 @@
       "puntosTotales": 20,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 9
+      "puesto": 11
     },
     {
       "idJugador": "16118",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 18,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º",
-      "puesto": 10
+      "puesto": 12
     },
     {
       "idJugador": "20942",
@@ -101,7 +119,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º",
-      "puesto": 11
+      "puesto": 13
+    },
+    {
+      "idJugador": "22200",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º",
+      "puesto": 14
     },
     {
       "idJugador": "27731",
@@ -110,7 +137,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
-      "puesto": 12
+      "puesto": 15
     },
     {
       "idJugador": "27742",
@@ -119,7 +146,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Batagelj, María Nieves Ana",
       "categoria": "8º",
-      "puesto": 13
+      "puesto": 16
     },
     {
       "idJugador": "29059",
@@ -128,7 +155,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º",
-      "puesto": 14
+      "puesto": 17
     },
     {
       "idJugador": "29467",
@@ -137,7 +164,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Suarez, Marcos",
       "categoria": "8º",
-      "puesto": 15
+      "puesto": 18
     },
     {
       "idJugador": "29598",
@@ -146,7 +173,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Borges, Leonardo",
       "categoria": "7º",
-      "puesto": 16
+      "puesto": 19
     },
     {
       "idJugador": "30369",
@@ -155,7 +182,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Kicker, Bastian",
       "categoria": "8º",
-      "puesto": 17
+      "puesto": 20
+    },
+    {
+      "idJugador": "5113",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Garcia, Nicolas",
+      "categoria": "4º",
+      "puesto": 21
     },
     {
       "idJugador": "29224",
@@ -164,7 +200,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º",
-      "puesto": 18
+      "puesto": 22
     },
     {
       "idJugador": "2321",
@@ -173,7 +209,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Martín, Nicolás",
       "categoria": "2º",
-      "puesto": 19
+      "puesto": 23
     },
     {
       "idJugador": "20706",
@@ -182,7 +218,7 @@
       "puntosTotales": 2,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º",
-      "puesto": 20
+      "puesto": 24
     }
   ],
   "rankingHistorico": [
@@ -243,10 +279,26 @@
       "categoria": "2º"
     },
     {
+      "idJugador": "5113",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Garcia, Nicolas",
+      "categoria": "4º"
+    },
+    {
       "idJugador": "8214",
       "mes": 4,
       "anio": 2026,
       "puntosTotales": 8,
+      "nombreJugador": "Luciani, Daniel Horacio",
+      "categoria": "3º"
+    },
+    {
+      "idJugador": "8214",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 20,
       "nombreJugador": "Luciani, Daniel Horacio",
       "categoria": "3º"
     },
@@ -295,6 +347,14 @@
       "mes": 6,
       "anio": 2026,
       "puntosTotales": 8,
+      "nombreJugador": "Martinez, Diego Oscar",
+      "categoria": "3º"
+    },
+    {
+      "idJugador": "14057",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 20,
       "nombreJugador": "Martinez, Diego Oscar",
       "categoria": "3º"
     },
@@ -414,7 +474,7 @@
       "idJugador": "16118",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 18,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
@@ -587,6 +647,14 @@
       "categoria": "3º"
     },
     {
+      "idJugador": "22200",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º"
+    },
+    {
       "idJugador": "22451",
       "mes": 2,
       "anio": 2026,
@@ -750,7 +818,7 @@
       "idJugador": "24049",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 50,
+      "puntosTotales": 60,
       "nombreJugador": "Montagliani, Agustín",
       "categoria": "4º"
     },
@@ -1978,19 +2046,19 @@
       "mes": 7,
       "anio": 2026,
       "puesto": 1,
-      "idJugador": "27736",
+      "idJugador": "24049",
       "puntosTotales": 60,
-      "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "nombreJugador": "Montagliani, Agustín",
+      "categoria": "4º"
     },
     {
       "mes": 7,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "24049",
-      "puntosTotales": 50,
-      "nombreJugador": "Montagliani, Agustín",
-      "categoria": "4º"
+      "idJugador": "27736",
+      "puntosTotales": 60,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º"
     },
     {
       "mes": 7,
