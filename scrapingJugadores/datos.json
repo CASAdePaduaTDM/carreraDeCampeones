@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-07-09T12:20:25.133Z",
+  "ultimaActualizacion": "2026-07-10T12:13:53.868Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
   "rankingMesActual": [
+    {
+      "idJugador": "25786",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 80,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º",
+      "puesto": 1
+    },
     {
       "idJugador": "24049",
       "mes": 7,
@@ -11,7 +20,7 @@
       "puntosTotales": 60,
       "nombreJugador": "Montagliani, Agustín",
       "categoria": "4º",
-      "puesto": 1
+      "puesto": 2
     },
     {
       "idJugador": "27736",
@@ -20,7 +29,7 @@
       "puntosTotales": 60,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º",
-      "puesto": 2
+      "puesto": 3
     },
     {
       "idJugador": "11763",
@@ -29,15 +38,6 @@
       "puntosTotales": 40,
       "nombreJugador": "Balcaza, Rodrigo",
       "categoria": "2º",
-      "puesto": 3
-    },
-    {
-      "idJugador": "25786",
-      "mes": 7,
-      "anio": 2026,
-      "puntosTotales": 40,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º",
       "puesto": 4
     },
     {
@@ -1018,7 +1018,7 @@
       "idJugador": "25786",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 80,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
@@ -2046,6 +2046,15 @@
       "mes": 7,
       "anio": 2026,
       "puesto": 1,
+      "idJugador": "25786",
+      "puntosTotales": 80,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
+    },
+    {
+      "mes": 7,
+      "anio": 2026,
+      "puesto": 2,
       "idJugador": "24049",
       "puntosTotales": 60,
       "nombreJugador": "Montagliani, Agustín",
@@ -2054,20 +2063,11 @@
     {
       "mes": 7,
       "anio": 2026,
-      "puesto": 2,
+      "puesto": 3,
       "idJugador": "27736",
       "puntosTotales": 60,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º"
-    },
-    {
-      "mes": 7,
-      "anio": 2026,
-      "puesto": 3,
-      "idJugador": "11763",
-      "puntosTotales": 40,
-      "nombreJugador": "Balcaza, Rodrigo",
-      "categoria": "2º"
     },
     {
       "mes": 5,
