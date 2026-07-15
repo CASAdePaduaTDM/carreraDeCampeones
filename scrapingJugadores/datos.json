@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-07-14T11:08:31.477Z",
+  "ultimaActualizacion": "2026-07-15T11:12:13.467Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
@@ -37,7 +37,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º",
+      "categoria": "6º",
       "puesto": 4
     },
     {
@@ -46,7 +46,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 5
     },
     {
@@ -1406,7 +1406,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29059",
@@ -1414,7 +1414,7 @@
       "anio": 2025,
       "puntosTotales": 52,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29059",
@@ -1422,7 +1422,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29059",
@@ -1430,7 +1430,7 @@
       "anio": 2026,
       "puntosTotales": 38,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29059",
@@ -1438,7 +1438,7 @@
       "anio": 2026,
       "puntosTotales": 36,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29059",
@@ -1446,7 +1446,7 @@
       "anio": 2026,
       "puntosTotales": 4,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29059",
@@ -1454,7 +1454,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29059",
@@ -1462,7 +1462,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29078",
@@ -1510,7 +1510,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1518,7 +1518,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1526,7 +1526,7 @@
       "anio": 2026,
       "puntosTotales": 26,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1534,7 +1534,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1542,7 +1542,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1550,7 +1550,7 @@
       "anio": 2026,
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1558,7 +1558,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -2056,7 +2056,7 @@
       "idJugador": "29224",
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "mes": 6,
@@ -2074,7 +2074,7 @@
       "idJugador": "29059",
       "puntosTotales": 60,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "mes": 7,
@@ -2253,10 +2253,10 @@
       "categoria": "5º"
     },
     {
-      "idJugador": "29291",
-      "nombreJugador": "Gerli, Ian Bautista",
+      "idJugador": "5113",
+      "nombreJugador": "Garcia, Nicolas",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "4º"
     },
     {
       "idJugador": "16617",
@@ -2310,7 +2310,7 @@
       "idJugador": "29059",
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "27062",
@@ -2391,12 +2391,6 @@
       "categoria": "6º"
     },
     {
-      "idJugador": "28406",
-      "nombreJugador": "Rubio, Duilio",
-      "activo": true,
-      "categoria": "7º"
-    },
-    {
       "idJugador": "13463",
       "nombreJugador": "Siepe, Valeria Laura",
       "activo": true,
@@ -2436,7 +2430,7 @@
       "idJugador": "29224",
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27731",
