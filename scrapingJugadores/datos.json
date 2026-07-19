@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-07-18T10:42:15.681Z",
+  "ultimaActualizacion": "2026-07-19T10:50:22.344Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
   "rankingMesActual": [
+    {
+      "idJugador": "27736",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 100,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º",
+      "puesto": 1
+    },
     {
       "idJugador": "25786",
       "mes": 7,
@@ -11,7 +20,16 @@
       "puntosTotales": 80,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
-      "puesto": 1
+      "puesto": 2
+    },
+    {
+      "idJugador": "29059",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 70,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "6º",
+      "puesto": 3
     },
     {
       "idJugador": "24049",
@@ -20,24 +38,6 @@
       "puntosTotales": 60,
       "nombreJugador": "Montagliani, Agustín",
       "categoria": "4º",
-      "puesto": 2
-    },
-    {
-      "idJugador": "27736",
-      "mes": 7,
-      "anio": 2026,
-      "puntosTotales": 60,
-      "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º",
-      "puesto": 3
-    },
-    {
-      "idJugador": "29059",
-      "mes": 7,
-      "anio": 2026,
-      "puntosTotales": 60,
-      "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º",
       "puesto": 4
     },
     {
@@ -1220,7 +1220,7 @@
       "idJugador": "27736",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 60,
+      "puntosTotales": 100,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º"
     },
@@ -1460,7 +1460,7 @@
       "idJugador": "29059",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 60,
+      "puntosTotales": 70,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º"
     },
@@ -2080,6 +2080,15 @@
       "mes": 7,
       "anio": 2026,
       "puesto": 1,
+      "idJugador": "27736",
+      "puntosTotales": 100,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º"
+    },
+    {
+      "mes": 7,
+      "anio": 2026,
+      "puesto": 2,
       "idJugador": "25786",
       "puntosTotales": 80,
       "nombreJugador": "Bonavita, Fernando Damian",
@@ -2088,19 +2097,10 @@
     {
       "mes": 7,
       "anio": 2026,
-      "puesto": 2,
-      "idJugador": "24049",
-      "puntosTotales": 60,
-      "nombreJugador": "Montagliani, Agustín",
-      "categoria": "4º"
-    },
-    {
-      "mes": 7,
-      "anio": 2026,
       "puesto": 3,
-      "idJugador": "27736",
-      "puntosTotales": 60,
-      "nombreJugador": "Rojo, Renzo Gabriel",
+      "idJugador": "29059",
+      "puntosTotales": 70,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º"
     },
     {
