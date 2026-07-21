@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-07-20T12:07:19.253Z",
+  "ultimaActualizacion": "2026-07-21T11:31:03.650Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
@@ -2281,12 +2281,6 @@
       "nombreJugador": "Gomez, Silvina Elena",
       "activo": true,
       "categoria": "8º"
-    },
-    {
-      "idJugador": "23562",
-      "nombreJugador": "Grandinetti, Alejo",
-      "activo": true,
-      "categoria": "7º"
     },
     {
       "idJugador": "24704",
