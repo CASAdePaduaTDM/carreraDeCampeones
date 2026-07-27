@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-07-25T10:51:47.177Z",
+  "ultimaActualizacion": "2026-07-27T12:44:18.634Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
@@ -86,13 +86,22 @@
       "puesto": 9
     },
     {
+      "idJugador": "16118",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 28,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º",
+      "puesto": 10
+    },
+    {
       "idJugador": "29791",
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 28,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º",
-      "puesto": 10
+      "puesto": 11
     },
     {
       "idJugador": "8214",
@@ -101,7 +110,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Luciani, Daniel Horacio",
       "categoria": "3º",
-      "puesto": 11
+      "puesto": 12
     },
     {
       "idJugador": "14057",
@@ -110,7 +119,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Martinez, Diego Oscar",
       "categoria": "3º",
-      "puesto": 12
+      "puesto": 13
     },
     {
       "idJugador": "23770",
@@ -119,7 +128,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º",
-      "puesto": 13
+      "puesto": 14
     },
     {
       "idJugador": "25827",
@@ -128,7 +137,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Aldana, Nicolas",
       "categoria": "8º",
-      "puesto": 14
+      "puesto": 15
     },
     {
       "idJugador": "29593",
@@ -137,15 +146,6 @@
       "puntosTotales": 20,
       "nombreJugador": "Colasurdo, Macarena",
       "categoria": "8º",
-      "puesto": 15
-    },
-    {
-      "idJugador": "16118",
-      "mes": 7,
-      "anio": 2026,
-      "puntosTotales": 18,
-      "nombreJugador": "Rienda, Javier",
-      "categoria": "4º",
       "puesto": 16
     },
     {
@@ -492,7 +492,7 @@
       "idJugador": "16118",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 18,
+      "puntosTotales": 28,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
