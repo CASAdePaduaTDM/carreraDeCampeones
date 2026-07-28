@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-07-27T12:44:18.634Z",
+  "ultimaActualizacion": "2026-07-28T11:40:24.438Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
@@ -8,10 +8,19 @@
       "idJugador": "27736",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 100,
+      "puntosTotales": 140,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º",
       "puesto": 1
+    },
+    {
+      "idJugador": "29486",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 110,
+      "nombreJugador": "Ferracuti, Gabriel",
+      "categoria": "7º",
+      "puesto": 2
     },
     {
       "idJugador": "25786",
@@ -20,16 +29,16 @@
       "puntosTotales": 80,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
-      "puesto": 2
+      "puesto": 3
     },
     {
       "idJugador": "29059",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 70,
+      "puntosTotales": 78,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "24049",
@@ -38,7 +47,7 @@
       "puntosTotales": 60,
       "nombreJugador": "Montagliani, Agustín",
       "categoria": "4º",
-      "puesto": 4
+      "puesto": 5
     },
     {
       "idJugador": "29224",
@@ -47,7 +56,16 @@
       "puntosTotales": 58,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º",
-      "puesto": 5
+      "puesto": 6
+    },
+    {
+      "idJugador": "29257",
+      "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 50,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 7
     },
     {
       "idJugador": "11763",
@@ -56,16 +74,16 @@
       "puntosTotales": 40,
       "nombreJugador": "Balcaza, Rodrigo",
       "categoria": "2º",
-      "puesto": 6
+      "puesto": 8
     },
     {
-      "idJugador": "29486",
+      "idJugador": "29791",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 40,
-      "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º",
-      "puesto": 7
+      "puntosTotales": 38,
+      "nombreJugador": "Pomarolli, Pablo",
+      "categoria": "8º",
+      "puesto": 9
     },
     {
       "idJugador": "27731",
@@ -74,16 +92,7 @@
       "puntosTotales": 30,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
-      "puesto": 8
-    },
-    {
-      "idJugador": "29257",
-      "mes": 7,
-      "anio": 2026,
-      "puntosTotales": 30,
-      "nombreJugador": "Puzone, Fabio",
-      "categoria": "8º",
-      "puesto": 9
+      "puesto": 10
     },
     {
       "idJugador": "16118",
@@ -92,15 +101,6 @@
       "puntosTotales": 28,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º",
-      "puesto": 10
-    },
-    {
-      "idJugador": "29791",
-      "mes": 7,
-      "anio": 2026,
-      "puntosTotales": 28,
-      "nombreJugador": "Pomarolli, Pablo",
-      "categoria": "8º",
       "puesto": 11
     },
     {
@@ -1220,7 +1220,7 @@
       "idJugador": "27736",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 100,
+      "puntosTotales": 140,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º"
     },
@@ -1460,7 +1460,7 @@
       "idJugador": "29059",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 70,
+      "puntosTotales": 78,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º"
     },
@@ -1660,7 +1660,7 @@
       "idJugador": "29257",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 30,
+      "puntosTotales": 50,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º"
     },
@@ -1748,7 +1748,7 @@
       "idJugador": "29486",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 110,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "7º"
     },
@@ -1844,7 +1844,7 @@
       "idJugador": "29791",
       "mes": 7,
       "anio": 2026,
-      "puntosTotales": 28,
+      "puntosTotales": 38,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º"
     },
@@ -2081,7 +2081,7 @@
       "anio": 2026,
       "puesto": 1,
       "idJugador": "27736",
-      "puntosTotales": 100,
+      "puntosTotales": 140,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º"
     },
@@ -2089,19 +2089,19 @@
       "mes": 7,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "25786",
-      "puntosTotales": 80,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "idJugador": "29486",
+      "puntosTotales": 110,
+      "nombreJugador": "Ferracuti, Gabriel",
+      "categoria": "7º"
     },
     {
       "mes": 7,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "29059",
-      "puntosTotales": 70,
-      "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "idJugador": "25786",
+      "puntosTotales": 80,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
     },
     {
       "mes": 5,
