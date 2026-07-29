@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-07-28T11:40:24.438Z",
+  "ultimaActualizacion": "2026-07-29T11:47:48.179Z",
   "mesActual": 7,
   "anioActual": 2026,
   "nombreMes": "Julio",
@@ -19,7 +19,7 @@
       "anio": 2026,
       "puntosTotales": 110,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º",
+      "categoria": "6º",
       "puesto": 2
     },
     {
@@ -37,7 +37,7 @@
       "anio": 2026,
       "puntosTotales": 78,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º",
+      "categoria": "7º",
       "puesto": 4
     },
     {
@@ -1406,7 +1406,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
@@ -1414,7 +1414,7 @@
       "anio": 2025,
       "puntosTotales": 52,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
@@ -1422,7 +1422,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
@@ -1430,7 +1430,7 @@
       "anio": 2026,
       "puntosTotales": 38,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
@@ -1438,7 +1438,7 @@
       "anio": 2026,
       "puntosTotales": 36,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
@@ -1446,7 +1446,7 @@
       "anio": 2026,
       "puntosTotales": 4,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
@@ -1454,7 +1454,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29059",
@@ -1462,7 +1462,7 @@
       "anio": 2026,
       "puntosTotales": 78,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29078",
@@ -1718,7 +1718,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29486",
@@ -1726,7 +1726,7 @@
       "anio": 2026,
       "puntosTotales": 48,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29486",
@@ -1734,7 +1734,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29486",
@@ -1742,7 +1742,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29486",
@@ -1750,7 +1750,7 @@
       "anio": 2026,
       "puntosTotales": 110,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "29593",
@@ -2074,7 +2074,7 @@
       "idJugador": "29059",
       "puntosTotales": 60,
       "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "mes": 7,
@@ -2092,7 +2092,7 @@
       "idJugador": "29486",
       "puntosTotales": 110,
       "nombreJugador": "Ferracuti, Gabriel",
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "mes": 7,
@@ -2238,7 +2238,7 @@
       "idJugador": "29486",
       "nombreJugador": "Ferracuti, Gabriel",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "6º"
     },
     {
       "idJugador": "12062",
@@ -2304,7 +2304,7 @@
       "idJugador": "29059",
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27062",
