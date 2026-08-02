@@ -1,9 +1,37 @@
 {
-  "ultimaActualizacion": "2026-08-01T10:59:51.580Z",
+  "ultimaActualizacion": "2026-08-02T10:58:34.027Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
-  "rankingMesActual": [],
+  "rankingMesActual": [
+    {
+      "idJugador": "24731",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "6º",
+      "puesto": 1
+    },
+    {
+      "idJugador": "16118",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º",
+      "puesto": 2
+    },
+    {
+      "idJugador": "25786",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º",
+      "puesto": 3
+    }
+  ],
   "rankingHistorico": [
     {
       "idJugador": "2321",
@@ -258,6 +286,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 28,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "16118",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
@@ -686,6 +722,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "24731",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "25518",
       "mes": 4,
       "anio": 2026,
@@ -802,6 +846,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 80,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "25786",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
@@ -1893,6 +1945,33 @@
       "idJugador": "16118",
       "puntosTotales": 20,
       "nombreJugador": "Rienda, Javier",
+      "categoria": "4º"
+    },
+    {
+      "mes": 8,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "24731",
+      "puntosTotales": 8,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "6º"
+    },
+    {
+      "mes": 8,
+      "anio": 2026,
+      "puesto": 2,
+      "idJugador": "16118",
+      "puntosTotales": 4,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º"
+    },
+    {
+      "mes": 8,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "25786",
+      "puntosTotales": 4,
+      "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     }
   ],
