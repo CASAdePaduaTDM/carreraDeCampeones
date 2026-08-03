@@ -1,35 +1,89 @@
 {
-  "ultimaActualizacion": "2026-08-02T10:58:34.027Z",
+  "ultimaActualizacion": "2026-08-03T12:45:40.415Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
   "rankingMesActual": [
     {
-      "idJugador": "24731",
+      "idJugador": "27782",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º",
-      "puesto": 1
-    },
-    {
-      "idJugador": "16118",
-      "mes": 8,
-      "anio": 2026,
-      "puntosTotales": 4,
-      "nombreJugador": "Rienda, Javier",
+      "puntosTotales": 40,
+      "nombreJugador": "Vilte, César Pablo",
       "categoria": "4º",
-      "puesto": 2
+      "puesto": 1
     },
     {
       "idJugador": "25786",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 4,
+      "puntosTotales": 14,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
+      "puesto": 2
+    },
+    {
+      "idJugador": "16118",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 12,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "4º",
       "puesto": 3
+    },
+    {
+      "idJugador": "24731",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 12,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "6º",
+      "puesto": 4
+    },
+    {
+      "idJugador": "22200",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º",
+      "puesto": 5
+    },
+    {
+      "idJugador": "29257",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 6
+    },
+    {
+      "idJugador": "27736",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º",
+      "puesto": 7
+    },
+    {
+      "idJugador": "29059",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º",
+      "puesto": 8
+    },
+    {
+      "idJugador": "29791",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Pomarolli, Pablo",
+      "categoria": "8º",
+      "puesto": 9
     }
   ],
   "rankingHistorico": [
@@ -293,7 +347,7 @@
       "idJugador": "16118",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 4,
+      "puntosTotales": 12,
       "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     },
@@ -468,6 +522,14 @@
     {
       "idJugador": "22200",
       "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º"
+    },
+    {
+      "idJugador": "22200",
+      "mes": 8,
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Borrell, Joaquin",
@@ -725,7 +787,7 @@
       "idJugador": "24731",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 12,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "6º"
     },
@@ -853,7 +915,7 @@
       "idJugador": "25786",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 4,
+      "puntosTotales": 14,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
@@ -1042,6 +1104,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "27736",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "27742",
       "mes": 1,
       "anio": 2026,
@@ -1102,6 +1172,14 @@
       "mes": 12,
       "anio": 2025,
       "puntosTotales": 100,
+      "nombreJugador": "Vilte, César Pablo",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "27782",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 40,
       "nombreJugador": "Vilte, César Pablo",
       "categoria": "4º"
     },
@@ -1278,6 +1356,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 78,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º"
+    },
+    {
+      "idJugador": "29059",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º"
     },
@@ -1482,6 +1568,14 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "29257",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º"
+    },
+    {
       "idJugador": "29291",
       "mes": 1,
       "anio": 2026,
@@ -1662,6 +1756,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 38,
+      "nombreJugador": "Pomarolli, Pablo",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29791",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 4,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º"
     },
@@ -1951,27 +2053,27 @@
       "mes": 8,
       "anio": 2026,
       "puesto": 1,
-      "idJugador": "24731",
-      "puntosTotales": 8,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º"
+      "idJugador": "27782",
+      "puntosTotales": 40,
+      "nombreJugador": "Vilte, César Pablo",
+      "categoria": "4º"
     },
     {
       "mes": 8,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "16118",
-      "puntosTotales": 4,
-      "nombreJugador": "Rienda, Javier",
+      "idJugador": "25786",
+      "puntosTotales": 14,
+      "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
     {
       "mes": 8,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "25786",
-      "puntosTotales": 4,
-      "nombreJugador": "Bonavita, Fernando Damian",
+      "idJugador": "16118",
+      "puntosTotales": 12,
+      "nombreJugador": "Rienda, Javier",
       "categoria": "4º"
     }
   ],
