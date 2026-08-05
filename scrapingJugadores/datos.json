@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-08-04T11:47:51.905Z",
+  "ultimaActualizacion": "2026-08-05T11:45:20.150Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
@@ -28,7 +28,7 @@
       "anio": 2026,
       "puntosTotales": 12,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º",
+      "categoria": "5º",
       "puesto": 3
     },
     {
@@ -37,7 +37,7 @@
       "anio": 2026,
       "puntosTotales": 12,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º",
+      "categoria": "5º",
       "puesto": 4
     },
     {
@@ -293,7 +293,7 @@
       "anio": 2025,
       "puntosTotales": 76,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16118",
@@ -301,7 +301,7 @@
       "anio": 2026,
       "puntosTotales": 42,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16118",
@@ -309,7 +309,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16118",
@@ -317,7 +317,7 @@
       "anio": 2026,
       "puntosTotales": 68,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16118",
@@ -325,7 +325,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16118",
@@ -333,7 +333,7 @@
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16118",
@@ -341,7 +341,7 @@
       "anio": 2026,
       "puntosTotales": 28,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16118",
@@ -349,7 +349,7 @@
       "anio": 2026,
       "puntosTotales": 12,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "16617",
@@ -757,7 +757,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24731",
@@ -765,7 +765,7 @@
       "anio": 2026,
       "puntosTotales": 38,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24731",
@@ -773,7 +773,7 @@
       "anio": 2026,
       "puntosTotales": 42,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24731",
@@ -781,7 +781,7 @@
       "anio": 2026,
       "puntosTotales": 18,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24731",
@@ -789,7 +789,7 @@
       "anio": 2026,
       "puntosTotales": 12,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "25518",
@@ -1858,7 +1858,7 @@
       "idJugador": "16118",
       "puntosTotales": 76,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "mes": 1,
@@ -1939,7 +1939,7 @@
       "idJugador": "16118",
       "puntosTotales": 68,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "mes": 4,
@@ -1957,7 +1957,7 @@
       "idJugador": "24731",
       "puntosTotales": 42,
       "nombreJugador": "Fernández, Pelu",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 4,
@@ -2047,7 +2047,7 @@
       "idJugador": "16118",
       "puntosTotales": 20,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "mes": 8,
@@ -2074,7 +2074,7 @@
       "idJugador": "16118",
       "puntosTotales": 12,
       "nombreJugador": "Rienda, Javier",
-      "categoria": "4º"
+      "categoria": "5º"
     }
   ],
   "jugadores": [
@@ -2166,7 +2166,7 @@
       "idJugador": "24731",
       "nombreJugador": "Fernández, Pelu",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "24729",
@@ -2322,7 +2322,7 @@
       "idJugador": "16118",
       "nombreJugador": "Rienda, Javier",
       "activo": true,
-      "categoria": "4º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -2383,6 +2383,12 @@
       "nombreJugador": "Vence, Martin",
       "activo": true,
       "categoria": "5º"
+    },
+    {
+      "idJugador": "27782",
+      "nombreJugador": "Vilte, César Pablo",
+      "activo": true,
+      "categoria": "4º"
     },
     {
       "idJugador": "28870",
