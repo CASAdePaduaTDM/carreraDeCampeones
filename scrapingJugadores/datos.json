@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-08-08T10:00:26.090Z",
+  "ultimaActualizacion": "2026-08-09T10:01:31.990Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
@@ -8,7 +8,7 @@
       "idJugador": "27782",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 60,
       "nombreJugador": "Vilte, César Pablo",
       "categoria": "4º",
       "puesto": 1
@@ -17,7 +17,7 @@
       "idJugador": "25786",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 14,
+      "puntosTotales": 34,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
       "puesto": 2
@@ -26,7 +26,7 @@
       "idJugador": "16118",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 12,
+      "puntosTotales": 14,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
       "puesto": 3
@@ -347,7 +347,7 @@
       "idJugador": "16118",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 12,
+      "puntosTotales": 14,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
     },
@@ -915,7 +915,7 @@
       "idJugador": "25786",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 14,
+      "puntosTotales": 34,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
@@ -1179,7 +1179,7 @@
       "idJugador": "27782",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 60,
       "nombreJugador": "Vilte, César Pablo",
       "categoria": "4º"
     },
@@ -2054,7 +2054,7 @@
       "anio": 2026,
       "puesto": 1,
       "idJugador": "27782",
-      "puntosTotales": 40,
+      "puntosTotales": 60,
       "nombreJugador": "Vilte, César Pablo",
       "categoria": "4º"
     },
@@ -2063,7 +2063,7 @@
       "anio": 2026,
       "puesto": 2,
       "idJugador": "25786",
-      "puntosTotales": 14,
+      "puntosTotales": 34,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
@@ -2072,7 +2072,7 @@
       "anio": 2026,
       "puesto": 3,
       "idJugador": "16118",
-      "puntosTotales": 12,
+      "puntosTotales": 14,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
     }
