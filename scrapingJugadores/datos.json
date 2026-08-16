@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-08-15T09:48:43.916Z",
+  "ultimaActualizacion": "2026-08-16T09:52:43.725Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
@@ -14,13 +14,22 @@
       "puesto": 1
     },
     {
+      "idJugador": "29059",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 52,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º",
+      "puesto": 2
+    },
+    {
       "idJugador": "25786",
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 34,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
-      "puesto": 2
+      "puesto": 3
     },
     {
       "idJugador": "24731",
@@ -29,7 +38,7 @@
       "puntosTotales": 22,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "16118",
@@ -38,7 +47,7 @@
       "puntosTotales": 14,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 4
+      "puesto": 5
     },
     {
       "idJugador": "22200",
@@ -47,7 +56,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º",
-      "puesto": 5
+      "puesto": 6
     },
     {
       "idJugador": "29257",
@@ -56,7 +65,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 6
+      "puesto": 7
     },
     {
       "idJugador": "27736",
@@ -65,15 +74,6 @@
       "puntosTotales": 4,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º",
-      "puesto": 7
-    },
-    {
-      "idJugador": "29059",
-      "mes": 8,
-      "anio": 2026,
-      "puntosTotales": 4,
-      "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "7º",
       "puesto": 8
     },
     {
@@ -1363,7 +1363,7 @@
       "idJugador": "29059",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 4,
+      "puntosTotales": 52,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "7º"
     },
@@ -2062,19 +2062,19 @@
       "mes": 8,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "25786",
-      "puntosTotales": 34,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "idJugador": "29059",
+      "puntosTotales": 52,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "7º"
     },
     {
       "mes": 8,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "24731",
-      "puntosTotales": 22,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º"
+      "idJugador": "25786",
+      "puntosTotales": 34,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
     }
   ],
   "jugadores": [
