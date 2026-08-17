@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-08-16T09:52:43.725Z",
+  "ultimaActualizacion": "2026-08-17T10:06:02.501Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
@@ -35,10 +35,19 @@
       "idJugador": "24731",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 22,
+      "puntosTotales": 26,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
       "puesto": 4
+    },
+    {
+      "idJugador": "24049",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Montagliani, Agustín",
+      "categoria": "4º",
+      "puesto": 5
     },
     {
       "idJugador": "16118",
@@ -47,7 +56,7 @@
       "puntosTotales": 14,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 5
+      "puesto": 6
     },
     {
       "idJugador": "22200",
@@ -56,7 +65,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º",
-      "puesto": 6
+      "puesto": 7
+    },
+    {
+      "idJugador": "20942",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º",
+      "puesto": 8
     },
     {
       "idJugador": "29257",
@@ -65,7 +83,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 7
+      "puesto": 9
     },
     {
       "idJugador": "27736",
@@ -74,7 +92,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º",
-      "puesto": 8
+      "puesto": 10
     },
     {
       "idJugador": "29791",
@@ -83,7 +101,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º",
-      "puesto": 9
+      "puesto": 11
     }
   ],
   "rankingHistorico": [
@@ -480,6 +498,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "20942",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "21019",
       "mes": 2,
       "anio": 2026,
@@ -704,6 +730,14 @@
       "categoria": "4º"
     },
     {
+      "idJugador": "24049",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Montagliani, Agustín",
+      "categoria": "4º"
+    },
+    {
       "idJugador": "24704",
       "mes": 1,
       "anio": 2026,
@@ -787,7 +821,7 @@
       "idJugador": "24731",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 22,
+      "puntosTotales": 26,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
