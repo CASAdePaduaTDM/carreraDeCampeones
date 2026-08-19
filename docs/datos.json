@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-08-18T09:54:46.332Z",
+  "ultimaActualizacion": "2026-08-19T09:55:25.437Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
@@ -2189,18 +2189,6 @@
       "nombreJugador": "Fernández, Pelu",
       "activo": true,
       "categoria": "5º"
-    },
-    {
-      "idJugador": "24729",
-      "nombreJugador": "Fernández Bonus, Agustín",
-      "activo": true,
-      "categoria": "6º"
-    },
-    {
-      "idJugador": "24730",
-      "nombreJugador": "Fernández Bonus, Manuel",
-      "activo": true,
-      "categoria": "6º"
     },
     {
       "idJugador": "29486",
