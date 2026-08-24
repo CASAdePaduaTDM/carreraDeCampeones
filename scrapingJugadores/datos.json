@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-08-23T09:50:43.115Z",
+  "ultimaActualizacion": "2026-08-24T10:08:40.772Z",
   "mesActual": 8,
   "anioActual": 2026,
   "nombreMes": "Agosto",
@@ -23,13 +23,22 @@
       "puesto": 2
     },
     {
+      "idJugador": "20942",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 58,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º",
+      "puesto": 3
+    },
+    {
       "idJugador": "25786",
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 54,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "27736",
@@ -38,7 +47,16 @@
       "puntosTotales": 54,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "6º",
-      "puesto": 4
+      "puesto": 5
+    },
+    {
+      "idJugador": "25518",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 28,
+      "nombreJugador": "Mateos, Gerónimo",
+      "categoria": "8º",
+      "puesto": 6
     },
     {
       "idJugador": "24731",
@@ -47,7 +65,7 @@
       "puntosTotales": 26,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 5
+      "puesto": 7
     },
     {
       "idJugador": "16118",
@@ -56,7 +74,7 @@
       "puntosTotales": 24,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 6
+      "puesto": 8
     },
     {
       "idJugador": "15467",
@@ -65,7 +83,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Marana, Mauricio Hernan",
       "categoria": "6º",
-      "puesto": 7
+      "puesto": 9
     },
     {
       "idJugador": "24049",
@@ -74,7 +92,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Montagliani, Agustín",
       "categoria": "4º",
-      "puesto": 8
+      "puesto": 10
     },
     {
       "idJugador": "26909",
@@ -83,7 +101,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Bassi, Guillermo",
       "categoria": "6º",
-      "puesto": 9
+      "puesto": 11
     },
     {
       "idJugador": "22200",
@@ -92,7 +110,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º",
-      "puesto": 10
+      "puesto": 12
     },
     {
       "idJugador": "24024",
@@ -101,7 +119,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Petkovsek, Mario",
       "categoria": "5º",
-      "puesto": 11
+      "puesto": 13
     },
     {
       "idJugador": "29486",
@@ -110,16 +128,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "6º",
-      "puesto": 12
-    },
-    {
-      "idJugador": "20942",
-      "mes": 8,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Teijeiro, Christian",
-      "categoria": "6º",
-      "puesto": 13
+      "puesto": 14
     },
     {
       "idJugador": "29257",
@@ -128,7 +137,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 14
+      "puesto": 15
     },
     {
       "idJugador": "29791",
@@ -137,7 +146,7 @@
       "puntosTotales": 4,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º",
-      "puesto": 15
+      "puesto": 16
     },
     {
       "idJugador": "12062",
@@ -146,7 +155,7 @@
       "puntosTotales": 2,
       "nombreJugador": "Flama, Cristian Raul",
       "categoria": "5º",
-      "puesto": 16
+      "puesto": 17
     },
     {
       "idJugador": "29224",
@@ -155,7 +164,7 @@
       "puntosTotales": 2,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º",
-      "puesto": 17
+      "puesto": 18
     }
   ],
   "rankingHistorico": [
@@ -571,7 +580,7 @@
       "idJugador": "20942",
       "mes": 8,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 58,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º"
     },
@@ -916,6 +925,14 @@
       "mes": 6,
       "anio": 2026,
       "puntosTotales": 18,
+      "nombreJugador": "Mateos, Gerónimo",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "25518",
+      "mes": 8,
+      "anio": 2026,
+      "puntosTotales": 28,
       "nombreJugador": "Mateos, Gerónimo",
       "categoria": "8º"
     },
@@ -2180,10 +2197,10 @@
       "mes": 8,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "25786",
-      "puntosTotales": 54,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º"
+      "idJugador": "20942",
+      "puntosTotales": 58,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º"
     },
     {
       "mes": 5,
