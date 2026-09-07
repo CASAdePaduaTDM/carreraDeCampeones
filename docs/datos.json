@@ -1,9 +1,19 @@
 {
-  "ultimaActualizacion": "2026-09-06T13:01:03.764Z",
+  "ultimaActualizacion": "2026-09-07T15:10:36.517Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
-  "rankingMesActual": [],
+  "rankingMesActual": [
+    {
+      "idJugador": "20942",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º",
+      "puesto": 1
+    }
+  ],
   "rankingHistorico": [
     {
       "idJugador": "2321",
@@ -418,6 +428,14 @@
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 58,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "20942",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º"
     },
@@ -2073,6 +2091,15 @@
       "puntosTotales": 20,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
+    },
+    {
+      "mes": 9,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "20942",
+      "puntosTotales": 10,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º"
     }
   ],
   "jugadores": [
