@@ -1,9 +1,45 @@
 {
-  "ultimaActualizacion": "2026-09-07T15:10:36.517Z",
+  "ultimaActualizacion": "2026-09-08T13:42:37.828Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
   "rankingMesActual": [
+    {
+      "idJugador": "27736",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 60,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º",
+      "puesto": 1
+    },
+    {
+      "idJugador": "29224",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Vega Lavergne, Felipe Simon",
+      "categoria": "8º",
+      "puesto": 2
+    },
+    {
+      "idJugador": "29059",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 28,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "6º",
+      "puesto": 3
+    },
+    {
+      "idJugador": "29257",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 4
+    },
     {
       "idJugador": "20942",
       "mes": 9,
@@ -11,7 +47,79 @@
       "puntosTotales": 10,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º",
-      "puesto": 1
+      "puesto": 5
+    },
+    {
+      "idJugador": "25786",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º",
+      "puesto": 6
+    },
+    {
+      "idJugador": "16118",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º",
+      "puesto": 7
+    },
+    {
+      "idJugador": "23770",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Gimenez, Aurelio Fernando",
+      "categoria": "4º",
+      "puesto": 8
+    },
+    {
+      "idJugador": "28881",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Silva, Sebastian",
+      "categoria": "8º",
+      "puesto": 9
+    },
+    {
+      "idJugador": "29593",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Colasurdo, Macarena",
+      "categoria": "8º",
+      "puesto": 10
+    },
+    {
+      "idJugador": "29791",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Pomarolli, Pablo",
+      "categoria": "8º",
+      "puesto": 11
+    },
+    {
+      "idJugador": "20706",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º",
+      "puesto": 12
+    },
+    {
+      "idJugador": "29486",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Ferracuti, Gabriel",
+      "categoria": "6º",
+      "puesto": 13
     }
   ],
   "rankingHistorico": [
@@ -296,6 +404,14 @@
       "categoria": "5º"
     },
     {
+      "idJugador": "16118",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º"
+    },
+    {
       "idJugador": "16617",
       "mes": 2,
       "anio": 2026,
@@ -386,6 +502,14 @@
     {
       "idJugador": "20706",
       "mes": 7,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Cazal Rivera, Victor Ismael",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "20706",
+      "mes": 9,
       "anio": 2026,
       "puntosTotales": 2,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
@@ -612,6 +736,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 20,
+      "nombreJugador": "Gimenez, Aurelio Fernando",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "23770",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º"
     },
@@ -904,6 +1036,14 @@
       "categoria": "4º"
     },
     {
+      "idJugador": "25786",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
+    },
+    {
       "idJugador": "25818",
       "mes": 1,
       "anio": 2026,
@@ -1112,6 +1252,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "27736",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 60,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "27742",
       "mes": 1,
       "anio": 2026,
@@ -1296,6 +1444,14 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "28881",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Silva, Sebastian",
+      "categoria": "8º"
+    },
+    {
       "idJugador": "29059",
       "mes": 1,
       "anio": 2026,
@@ -1364,6 +1520,14 @@
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 92,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "29059",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 28,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º"
     },
@@ -1468,6 +1632,14 @@
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 10,
+      "nombreJugador": "Vega Lavergne, Felipe Simon",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29224",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º"
     },
@@ -1584,6 +1756,14 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "29257",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º"
+    },
+    {
       "idJugador": "29291",
       "mes": 1,
       "anio": 2026,
@@ -1680,6 +1860,14 @@
       "categoria": "6º"
     },
     {
+      "idJugador": "29486",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 2,
+      "nombreJugador": "Ferracuti, Gabriel",
+      "categoria": "6º"
+    },
+    {
       "idJugador": "29593",
       "mes": 2,
       "anio": 2026,
@@ -1716,6 +1904,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 20,
+      "nombreJugador": "Colasurdo, Macarena",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29593",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Colasurdo, Macarena",
       "categoria": "8º"
     },
@@ -1780,6 +1976,14 @@
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 4,
+      "nombreJugador": "Pomarolli, Pablo",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "29791",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º"
     },
@@ -2096,9 +2300,27 @@
       "mes": 9,
       "anio": 2026,
       "puesto": 1,
-      "idJugador": "20942",
-      "puntosTotales": 10,
-      "nombreJugador": "Teijeiro, Christian",
+      "idJugador": "27736",
+      "puntosTotales": 60,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º"
+    },
+    {
+      "mes": 9,
+      "anio": 2026,
+      "puesto": 2,
+      "idJugador": "29224",
+      "puntosTotales": 40,
+      "nombreJugador": "Vega Lavergne, Felipe Simon",
+      "categoria": "8º"
+    },
+    {
+      "mes": 9,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "29059",
+      "puntosTotales": 28,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º"
     }
   ],
