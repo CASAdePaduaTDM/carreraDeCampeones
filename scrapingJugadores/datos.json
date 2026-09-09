@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-09-08T13:42:37.828Z",
+  "ultimaActualizacion": "2026-09-09T13:48:19.089Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
@@ -19,7 +19,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º",
+      "categoria": "7º",
       "puesto": 2
     },
     {
@@ -1577,7 +1577,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1585,7 +1585,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1593,7 +1593,7 @@
       "anio": 2026,
       "puntosTotales": 26,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1601,7 +1601,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1609,7 +1609,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1617,7 +1617,7 @@
       "anio": 2026,
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1625,7 +1625,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1633,7 +1633,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29224",
@@ -1641,7 +1641,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "29252",
@@ -2195,7 +2195,7 @@
       "idJugador": "29224",
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "mes": 6,
@@ -2312,7 +2312,7 @@
       "idJugador": "29224",
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "mes": 9,
@@ -2458,12 +2458,6 @@
       "categoria": "5º"
     },
     {
-      "idJugador": "29078",
-      "nombreJugador": "Lopez Ramirez, Richard Jose",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
       "idJugador": "8214",
       "nombreJugador": "Luciani, Daniel Horacio",
       "activo": true,
@@ -2560,12 +2554,6 @@
       "categoria": "6º"
     },
     {
-      "idJugador": "13463",
-      "nombreJugador": "Siepe, Valeria Laura",
-      "activo": true,
-      "categoria": "7º"
-    },
-    {
       "idJugador": "28881",
       "nombreJugador": "Silva, Sebastian",
       "activo": true,
@@ -2599,7 +2587,7 @@
       "idJugador": "29224",
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "activo": true,
-      "categoria": "8º"
+      "categoria": "7º"
     },
     {
       "idJugador": "27731",
