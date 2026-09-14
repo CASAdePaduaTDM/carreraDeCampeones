@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-09-13T14:04:02.803Z",
+  "ultimaActualizacion": "2026-09-14T16:02:55.910Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
@@ -14,22 +14,31 @@
       "puesto": 1
     },
     {
+      "idJugador": "29059",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 48,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "6º",
+      "puesto": 2
+    },
+    {
+      "idJugador": "27942",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 42,
+      "nombreJugador": "Olivera, Ivon",
+      "categoria": "8º",
+      "puesto": 3
+    },
+    {
       "idJugador": "29224",
       "mes": 9,
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º",
-      "puesto": 2
-    },
-    {
-      "idJugador": "29059",
-      "mes": 9,
-      "anio": 2026,
-      "puntosTotales": 28,
-      "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "29257",
@@ -38,7 +47,16 @@
       "puntosTotales": 20,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 4
+      "puesto": 5
+    },
+    {
+      "idJugador": "5113",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Garcia, Nicolas",
+      "categoria": "4º",
+      "puesto": 6
     },
     {
       "idJugador": "20942",
@@ -47,7 +65,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º",
-      "puesto": 5
+      "puesto": 7
+    },
+    {
+      "idJugador": "24731",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 8
     },
     {
       "idJugador": "25786",
@@ -56,7 +83,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º",
-      "puesto": 6
+      "puesto": 9
     },
     {
       "idJugador": "16118",
@@ -65,7 +92,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 7
+      "puesto": 10
     },
     {
       "idJugador": "23770",
@@ -74,7 +101,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º",
-      "puesto": 8
+      "puesto": 11
     },
     {
       "idJugador": "28881",
@@ -83,7 +110,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Silva, Sebastian",
       "categoria": "8º",
-      "puesto": 9
+      "puesto": 12
     },
     {
       "idJugador": "29593",
@@ -92,7 +119,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Colasurdo, Macarena",
       "categoria": "8º",
-      "puesto": 10
+      "puesto": 13
     },
     {
       "idJugador": "29791",
@@ -101,7 +128,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Pomarolli, Pablo",
       "categoria": "8º",
-      "puesto": 11
+      "puesto": 14
     },
     {
       "idJugador": "20706",
@@ -110,7 +137,7 @@
       "puntosTotales": 2,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º",
-      "puesto": 12
+      "puesto": 15
     },
     {
       "idJugador": "29486",
@@ -119,7 +146,7 @@
       "puntosTotales": 2,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "6º",
-      "puesto": 13
+      "puesto": 16
     }
   ],
   "rankingHistorico": [
@@ -184,6 +211,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 8,
+      "nombreJugador": "Garcia, Nicolas",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "5113",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Garcia, Nicolas",
       "categoria": "4º"
     },
@@ -900,6 +935,14 @@
       "categoria": "5º"
     },
     {
+      "idJugador": "24731",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
+    },
+    {
       "idJugador": "25518",
       "mes": 4,
       "anio": 2026,
@@ -1356,6 +1399,14 @@
       "categoria": "8º"
     },
     {
+      "idJugador": "27942",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 42,
+      "nombreJugador": "Olivera, Ivon",
+      "categoria": "8º"
+    },
+    {
       "idJugador": "27982",
       "mes": 3,
       "anio": 2026,
@@ -1527,7 +1578,7 @@
       "idJugador": "29059",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 28,
+      "puntosTotales": 48,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º"
     },
@@ -2243,6 +2294,33 @@
       "categoria": "4º"
     },
     {
+      "mes": 9,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "27736",
+      "puntosTotales": 60,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "6º"
+    },
+    {
+      "mes": 9,
+      "anio": 2026,
+      "puesto": 2,
+      "idJugador": "29059",
+      "puntosTotales": 48,
+      "nombreJugador": "Manrique, Lautaro Gabriel",
+      "categoria": "6º"
+    },
+    {
+      "mes": 9,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "27942",
+      "puntosTotales": 42,
+      "nombreJugador": "Olivera, Ivon",
+      "categoria": "8º"
+    },
+    {
       "mes": 8,
       "anio": 2026,
       "puesto": 1,
@@ -2295,33 +2373,6 @@
       "puntosTotales": 20,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
-    },
-    {
-      "mes": 9,
-      "anio": 2026,
-      "puesto": 1,
-      "idJugador": "27736",
-      "puntosTotales": 60,
-      "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
-    },
-    {
-      "mes": 9,
-      "anio": 2026,
-      "puesto": 2,
-      "idJugador": "29224",
-      "puntosTotales": 40,
-      "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
-    },
-    {
-      "mes": 9,
-      "anio": 2026,
-      "puesto": 3,
-      "idJugador": "29059",
-      "puntosTotales": 28,
-      "nombreJugador": "Manrique, Lautaro Gabriel",
-      "categoria": "6º"
     }
   ],
   "jugadores": [
