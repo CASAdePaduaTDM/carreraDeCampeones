@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-09-20T13:54:58.339Z",
+  "ultimaActualizacion": "2026-09-21T16:04:49.761Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
@@ -194,13 +194,22 @@
       "puesto": 21
     },
     {
+      "idJugador": "25518",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 4,
+      "nombreJugador": "Mateos, Gerónimo",
+      "categoria": "8º",
+      "puesto": 22
+    },
+    {
       "idJugador": "20706",
       "mes": 9,
       "anio": 2026,
       "puntosTotales": 2,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º",
-      "puesto": 22
+      "puesto": 23
     },
     {
       "idJugador": "29486",
@@ -209,7 +218,7 @@
       "puntosTotales": 2,
       "nombreJugador": "Ferracuti, Gabriel",
       "categoria": "6º",
-      "puesto": 23
+      "puesto": 24
     }
   ],
   "rankingHistorico": [
@@ -1066,6 +1075,14 @@
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 28,
+      "nombreJugador": "Mateos, Gerónimo",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "25518",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 4,
       "nombreJugador": "Mateos, Gerónimo",
       "categoria": "8º"
     },
