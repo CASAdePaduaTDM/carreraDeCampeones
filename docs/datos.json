@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-09-21T16:04:49.761Z",
+  "ultimaActualizacion": "2026-09-22T14:19:27.202Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
@@ -14,13 +14,31 @@
       "puesto": 1
     },
     {
+      "idJugador": "24731",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 60,
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º",
+      "puesto": 2
+    },
+    {
       "idJugador": "29224",
       "mes": 9,
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º",
-      "puesto": 2
+      "puesto": 3
+    },
+    {
+      "idJugador": "23769",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 58,
+      "nombreJugador": "Gimenez Castillo, Bianca Donatella",
+      "categoria": "5º",
+      "puesto": 4
     },
     {
       "idJugador": "27731",
@@ -29,7 +47,7 @@
       "puntosTotales": 58,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
-      "puesto": 3
+      "puesto": 5
     },
     {
       "idJugador": "29059",
@@ -38,16 +56,7 @@
       "puntosTotales": 58,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º",
-      "puesto": 4
-    },
-    {
-      "idJugador": "23769",
-      "mes": 9,
-      "anio": 2026,
-      "puntosTotales": 50,
-      "nombreJugador": "Gimenez Castillo, Bianca Donatella",
-      "categoria": "5º",
-      "puesto": 5
+      "puesto": 6
     },
     {
       "idJugador": "27942",
@@ -56,7 +65,7 @@
       "puntosTotales": 42,
       "nombreJugador": "Olivera, Ivon",
       "categoria": "8º",
-      "puesto": 6
+      "puesto": 7
     },
     {
       "idJugador": "16118",
@@ -65,7 +74,7 @@
       "puntosTotales": 28,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 7
+      "puesto": 8
     },
     {
       "idJugador": "22451",
@@ -74,7 +83,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Vence, Martin",
       "categoria": "5º",
-      "puesto": 8
+      "puesto": 9
     },
     {
       "idJugador": "28589",
@@ -83,7 +92,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Migliore, Hugo",
       "categoria": "7º",
-      "puesto": 9
+      "puesto": 10
     },
     {
       "idJugador": "29257",
@@ -92,7 +101,16 @@
       "puntosTotales": 20,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 10
+      "puesto": 11
+    },
+    {
+      "idJugador": "23770",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 16,
+      "nombreJugador": "Gimenez, Aurelio Fernando",
+      "categoria": "4º",
+      "puesto": 12
     },
     {
       "idJugador": "5113",
@@ -101,7 +119,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Garcia, Nicolas",
       "categoria": "4º",
-      "puesto": 11
+      "puesto": 13
     },
     {
       "idJugador": "12062",
@@ -110,7 +128,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Flama, Cristian Raul",
       "categoria": "5º",
-      "puesto": 12
+      "puesto": 14
     },
     {
       "idJugador": "15467",
@@ -119,7 +137,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Marana, Mauricio Hernan",
       "categoria": "6º",
-      "puesto": 13
+      "puesto": 15
     },
     {
       "idJugador": "20942",
@@ -128,7 +146,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º",
-      "puesto": 14
+      "puesto": 16
     },
     {
       "idJugador": "24704",
@@ -137,16 +155,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "5º",
-      "puesto": 15
-    },
-    {
-      "idJugador": "24731",
-      "mes": 9,
-      "anio": 2026,
-      "puntosTotales": 10,
-      "nombreJugador": "Fernández, Pelu",
-      "categoria": "5º",
-      "puesto": 16
+      "puesto": 17
     },
     {
       "idJugador": "25786",
@@ -154,15 +163,6 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º",
-      "puesto": 17
-    },
-    {
-      "idJugador": "23770",
-      "mes": 9,
-      "anio": 2026,
-      "puntosTotales": 8,
-      "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º",
       "puesto": 18
     },
@@ -842,7 +842,7 @@
       "idJugador": "23769",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 50,
+      "puntosTotales": 58,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º"
     },
@@ -882,7 +882,7 @@
       "idJugador": "23770",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 8,
+      "puntosTotales": 16,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º"
     },
@@ -1050,7 +1050,7 @@
       "idJugador": "24731",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 60,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
     },
@@ -2442,18 +2442,18 @@
       "mes": 9,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "29224",
+      "idJugador": "24731",
       "puntosTotales": 60,
-      "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
     },
     {
       "mes": 9,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "27731",
-      "puntosTotales": 58,
-      "nombreJugador": "Vega Lavergne, Martin Jesus",
+      "idJugador": "29224",
+      "puntosTotales": 60,
+      "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "7º"
     },
     {
