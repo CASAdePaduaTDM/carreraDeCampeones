@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-09-22T14:19:27.202Z",
+  "ultimaActualizacion": "2026-09-23T14:43:02.918Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
@@ -10,7 +10,7 @@
       "anio": 2026,
       "puntosTotales": 100,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º",
+      "categoria": "5º",
       "puesto": 1
     },
     {
@@ -28,7 +28,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º",
+      "categoria": "8º",
       "puesto": 3
     },
     {
@@ -1372,7 +1372,7 @@
       "anio": 2026,
       "puntosTotales": 70,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -1380,7 +1380,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -1388,7 +1388,7 @@
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -1396,7 +1396,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -1404,7 +1404,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -1412,7 +1412,7 @@
       "anio": 2026,
       "puntosTotales": 140,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -1420,7 +1420,7 @@
       "anio": 2026,
       "puntosTotales": 54,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27736",
@@ -1428,7 +1428,7 @@
       "anio": 2026,
       "puntosTotales": 100,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "27742",
@@ -1764,7 +1764,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1772,7 +1772,7 @@
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1780,7 +1780,7 @@
       "anio": 2026,
       "puntosTotales": 26,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1788,7 +1788,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1796,7 +1796,7 @@
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1804,7 +1804,7 @@
       "anio": 2026,
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1812,7 +1812,7 @@
       "anio": 2026,
       "puntosTotales": 58,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1820,7 +1820,7 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29224",
@@ -1828,7 +1828,7 @@
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "29252",
@@ -2292,7 +2292,7 @@
       "idJugador": "27736",
       "puntosTotales": 70,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 2,
@@ -2382,7 +2382,7 @@
       "idJugador": "29224",
       "puntosTotales": 90,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "mes": 6,
@@ -2409,7 +2409,7 @@
       "idJugador": "27736",
       "puntosTotales": 140,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 7,
@@ -2436,7 +2436,7 @@
       "idJugador": "27736",
       "puntosTotales": 100,
       "nombreJugador": "Rojo, Renzo Gabriel",
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "mes": 9,
@@ -2454,7 +2454,7 @@
       "idJugador": "29224",
       "puntosTotales": 60,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "mes": 8,
@@ -2738,7 +2738,7 @@
       "idJugador": "27736",
       "nombreJugador": "Rojo, Renzo Gabriel",
       "activo": true,
-      "categoria": "6º"
+      "categoria": "5º"
     },
     {
       "idJugador": "28881",
@@ -2774,7 +2774,7 @@
       "idJugador": "29224",
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "activo": true,
-      "categoria": "7º"
+      "categoria": "8º"
     },
     {
       "idJugador": "27731",
