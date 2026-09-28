@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-09-27T14:59:43.511Z",
+  "ultimaActualizacion": "2026-09-28T17:47:07.262Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
@@ -71,7 +71,7 @@
       "idJugador": "16118",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 28,
+      "puntosTotales": 38,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
       "puesto": 8
@@ -86,13 +86,22 @@
       "puesto": 9
     },
     {
+      "idJugador": "25786",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º",
+      "puesto": 10
+    },
+    {
       "idJugador": "28589",
       "mes": 9,
       "anio": 2026,
       "puntosTotales": 20,
       "nombreJugador": "Migliore, Hugo",
       "categoria": "7º",
-      "puesto": 10
+      "puesto": 11
     },
     {
       "idJugador": "29257",
@@ -101,7 +110,7 @@
       "puntosTotales": 20,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º",
-      "puesto": 11
+      "puesto": 12
     },
     {
       "idJugador": "23770",
@@ -110,7 +119,7 @@
       "puntosTotales": 16,
       "nombreJugador": "Gimenez, Aurelio Fernando",
       "categoria": "4º",
-      "puesto": 12
+      "puesto": 13
     },
     {
       "idJugador": "5113",
@@ -119,7 +128,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Garcia, Nicolas",
       "categoria": "4º",
-      "puesto": 13
+      "puesto": 14
     },
     {
       "idJugador": "12062",
@@ -128,7 +137,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Flama, Cristian Raul",
       "categoria": "5º",
-      "puesto": 14
+      "puesto": 15
     },
     {
       "idJugador": "15467",
@@ -137,7 +146,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Marana, Mauricio Hernan",
       "categoria": "6º",
-      "puesto": 15
+      "puesto": 16
     },
     {
       "idJugador": "20942",
@@ -146,7 +155,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º",
-      "puesto": 16
+      "puesto": 17
     },
     {
       "idJugador": "24704",
@@ -155,15 +164,6 @@
       "puntosTotales": 10,
       "nombreJugador": "Josid, Jorge Anibal",
       "categoria": "5º",
-      "puesto": 17
-    },
-    {
-      "idJugador": "25786",
-      "mes": 9,
-      "anio": 2026,
-      "puntosTotales": 10,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "4º",
       "puesto": 18
     },
     {
@@ -530,7 +530,7 @@
       "idJugador": "16118",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 28,
+      "puntosTotales": 38,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
     },
@@ -1202,7 +1202,7 @@
       "idJugador": "25786",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 10,
+      "puntosTotales": 20,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "4º"
     },
