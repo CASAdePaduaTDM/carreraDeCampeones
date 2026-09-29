@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-09-28T17:47:07.262Z",
+  "ultimaActualizacion": "2026-09-29T15:49:18.430Z",
   "mesActual": 9,
   "anioActual": 2026,
   "nombreMes": "Septiembre",
@@ -14,13 +14,22 @@
       "puesto": 1
     },
     {
+      "idJugador": "16118",
+      "mes": 9,
+      "anio": 2026,
+      "puntosTotales": 78,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º",
+      "puesto": 2
+    },
+    {
       "idJugador": "24731",
       "mes": 9,
       "anio": 2026,
       "puntosTotales": 60,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 2
+      "puesto": 3
     },
     {
       "idJugador": "29224",
@@ -29,7 +38,7 @@
       "puntosTotales": 60,
       "nombreJugador": "Vega Lavergne, Felipe Simon",
       "categoria": "8º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "23769",
@@ -38,7 +47,7 @@
       "puntosTotales": 58,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 4
+      "puesto": 5
     },
     {
       "idJugador": "27731",
@@ -47,7 +56,7 @@
       "puntosTotales": 58,
       "nombreJugador": "Vega Lavergne, Martin Jesus",
       "categoria": "7º",
-      "puesto": 5
+      "puesto": 6
     },
     {
       "idJugador": "29059",
@@ -56,7 +65,7 @@
       "puntosTotales": 58,
       "nombreJugador": "Manrique, Lautaro Gabriel",
       "categoria": "6º",
-      "puesto": 6
+      "puesto": 7
     },
     {
       "idJugador": "27942",
@@ -65,15 +74,6 @@
       "puntosTotales": 42,
       "nombreJugador": "Olivera, Ivon",
       "categoria": "8º",
-      "puesto": 7
-    },
-    {
-      "idJugador": "16118",
-      "mes": 9,
-      "anio": 2026,
-      "puntosTotales": 38,
-      "nombreJugador": "Rienda, Javier",
-      "categoria": "5º",
       "puesto": 8
     },
     {
@@ -530,7 +530,7 @@
       "idJugador": "16118",
       "mes": 9,
       "anio": 2026,
-      "puntosTotales": 38,
+      "puntosTotales": 78,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
     },
@@ -2442,19 +2442,19 @@
       "mes": 9,
       "anio": 2026,
       "puesto": 2,
-      "idJugador": "24731",
-      "puntosTotales": 60,
-      "nombreJugador": "Fernández, Pelu",
+      "idJugador": "16118",
+      "puntosTotales": 78,
+      "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
     },
     {
       "mes": 9,
       "anio": 2026,
       "puesto": 3,
-      "idJugador": "29224",
+      "idJugador": "24731",
       "puntosTotales": 60,
-      "nombreJugador": "Vega Lavergne, Felipe Simon",
-      "categoria": "8º"
+      "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
     },
     {
       "mes": 8,
