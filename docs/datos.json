@@ -1,9 +1,82 @@
 {
-  "ultimaActualizacion": "2026-10-02T15:45:09.300Z",
+  "ultimaActualizacion": "2026-10-03T14:35:53.507Z",
   "mesActual": 10,
   "anioActual": 2026,
   "nombreMes": "Octubre",
-  "rankingMesActual": [],
+  "rankingMesActual": [
+    {
+      "idJugador": "14057",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Martinez, Diego Oscar",
+      "categoria": "3º",
+      "puesto": 1
+    },
+    {
+      "idJugador": "5113",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Garcia, Nicolas",
+      "categoria": "4º",
+      "puesto": 2
+    },
+    {
+      "idJugador": "8214",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Luciani, Daniel Horacio",
+      "categoria": "3º",
+      "puesto": 3
+    },
+    {
+      "idJugador": "22200",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º",
+      "puesto": 4
+    },
+    {
+      "idJugador": "16118",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º",
+      "puesto": 5
+    },
+    {
+      "idJugador": "23769",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Gimenez Castillo, Bianca Donatella",
+      "categoria": "5º",
+      "puesto": 6
+    },
+    {
+      "idJugador": "24024",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Petkovsek, Mario",
+      "categoria": "5º",
+      "puesto": 7
+    },
+    {
+      "idJugador": "27736",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "5º",
+      "puesto": 8
+    }
+  ],
   "rankingHistorico": [
     {
       "idJugador": "2321",
@@ -78,6 +151,14 @@
       "categoria": "4º"
     },
     {
+      "idJugador": "5113",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Garcia, Nicolas",
+      "categoria": "4º"
+    },
+    {
       "idJugador": "8214",
       "mes": 4,
       "anio": 2026,
@@ -90,6 +171,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 20,
+      "nombreJugador": "Luciani, Daniel Horacio",
+      "categoria": "3º"
+    },
+    {
+      "idJugador": "8214",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
       "nombreJugador": "Luciani, Daniel Horacio",
       "categoria": "3º"
     },
@@ -162,6 +251,14 @@
       "mes": 7,
       "anio": 2026,
       "puntosTotales": 20,
+      "nombreJugador": "Martinez, Diego Oscar",
+      "categoria": "3º"
+    },
+    {
+      "idJugador": "14057",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 40,
       "nombreJugador": "Martinez, Diego Oscar",
       "categoria": "3º"
     },
@@ -314,6 +411,14 @@
       "mes": 9,
       "anio": 2026,
       "puntosTotales": 78,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "16118",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
     },
@@ -526,6 +631,14 @@
       "categoria": "3º"
     },
     {
+      "idJugador": "22200",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Borrell, Joaquin",
+      "categoria": "3º"
+    },
+    {
       "idJugador": "22451",
       "mes": 2,
       "anio": 2026,
@@ -630,6 +743,14 @@
       "categoria": "5º"
     },
     {
+      "idJugador": "23769",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Gimenez Castillo, Bianca Donatella",
+      "categoria": "5º"
+    },
+    {
       "idJugador": "23770",
       "mes": 1,
       "anio": 2026,
@@ -706,6 +827,14 @@
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 10,
+      "nombreJugador": "Petkovsek, Mario",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "24024",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Petkovsek, Mario",
       "categoria": "5º"
     },
@@ -1210,6 +1339,14 @@
       "mes": 9,
       "anio": 2026,
       "puntosTotales": 100,
+      "nombreJugador": "Rojo, Renzo Gabriel",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "27736",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "5º"
     },
@@ -2238,6 +2375,33 @@
       "puntosTotales": 60,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º"
+    },
+    {
+      "mes": 10,
+      "anio": 2026,
+      "puesto": 1,
+      "idJugador": "14057",
+      "puntosTotales": 40,
+      "nombreJugador": "Martinez, Diego Oscar",
+      "categoria": "3º"
+    },
+    {
+      "mes": 10,
+      "anio": 2026,
+      "puesto": 2,
+      "idJugador": "5113",
+      "puntosTotales": 10,
+      "nombreJugador": "Garcia, Nicolas",
+      "categoria": "4º"
+    },
+    {
+      "mes": 10,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "8214",
+      "puntosTotales": 10,
+      "nombreJugador": "Luciani, Daniel Horacio",
+      "categoria": "3º"
     },
     {
       "mes": 8,
