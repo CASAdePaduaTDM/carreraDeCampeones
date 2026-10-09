@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-10-08T16:38:03.273Z",
+  "ultimaActualizacion": "2026-10-09T16:14:49.196Z",
   "mesActual": 10,
   "anioActual": 2026,
   "nombreMes": "Octubre",
   "rankingMesActual": [
+    {
+      "idJugador": "27782",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 50,
+      "nombreJugador": "Vilte, César Pablo",
+      "categoria": "4º",
+      "puesto": 1
+    },
     {
       "idJugador": "14057",
       "mes": 10,
@@ -11,7 +20,7 @@
       "puntosTotales": 40,
       "nombreJugador": "Martinez, Diego Oscar",
       "categoria": "3º",
-      "puesto": 1
+      "puesto": 2
     },
     {
       "idJugador": "5113",
@@ -20,7 +29,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Garcia, Nicolas",
       "categoria": "4º",
-      "puesto": 2
+      "puesto": 3
     },
     {
       "idJugador": "8214",
@@ -29,7 +38,7 @@
       "puntosTotales": 10,
       "nombreJugador": "Luciani, Daniel Horacio",
       "categoria": "3º",
-      "puesto": 3
+      "puesto": 4
     },
     {
       "idJugador": "22200",
@@ -38,7 +47,16 @@
       "puntosTotales": 10,
       "nombreJugador": "Borrell, Joaquin",
       "categoria": "3º",
-      "puesto": 4
+      "puesto": 5
+    },
+    {
+      "idJugador": "25786",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º",
+      "puesto": 6
     },
     {
       "idJugador": "16118",
@@ -47,7 +65,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 5
+      "puesto": 7
     },
     {
       "idJugador": "23769",
@@ -56,7 +74,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 6
+      "puesto": 8
     },
     {
       "idJugador": "24024",
@@ -65,7 +83,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Petkovsek, Mario",
       "categoria": "5º",
-      "puesto": 7
+      "puesto": 9
     },
     {
       "idJugador": "27736",
@@ -74,7 +92,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "5º",
-      "puesto": 8
+      "puesto": 10
     }
   ],
   "rankingHistorico": [
@@ -1119,6 +1137,14 @@
       "categoria": "4º"
     },
     {
+      "idJugador": "25786",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "4º"
+    },
+    {
       "idJugador": "25818",
       "mes": 1,
       "anio": 2026,
@@ -1419,6 +1445,14 @@
       "mes": 8,
       "anio": 2026,
       "puntosTotales": 60,
+      "nombreJugador": "Vilte, César Pablo",
+      "categoria": "4º"
+    },
+    {
+      "idJugador": "27782",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 50,
       "nombreJugador": "Vilte, César Pablo",
       "categoria": "4º"
     },
@@ -2380,6 +2414,15 @@
       "mes": 10,
       "anio": 2026,
       "puesto": 1,
+      "idJugador": "27782",
+      "puntosTotales": 50,
+      "nombreJugador": "Vilte, César Pablo",
+      "categoria": "4º"
+    },
+    {
+      "mes": 10,
+      "anio": 2026,
+      "puesto": 2,
       "idJugador": "14057",
       "puntosTotales": 40,
       "nombreJugador": "Martinez, Diego Oscar",
@@ -2388,20 +2431,11 @@
     {
       "mes": 10,
       "anio": 2026,
-      "puesto": 2,
+      "puesto": 3,
       "idJugador": "5113",
       "puntosTotales": 10,
       "nombreJugador": "Garcia, Nicolas",
       "categoria": "4º"
-    },
-    {
-      "mes": 10,
-      "anio": 2026,
-      "puesto": 3,
-      "idJugador": "8214",
-      "puntosTotales": 10,
-      "nombreJugador": "Luciani, Daniel Horacio",
-      "categoria": "3º"
     },
     {
       "mes": 8,
