@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-10-09T16:14:49.196Z",
+  "ultimaActualizacion": "2026-10-10T15:28:14.657Z",
   "mesActual": 10,
   "anioActual": 2026,
   "nombreMes": "Octubre",
@@ -59,13 +59,22 @@
       "puesto": 6
     },
     {
+      "idJugador": "30523",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Vilte, Tomás",
+      "categoria": "8º",
+      "puesto": 7
+    },
+    {
       "idJugador": "16118",
       "mes": 10,
       "anio": 2026,
       "puntosTotales": 8,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 7
+      "puesto": 8
     },
     {
       "idJugador": "23769",
@@ -74,7 +83,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Gimenez Castillo, Bianca Donatella",
       "categoria": "5º",
-      "puesto": 8
+      "puesto": 9
     },
     {
       "idJugador": "24024",
@@ -83,7 +92,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Petkovsek, Mario",
       "categoria": "5º",
-      "puesto": 9
+      "puesto": 10
     },
     {
       "idJugador": "27736",
@@ -92,7 +101,7 @@
       "puntosTotales": 8,
       "nombreJugador": "Rojo, Renzo Gabriel",
       "categoria": "5º",
-      "puesto": 10
+      "puesto": 11
     }
   ],
   "rankingHistorico": [
@@ -2190,6 +2199,14 @@
       "anio": 2026,
       "puntosTotales": 10,
       "nombreJugador": "Kicker, Bastian",
+      "categoria": "8º"
+    },
+    {
+      "idJugador": "30523",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 10,
+      "nombreJugador": "Vilte, Tomás",
       "categoria": "8º"
     }
   ],
