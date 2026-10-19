@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-10-18T13:26:47.823Z",
+  "ultimaActualizacion": "2026-10-19T16:36:05.185Z",
   "mesActual": 10,
   "anioActual": 2026,
   "nombreMes": "Octubre",
@@ -41,21 +41,21 @@
       "puesto": 4
     },
     {
+      "idJugador": "29257",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 50,
+      "nombreJugador": "Puzone, Fabio",
+      "categoria": "8º",
+      "puesto": 5
+    },
+    {
       "idJugador": "14057",
       "mes": 10,
       "anio": 2026,
       "puntosTotales": 40,
       "nombreJugador": "Martinez, Diego Oscar",
       "categoria": "3º",
-      "puesto": 5
-    },
-    {
-      "idJugador": "29257",
-      "mes": 10,
-      "anio": 2026,
-      "puntosTotales": 40,
-      "nombreJugador": "Puzone, Fabio",
-      "categoria": "8º",
       "puesto": 6
     },
     {
@@ -2149,7 +2149,7 @@
       "idJugador": "29257",
       "mes": 10,
       "anio": 2026,
-      "puntosTotales": 40,
+      "puntosTotales": 50,
       "nombreJugador": "Puzone, Fabio",
       "categoria": "8º"
     },
