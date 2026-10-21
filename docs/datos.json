@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-10-20T14:30:27.772Z",
+  "ultimaActualizacion": "2026-10-21T14:51:19.672Z",
   "mesActual": 10,
   "anioActual": 2026,
   "nombreMes": "Octubre",
@@ -2813,12 +2813,6 @@
       "categoria": "7º"
     },
     {
-      "idJugador": "27719",
-      "nombreJugador": "Berlen, Eliana Vanina",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
       "idJugador": "25786",
       "nombreJugador": "Bonavita, Fernando Damian",
       "activo": true,
@@ -2835,18 +2829,6 @@
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "activo": true,
       "categoria": "6º"
-    },
-    {
-      "idJugador": "25818",
-      "nombreJugador": "Chermaz, Juan Agustin",
-      "activo": true,
-      "categoria": "7º"
-    },
-    {
-      "idJugador": "25615",
-      "nombreJugador": "Espindola, Alba Silvia",
-      "activo": true,
-      "categoria": "8º"
     },
     {
       "idJugador": "14068",
@@ -2869,12 +2851,6 @@
     {
       "idJugador": "12062",
       "nombreJugador": "Flama, Cristian Raul",
-      "activo": true,
-      "categoria": "5º"
-    },
-    {
-      "idJugador": "18754",
-      "nombreJugador": "Fujioka, Laura",
       "activo": true,
       "categoria": "5º"
     },
@@ -2903,12 +2879,6 @@
       "categoria": "5º"
     },
     {
-      "idJugador": "25616",
-      "nombreJugador": "Gomez, Silvina Elena",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
       "idJugador": "24704",
       "nombreJugador": "Josid, Jorge Anibal",
       "activo": true,
@@ -2933,12 +2903,6 @@
       "categoria": "6º"
     },
     {
-      "idJugador": "27062",
-      "nombreJugador": "Mariani, Luciana",
-      "activo": true,
-      "categoria": "8º"
-    },
-    {
       "idJugador": "2321",
       "nombreJugador": "Martín, Nicolás",
       "activo": true,
@@ -2953,12 +2917,6 @@
     {
       "idJugador": "29252",
       "nombreJugador": "Martinez, Román",
-      "activo": true,
-      "categoria": "7º"
-    },
-    {
-      "idJugador": "23066",
-      "nombreJugador": "Masso, Fernando Gabriel",
       "activo": true,
       "categoria": "7º"
     },
@@ -3033,12 +2991,6 @@
       "nombreJugador": "Teijeiro, Christian",
       "activo": true,
       "categoria": "6º"
-    },
-    {
-      "idJugador": "29090",
-      "nombreJugador": "Valldosera Broffoni, Thiago Demian",
-      "activo": true,
-      "categoria": "7º"
     },
     {
       "idJugador": "29224",
