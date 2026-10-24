@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-10-23T14:29:49.582Z",
+  "ultimaActualizacion": "2026-10-24T13:31:35.567Z",
   "mesActual": 10,
   "anioActual": 2026,
   "nombreMes": "Octubre",
@@ -77,13 +77,22 @@
       "puesto": 8
     },
     {
+      "idJugador": "25786",
+      "mes": 10,
+      "anio": 2026,
+      "puntosTotales": 30,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "5º",
+      "puesto": 9
+    },
+    {
       "idJugador": "30523",
       "mes": 10,
       "anio": 2026,
       "puntosTotales": 30,
       "nombreJugador": "Vilte, Tomás",
       "categoria": "8º",
-      "puesto": 9
+      "puesto": 10
     },
     {
       "idJugador": "16118",
@@ -92,7 +101,7 @@
       "puntosTotales": 28,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º",
-      "puesto": 10
+      "puesto": 11
     },
     {
       "idJugador": "24024",
@@ -101,7 +110,7 @@
       "puntosTotales": 28,
       "nombreJugador": "Petkovsek, Mario",
       "categoria": "5º",
-      "puesto": 11
+      "puesto": 12
     },
     {
       "idJugador": "20706",
@@ -110,15 +119,6 @@
       "puntosTotales": 20,
       "nombreJugador": "Cazal Rivera, Victor Ismael",
       "categoria": "6º",
-      "puesto": 12
-    },
-    {
-      "idJugador": "25786",
-      "mes": 10,
-      "anio": 2026,
-      "puntosTotales": 20,
-      "nombreJugador": "Bonavita, Fernando Damian",
-      "categoria": "5º",
       "puesto": 13
     },
     {
@@ -1341,7 +1341,7 @@
       "idJugador": "25786",
       "mes": 10,
       "anio": 2026,
-      "puntosTotales": 20,
+      "puntosTotales": 30,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     },
