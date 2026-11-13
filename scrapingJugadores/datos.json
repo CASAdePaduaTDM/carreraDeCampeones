@@ -1,9 +1,18 @@
 {
-  "ultimaActualizacion": "2026-11-12T17:45:05.011Z",
+  "ultimaActualizacion": "2026-11-13T17:21:34.443Z",
   "mesActual": 11,
   "anioActual": 2026,
   "nombreMes": "Noviembre",
   "rankingMesActual": [
+    {
+      "idJugador": "16118",
+      "mes": 11,
+      "anio": 2026,
+      "puntosTotales": 40,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º",
+      "puesto": 1
+    },
     {
       "idJugador": "24731",
       "mes": 11,
@@ -11,7 +20,16 @@
       "puntosTotales": 20,
       "nombreJugador": "Fernández, Pelu",
       "categoria": "5º",
-      "puesto": 1
+      "puesto": 2
+    },
+    {
+      "idJugador": "25786",
+      "mes": 11,
+      "anio": 2026,
+      "puntosTotales": 20,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "5º",
+      "puesto": 3
     }
   ],
   "rankingHistorico": [
@@ -372,6 +390,14 @@
       "mes": 10,
       "anio": 2026,
       "puntosTotales": 28,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "16118",
+      "mes": 11,
+      "anio": 2026,
+      "puntosTotales": 40,
       "nombreJugador": "Rienda, Javier",
       "categoria": "5º"
     },
@@ -1116,6 +1142,14 @@
       "mes": 10,
       "anio": 2026,
       "puntosTotales": 30,
+      "nombreJugador": "Bonavita, Fernando Damian",
+      "categoria": "5º"
+    },
+    {
+      "idJugador": "25786",
+      "mes": 11,
+      "anio": 2026,
+      "puntosTotales": 20,
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     },
@@ -2558,9 +2592,27 @@
       "mes": 11,
       "anio": 2026,
       "puesto": 1,
+      "idJugador": "16118",
+      "puntosTotales": 40,
+      "nombreJugador": "Rienda, Javier",
+      "categoria": "5º"
+    },
+    {
+      "mes": 11,
+      "anio": 2026,
+      "puesto": 2,
       "idJugador": "24731",
       "puntosTotales": 20,
       "nombreJugador": "Fernández, Pelu",
+      "categoria": "5º"
+    },
+    {
+      "mes": 11,
+      "anio": 2026,
+      "puesto": 3,
+      "idJugador": "25786",
+      "puntosTotales": 20,
+      "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º"
     }
   ],
