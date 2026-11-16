@@ -1,5 +1,5 @@
 {
-  "ultimaActualizacion": "2026-11-15T16:35:42.337Z",
+  "ultimaActualizacion": "2026-11-16T19:39:16.251Z",
   "mesActual": 11,
   "anioActual": 2026,
   "nombreMes": "Noviembre",
@@ -30,6 +30,15 @@
       "nombreJugador": "Bonavita, Fernando Damian",
       "categoria": "5º",
       "puesto": 3
+    },
+    {
+      "idJugador": "20942",
+      "mes": 11,
+      "anio": 2026,
+      "puntosTotales": 8,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º",
+      "puesto": 4
     }
   ],
   "rankingHistorico": [
@@ -566,6 +575,14 @@
       "mes": 10,
       "anio": 2026,
       "puntosTotales": 10,
+      "nombreJugador": "Teijeiro, Christian",
+      "categoria": "6º"
+    },
+    {
+      "idJugador": "20942",
+      "mes": 11,
+      "anio": 2026,
+      "puntosTotales": 8,
       "nombreJugador": "Teijeiro, Christian",
       "categoria": "6º"
     },
